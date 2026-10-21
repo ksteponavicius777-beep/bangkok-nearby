@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<title>Bangkok Nearby</title>
+<meta name="theme-color" content="#0f1720">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BKK Nearby">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<style>
+/* Layout: full-bleed map, top filter rail, draggable bottom sheet listing what's nearest */
+:root{
+  --bg:#f6f4f0; --panel:#ffffff; --fg:#17202a; --muted:#66707a; --line:#e3e0da;
+  --accent:#e2471f; --accent-ink:#fff; --chip:#efece6; --you:#1a73e8;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --shadow:0 8px 30px rgba(20,25,30,.18);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1720; --panel:#16202b; --fg:#eef1f4; --muted:#93a0ad; --line:#26323f;
+  --accent:#ff6a3d; --accent-ink:#1a0d07; --chip:#1f2b38; --you:#5aa2ff; color-scheme:dark;
+  --shadow:0 8px 30px rgba(0,0,0,.5);
+}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.4 var(--body);overflow:hidden;-webkit-tap-highlight-color:transparent}
+#map{position:fixed;inset:0;background:var(--bg)}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+
+/* top bar */
+.top{position:fixed;left:0;right:0;top:0;z-index:500;padding:calc(env(safe-area-inset-top,0px) + 10px) 0 8px;pointer-events:none;
+  background:linear-gradient(var(--bg) 40%,transparent)}
+.brand{display:flex;align-items:center;gap:10px;padding:0 max(14px,env(safe-area-inset-right,0px)) 8px max(14px,env(safe-area-inset-left,0px));pointer-events:auto}
+.brand h1{font:800 20px/1 var(--display);letter-spacing:-.02em;margin:0;flex:1}
+.brand h1 span{color:var(--accent)}
+.iconbtn{width:38px;height:38px;border-radius:12px;background:var(--panel);box-shadow:var(--shadow);display:grid;place-items:center;font-size:17px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:2px max(14px,env(safe-area-inset-left,0px));pointer-events:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;display:flex;align-items:center;gap:6px;padding:7px 11px;border-radius:999px;background:var(--panel);box-shadow:0 2px 8px rgba(0,0,0,.12);
+  font-weight:600;font-size:13px;white-space:nowrap;border:1.5px solid transparent}
+.chip .dot{width:9px;height:9px;border-radius:50%}
+.chip.off{opacity:.45;background:var(--chip);box-shadow:none}
+.chip.off .dot{background:var(--muted)!important}
+.chip.toggle.on{border-color:var(--accent);color:var(--accent)}
+
+/* floating buttons */
+.fab{position:fixed;z-index:500;right:max(14px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:10px;transition:bottom .25s}
+.fab .iconbtn{width:46px;height:46px;font-size:19px;border-radius:14px}
+.fab .surprise{background:var(--accent);color:var(--accent-ink);font-size:20px}
+
+/* sheet */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:600;background:var(--panel);border-radius:20px 20px 0 0;box-shadow:var(--shadow);
+  display:flex;flex-direction:column;height:72vh;transform:translateY(calc(72vh - 132px - env(safe-area-inset-bottom,0px)));transition:transform .28s cubic-bezier(.2,.8,.2,1);touch-action:none}
+.sheet.open{transform:translateY(0)}
+.sheet.mid{transform:translateY(36vh)}
+.grab{padding:8px 0 4px;display:grid;place-items:center;cursor:grab}
+.grab i{width:42px;height:5px;border-radius:9px;background:var(--line)}
+.sheethead{padding:0 16px 10px;display:flex;align-items:flex-end;gap:10px}
+.sheethead h2{font:800 19px/1.1 var(--display);margin:0;flex:1;letter-spacing:-.01em}
+.sheethead small{display:block;font:500 12px var(--body);color:var(--muted);margin-top:3px}
+.radius{display:flex;background:var(--chip);border-radius:10px;padding:3px}
+.radius button{padding:5px 8px;border-radius:8px;font-size:12px;font-weight:600;color:var(--muted)}
+.radius button.on{background:var(--panel);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.list{overflow-y:auto;flex:1;padding:0 12px calc(env(safe-area-inset-bottom,0px) + 16px);touch-action:pan-y;overscroll-behavior:contain}
+.item{display:flex;gap:12px;padding:11px 6px;border-top:1px solid var(--line);align-items:flex-start;text-align:left;width:100%}
+.item .badge{flex:none;width:36px;height:36px;border-radius:11px;display:grid;place-items:center;font-size:17px}
+.item .t{flex:1;min-width:0}
+.item b{display:block;font-weight:600;font-size:15px}
+.item p{margin:2px 0 0;color:var(--muted);font-size:13px;line-height:1.35}
+.item .d{flex:none;text-align:right;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.item .d strong{display:block;color:var(--fg);font-size:14px}
+.empty{padding:24px 10px;color:var(--muted);text-align:center}
+
+/* detail card */
+.card{position:fixed;left:0;right:0;bottom:0;z-index:700;background:var(--panel);border-radius:20px 20px 0 0;box-shadow:var(--shadow);
+  padding:18px max(18px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 18px) max(18px,env(safe-area-inset-left,0px));
+  transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);max-height:80vh;overflow-y:auto}
+.card.show{transform:none}
+.card .close{position:absolute;right:12px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--chip);font-size:16px}
+.card .cat{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.card h3{font:800 24px/1.1 var(--display);margin:6px 40px 6px 0;letter-spacing:-.015em;text-wrap:balance}
+.card .meta{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.card .meta span{background:var(--chip);border-radius:8px;padding:4px 8px;font-size:12px;font-weight:500}
+.card .vibe{font-size:16px;margin:8px 0}
+.card .tip{background:var(--chip);border-radius:12px;padding:10px 12px;font-size:14px}
+.card .tip b{color:var(--accent)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.actions a,.actions button{display:flex;justify-content:center;align-items:center;gap:6px;padding:12px;border-radius:12px;font-weight:600;text-decoration:none;color:var(--fg);background:var(--chip)}
+.actions .primary{background:var(--accent);color:var(--accent-ink);grid-column:1/-1}
+.actions .on{outline:2px solid var(--accent)}
+.src{margin-top:12px;font-size:12px;color:var(--muted)}
+.src a{color:var(--muted)}
+
+/* markers */
+.pin{width:30px;height:30px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);display:grid;place-items:center;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)}
+.pin span{transform:rotate(45deg);font-size:14px;line-height:1}
+.pin.saved{border-color:#ffd23f}
+.pin.done{opacity:.6;filter:saturate(.5)}
+.pin.mine{border-style:dashed;border-color:#fff}
+.pin i{position:absolute;right:-6px;top:-6px;transform:rotate(45deg);width:15px;height:15px;border-radius:50%;background:#1f8a3b;color:#fff;font:700 10px/15px var(--body);text-align:center;font-style:normal;border:1.5px solid #fff}
+.stat{font:600 12px var(--body);color:var(--muted);background:var(--panel);box-shadow:var(--shadow);padding:0 10px;height:38px;border-radius:12px;display:flex;align-items:center;gap:4px}
+.stat b{color:var(--fg)}
+.fab .add{font-size:24px;font-weight:600}
+
+/* menu + form overlay */
+.overlay{position:fixed;inset:0;z-index:800;background:rgba(10,14,18,.45);display:flex;align-items:flex-end;justify-content:center}
+.overlay[hidden]{display:none!important}
+.panel{background:var(--panel);width:100%;max-width:560px;border-radius:20px 20px 0 0;max-height:92vh;overflow-y:auto;
+  padding:18px max(18px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 18px) max(18px,env(safe-area-inset-left,0px))}
+.panel h3{font:800 22px/1.1 var(--display);margin:0 0 4px;letter-spacing:-.015em}
+.panel .sub{color:var(--muted);font-size:13px;margin:0 0 14px}
+.field{display:flex;flex-direction:column;gap:5px;margin-bottom:12px}
+.field label{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select,.field textarea{font:inherit;font-size:16px;color:var(--fg);background:var(--chip);border:1.5px solid transparent;border-radius:12px;padding:11px 12px;width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--accent)}
+.field textarea{min-height:64px;resize:vertical}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.seg button{padding:10px 6px;border-radius:12px;background:var(--chip);font-weight:600;font-size:13px;border:1.5px solid transparent}
+.seg button.on{border-color:var(--accent);color:var(--accent)}
+.checks{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.checks label{display:flex;align-items:center;gap:6px;background:var(--chip);border-radius:10px;padding:8px 10px;font-weight:500;font-size:14px}
+.locnote{font-size:13px;color:var(--muted);margin-top:6px}
+.locnote.ok{color:#1f8a3b}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.btn{display:flex;justify-content:center;align-items:center;gap:6px;padding:13px;border-radius:12px;font-weight:600;background:var(--chip);color:var(--fg);text-decoration:none;width:100%}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.danger{color:#d63a2f}
+.menu .btn{justify-content:flex-start;margin-bottom:8px}
+.stars{display:flex;gap:4px}
+.stars button{font-size:24px;padding:2px 4px;opacity:.35}
+.stars button.on{opacity:1}
+.been{background:color-mix(in srgb,#1f8a3b 14%,var(--panel));border-radius:12px;padding:10px 12px;margin-top:10px;font-size:14px}
+.been textarea{margin-top:8px;width:100%;font:inherit;font-size:15px;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px}
+
+/* pick-on-map mode */
+.picker{position:fixed;left:50%;top:50%;z-index:650;transform:translate(-50%,-100%);font-size:40px;pointer-events:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.4))}
+.pickbar{position:fixed;left:0;right:0;bottom:0;z-index:660;background:var(--panel);box-shadow:var(--shadow);border-radius:20px 20px 0 0;
+  padding:14px max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 14px) max(16px,env(safe-area-inset-left,0px))}
+.pickbar p{margin:0 0 10px;font-weight:600}
+body.picking .sheet,body.picking .fab,body.picking .card{display:none}
+.you{width:18px;height:18px;border-radius:50%;background:var(--you);border:3px solid #fff;box-shadow:0 0 0 6px color-mix(in srgb,var(--you) 25%,transparent)}
+.leaflet-control-attribution{font-size:9px!important}
+.leaflet-top{top:calc(env(safe-area-inset-top,0px) + 96px)}
+
+.toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 100px);transform:translateX(-50%);z-index:900;background:var(--fg);color:var(--bg);padding:9px 14px;border-radius:12px;font-weight:600;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="top">
+  <div class="brand">
+    <h1>Bangkok <span>Nearby</span></h1>
+    <button class="stat" id="statBtn" title="Places you've been"><b id="statN">0</b> been</button>
+    <button class="iconbtn" id="menuBtn" title="Menu">☰</button>
+  </div>
+  <div class="chips" id="chips"></div>
+</div>
+
+<div class="fab" id="fab">
+  <button class="iconbtn surprise" id="surprise" title="Surprise me">🎲</button>
+  <button class="iconbtn add" id="addBtn" title="Add a place">+</button>
+  <button class="iconbtn" id="locate" title="Go to my location">◎</button>
+</div>
+
+<div class="overlay" id="menu" hidden><div class="panel menu">
+  <h3>Menu</h3><p class="sub" id="menuStats"></p>
+  <button class="btn" id="mAll">☰ Show all / hide all categories</button>
+  <button class="btn" id="mBeen">✓ Show only places I've been</button>
+  <button class="btn" id="mMine">📌 Show only places I added</button>
+  <button class="btn" id="mExport">⬇️ Download backup of my data</button>
+  <button class="btn" id="mCopy">📋 Copy my added places as text</button>
+  <label class="btn" for="importFile">⬆️ Restore from backup file</label>
+  <input type="file" id="importFile" accept="application/json,.json" hidden>
+  <button class="btn" id="mClose" style="margin-top:6px;justify-content:center">Close</button>
+</div></div>
+
+<div class="overlay" id="form" hidden><div class="panel">
+  <h3 id="formTitle">Add a place</h3>
+  <p class="sub">Saw something on TikTok or Instagram? Drop it on your map.</p>
+  <div class="field"><label for="fName">Name</label><input id="fName" placeholder="e.g. Secret jazz bar behind a laundromat" autocomplete="off"></div>
+  <div class="field"><label for="fCat">Category</label><select id="fCat"></select></div>
+  <div class="field"><label>Location</label>
+    <div class="seg" id="fLocMode"><button data-m="here">📍 I'm here</button><button data-m="map">🗺️ Pick on map</button><button data-m="link">🔗 Maps link</button></div>
+    <input id="fLink" placeholder="Paste a Google Maps link or 13.7563, 100.5018" hidden style="margin-top:8px">
+    <div class="locnote" id="fLocNote">Choose how to set the location.</div>
+  </div>
+  <div class="field"><label for="fSrc">Where you saw it (optional)</label><input id="fSrc" placeholder="TikTok / Instagram / YouTube link" inputmode="url" autocomplete="off"></div>
+  <div class="field"><label for="fNote">Why it looked fun (optional)</label><textarea id="fNote" placeholder="Rooftop with deep house on Fridays…"></textarea></div>
+  <div class="checks"><label><input type="checkbox" id="fNight"> 🌙 Good at night</label><label><input type="checkbox" id="fDate"> 💘 Date-friendly</label><label><input type="checkbox" id="fBeen"> ✓ Already been</label></div>
+  <div class="row2"><button class="btn" id="fCancel">Cancel</button><button class="btn primary" id="fSave">Save place</button></div>
+  <button class="btn danger" id="fDelete" hidden style="margin-top:8px">Delete this place</button>
+</div></div>
+
+<div id="pickUI" hidden>
+  <div class="picker">📍</div>
+  <div class="pickbar"><p>Move the map so the pin sits on the place</p>
+    <div class="row2"><button class="btn" id="pickCancel">Back</button><button class="btn primary" id="pickOk">Use this spot</button></div></div>
+</div>
+
+<section class="sheet" id="sheet">
+  <div class="grab" id="grab"><i></i></div>
+  <div class="sheethead">
+    <h2 id="sheetTitle">Near you<small id="sheetSub">Finding your location…</small></h2>
+    <div class="radius" id="radius">
+      <button data-r="1">1 km</button><button data-r="3">3 km</button><button data-r="8">8 km</button><button data-r="99">All</button>
+    </div>
+  </div>
+  <div class="list" id="list"></div>
+</section>
+
+<section class="card" id="card" aria-live="polite"></section>
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script>
+const GROUPS = {
+  cafe:{label:'Cafés & desserts',emoji:'☕',color:'#c2763d'},
+  food:{label:'Food',emoji:'🍜',color:'#e2471f'},
+  bar:{label:'Bars & speakeasies',emoji:'🍸',color:'#8e44ad'},
+  rooftop:{label:'Rooftops',emoji:'🌆',color:'#d6336c'},
+  club:{label:'Clubs & house',emoji:'🎧',color:'#2b2d42'},
+  live:{label:'Live music & jazz',emoji:'🎷',color:'#5c4dce'},
+  museum:{label:'Museums & art',emoji:'🖼️',color:'#0b7a75'},
+  show:{label:'Shows & cinema',emoji:'🎭',color:'#b5179e'},
+  sight:{label:'Temples & sights',emoji:'🛕',color:'#c9a227'},
+  activity:{label:'Activities',emoji:'🎢',color:'#1f8a3b'},
+  market:{label:'Markets',emoji:'🏮',color:'#e85d04'},
+  shop:{label:'Malls & shops',emoji:'🛍️',color:'#3a86ff'},
+  park:{label:'Parks',emoji:'🌳',color:'#2d6a4f'},
+  experience:{label:'Experiences',emoji:'✨',color:'#6d597a'},
+};
+const store = {
+  get(k,d){try{const v=localStorage.getItem('bkk.'+k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem('bkk.'+k,JSON.stringify(v))}catch(e){}}
+};
+let off = new Set(store.get('off',[]));
+let saved = new Set(store.get('saved',[]));
+// visited: id -> {date, rating, note}. Migrates the older plain list.
+let been = store.get('been',null);
+if(!been){been={};store.get('done',[]).forEach(id=>been[id]={date:today(),rating:0,note:''});store.set('been',been)}
+let custom = store.get('custom',[]);
+let flags = Object.assign({date:false,night:false,saved:false,hideDone:false,beenOnly:false,mineOnly:false},store.get('flags',{}));
+let radius = store.get('radius',3);
+let me = null; // {lat,lng}
+const CENTER = {lat:13.7400,lng:100.5400};
+function today(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function isBeen(id){return Object.prototype.hasOwnProperty.call(been,id)}
+function saveBeen(){store.set('been',been)}
+function saveCustom(){store.set('custom',custom)}
+function ALL(){return PLACES.concat(custom)}
+
+// Map
+const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+const map = L.map('map',{zoomControl:false,attributionControl:true}).setView([CENTER.lat,CENTER.lng],13);
+L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark?'dark_all':'rastertiles/voyager'}/{z}/{x}/{y}{r}.png`,{
+  maxZoom:20,subdomains:'abcd',attribution:'© OpenStreetMap © CARTO'}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+let youMarker=null, youCircle=null;
+
+// slight jitter for pins that share a building
+const seen={};
+PLACES.forEach(p=>{const k=p.lat.toFixed(4)+','+p.lng.toFixed(4);const n=seen[k]=(seen[k]||0)+1;
+  if(n>1){const a=n*2.1;p.lat+=Math.sin(a)*0.00018*n;p.lng+=Math.cos(a)*0.00018*n;}});
+
+function distKm(a,b){const R=6371,t=x=>x*Math.PI/180;const dLa=t(b.lat-a.lat),dLo=t(b.lng-a.lng);
+  const h=Math.sin(dLa/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dLo/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
+function fmtDist(km){return km<1?Math.round(km*1000/10)*10+' m':km.toFixed(1)+' km'}
+function travel(km){const road=km*1.3;if(road<1.8)return Math.max(1,Math.round(road/4.8*60))+' min walk';return Math.round(road/18*60+5)+' min ride'}
+function fmtDate(s){try{return new Date(s+'T12:00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'})}catch(e){return s}}
+
+function visible(p){
+  if(off.has(p.g))return false;
+  if(flags.date&&!p.date_friendly)return false;
+  if(flags.night&&!p.night)return false;
+  if(flags.saved&&!saved.has(p.id))return false;
+  if(flags.hideDone&&isBeen(p.id))return false;
+  if(flags.beenOnly&&!isBeen(p.id))return false;
+  if(flags.mineOnly&&!p.mine)return false;
+  return true;
+}
+function origin(){return me||(()=>{const c=map.getCenter();return {lat:c.lat,lng:c.lng}})()}
+
+function renderChips(){
+  const el=document.getElementById('chips');el.innerHTML='';
+  const all=ALL();
+  const special=[];
+  if(flags.beenOnly)special.push(['beenOnly','✓ Only places I\'ve been ✕']);
+  if(flags.mineOnly)special.push(['mineOnly','📌 Only my places ✕']);
+  special.forEach(([k,l])=>{const b=document.createElement('button');b.className='chip toggle on';b.textContent=l;
+    b.onclick=()=>{flags[k]=false;store.set('flags',flags);renderAll()};el.appendChild(b)});
+  Object.entries(GROUPS).forEach(([k,g])=>{
+    const n=all.filter(p=>p.g===k).length;
+    const b=document.createElement('button');b.className='chip'+(off.has(k)?' off':'');
+    b.innerHTML=`<i class="dot" style="background:${g.color}"></i>${g.emoji} ${g.label} <span style="opacity:.55">${n}</span>`;
+    b.onclick=()=>{off.has(k)?off.delete(k):off.add(k);store.set('off',[...off]);renderAll()};
+    el.appendChild(b)});
+  const toggles=[['night','🌙 After 8pm'],['date','💘 Date-friendly'],['saved','⭐ Saved'],['hideDone','Hide places I\'ve been']];
+  toggles.forEach(([k,l])=>{const b=document.createElement('button');b.className='chip toggle'+(flags[k]?' on':'');b.textContent=l;
+    b.onclick=()=>{flags[k]=!flags[k];store.set('flags',flags);renderAll()};el.appendChild(b)});
+  document.getElementById('statN').textContent=Object.keys(been).length;
+}
+function pinIcon(p){const g=GROUPS[p.g]||GROUPS.experience;
+  return L.divIcon({className:'',iconSize:[30,30],iconAnchor:[15,30],
+    html:`<div class="pin${saved.has(p.id)?' saved':''}${isBeen(p.id)?' done':''}${p.mine?' mine':''}" style="background:${g.color};position:relative"><span>${p.mine?'📌':g.emoji}</span>${isBeen(p.id)?'<i>✓</i>':''}</div>`})}
+function renderPins(){layer.clearLayers();
+  ALL().filter(visible).forEach(p=>{L.marker([p.lat,p.lng],{icon:pinIcon(p),title:p.name}).on('click',()=>openCard(p)).addTo(layer)})}
+
+function renderList(){
+  const o=origin();
+  const items=ALL().filter(visible).map(p=>({p,d:distKm(o,p)})).sort((a,b)=>a.d-b.d);
+  const within=items.filter(x=>x.d<=radius);
+  const shown=(within.length?within:items.slice(0,8));
+  document.getElementById('sheetTitle').firstChild.nodeValue=flags.beenOnly?'Places you\'ve been':flags.mineOnly?'Places you added':(me?'Near you':'Near map center');
+  document.getElementById('sheetSub').textContent= within.length
+    ? `${within.length} spot${within.length>1?'s':''} within ${radius>50?'the city':radius+' km'}`
+    : (items.length?`Nothing within ${radius} km. Closest ${shown.length} instead:`:'No spots match your filters');
+  const list=document.getElementById('list');list.innerHTML='';
+  if(!items.length){list.innerHTML=flags.beenOnly?'<div class="empty">Nothing marked yet. Open any place and tap "I\'ve been here".</div>':flags.mineOnly?'<div class="empty">Tap + to add a place you found on social media.</div>':'<div class="empty">Turn some categories back on in the top bar.</div>';return}
+  shown.slice(0,150).forEach(({p,d})=>{const g=GROUPS[p.g]||GROUPS.experience;const b0=been[p.id];
+    const b=document.createElement('button');b.className='item';
+    b.innerHTML=`<span class="badge" style="background:${g.color}22">${p.mine?'📌':g.emoji}</span>
+      <span class="t"><b>${saved.has(p.id)?'⭐ ':''}${esc(p.name)}${b0?` <span style="color:#1f8a3b;font-weight:600">✓ ${b0.rating?'★'.repeat(b0.rating):'been'}</span>`:''}</b><p>${esc(p.vibe||'Added by you')}</p></span>
+      <span class="d"><strong>${fmtDist(d)}</strong>${travel(d)}</span>`;
+    b.onclick=()=>{openCard(p);map.setView([p.lat,p.lng],Math.max(map.getZoom(),16));setSheet('peek')};
+    list.appendChild(b)});
+}
+function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function safeUrl(u){try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:''}catch(e){return ''}}
+
+function openCard(p){
+  const g=GROUPS[p.g]||GROUPS.experience;const o=origin();const d=distKm(o,p);
+  const gq=encodeURIComponent(p.name+' Bangkok');const b0=been[p.id];
+  const nearNow=me&&distKm(me,p)<0.15;
+  const card=document.getElementById('card');
+  card.innerHTML=`<button class="close" id="cclose" aria-label="Close">✕</button>
+    <div class="cat" style="color:${g.color}">${p.mine?'📌 Added by you · ':''}${g.emoji} ${g.label}${p.area&&!p.mine?' · '+esc(p.area):''}</div>
+    <h3>${esc(p.name)}</h3>
+    ${p.vibe?`<div class="vibe">${esc(p.vibe)}</div>`:''}
+    <div class="meta"><span>${fmtDist(d)} · ${travel(d)}</span>${p.price?`<span>${esc(p.price)}</span>`:''}${p.hours?`<span>🕒 ${esc(p.hours)}</span>`:''}${p.night?'<span>🌙 Night</span>':''}${p.date_friendly?'<span>💘 Date</span>':''}</div>
+    ${p.tip?`<div class="tip"><b>Tip</b> ${esc(p.tip)}</div>`:''}
+    ${b0?`<div class="been"><b>✓ You've been here</b> · ${fmtDate(b0.date)}
+        <div class="stars" id="cstars">${[1,2,3,4,5].map(n=>`<button data-n="${n}" class="${b0.rating>=n?'on':''}" aria-label="${n} stars">★</button>`).join('')}</div>
+        <textarea id="cnote" placeholder="Your notes: what you ordered, who you went with, worth coming back?">${esc(b0.note)}</textarea></div>`:''}
+    <div class="actions">
+      <button id="cdone" class="primary" style="${b0?'background:var(--chip);color:var(--fg)':''}">${b0?'Unmark visited':(nearNow?'📍 I\'m here now, mark visited':'✓ I\'ve been here')}</button>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=${d<1.5?'walking':'driving'}">Directions</a>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${gq}">Reviews & hours</a>
+      <a target="_blank" rel="noopener" href="https://www.tiktok.com/search?q=${gq}">TikTok videos</a>
+      <button id="csave" class="${saved.has(p.id)?'on':''}">${saved.has(p.id)?'⭐ Saved':'☆ Save'}</button>
+      ${p.mine?'<button id="cedit" style="grid-column:1/-1">✏️ Edit this place</button>':''}
+    </div>
+    ${p.coord_confidence==='low'?'<div class="src">📍 Pin position is approximate. Use "Reviews & hours" to confirm the exact spot.</div>':''}
+    ${(p.sources||[]).filter(safeUrl).length?`<div class="src">${p.mine?'Saw it on':'Found via'}: ${p.sources.filter(safeUrl).map(u=>`<a target="_blank" rel="noopener" href="${esc(safeUrl(u))}">${new URL(u).hostname.replace('www.','')}</a>`).join(' · ')}</div>`:''}`;
+  card.classList.add('show');
+  document.getElementById('cclose').onclick=closeCard;
+  document.getElementById('csave').onclick=()=>{saved.has(p.id)?saved.delete(p.id):saved.add(p.id);store.set('saved',[...saved]);renderAll();openCard(p)};
+  document.getElementById('cdone').onclick=()=>{
+    if(isBeen(p.id))delete been[p.id];else{been[p.id]={date:today(),rating:0,note:''};toast('Marked as visited. Rate it below if you like.')}
+    saveBeen();renderAll();openCard(p)};
+  const st=document.getElementById('cstars');
+  if(st)st.querySelectorAll('button').forEach(b=>b.onclick=()=>{const n=+b.dataset.n;been[p.id].rating=been[p.id].rating===n?0:n;saveBeen();renderList();openCard(p)});
+  const nt=document.getElementById('cnote');
+  if(nt)nt.oninput=()=>{been[p.id].note=nt.value;saveBeen()};
+  const ed=document.getElementById('cedit');if(ed)ed.onclick=()=>openForm(p);
+}
+function closeCard(){document.getElementById('card').classList.remove('show')}
+map.on('click',closeCard);
+
+// Sheet states
+const sheet=document.getElementById('sheet');
+function setSheet(s){sheet.classList.toggle('open',s==='open');sheet.classList.toggle('mid',s==='mid');placeFab()}
+function placeFab(){const r=sheet.getBoundingClientRect();document.getElementById('fab').style.bottom=(innerHeight-r.top+12)+'px'}
+let sy=null;const grab=document.getElementById('grab');
+const head=document.querySelector('.sheethead');
+function sheetState(){return sheet.classList.contains('open')?'open':sheet.classList.contains('mid')?'mid':'peek'}
+[grab,head].forEach(el=>{
+  el.addEventListener('touchstart',e=>{sy=e.touches[0].clientY},{passive:true});
+  el.addEventListener('touchend',e=>{if(sy==null)return;const dy=e.changedTouches[0].clientY-sy;sy=null;const st=sheetState();
+    if(Math.abs(dy)<8){if(e.target.closest('#radius'))return;setSheet(st==='peek'?'mid':st==='mid'?'open':'peek');return}
+    if(dy<0)setSheet(st==='peek'?'mid':'open');else setSheet(st==='open'?'mid':'peek')});
+});
+grab.addEventListener('click',e=>{if(e.pointerType==='mouse'){const st=sheetState();setSheet(st==='peek'?'mid':st==='mid'?'open':'peek')}});
+sheet.addEventListener('transitionend',placeFab);addEventListener('resize',placeFab);
+
+// Radius
+document.querySelectorAll('#radius button').forEach(b=>{
+  if(+b.dataset.r===radius)b.classList.add('on');
+  b.onclick=()=>{radius=+b.dataset.r;store.set('radius',radius);document.querySelectorAll('#radius button').forEach(x=>x.classList.toggle('on',x===b));renderList()}});
+
+// Menu
+const menu=document.getElementById('menu');
+function closeMenu(){menu.hidden=true}
+document.getElementById('menuBtn').onclick=()=>{
+  const n=Object.keys(been).length;
+  document.getElementById('menuStats').textContent=`${n} place${n===1?'':'s'} visited · ${custom.length} added by you · ${PLACES.length} in the guide`;
+  menu.hidden=false};
+menu.onclick=e=>{if(e.target===menu)closeMenu()};
+document.getElementById('mClose').onclick=closeMenu;
+document.getElementById('mAll').onclick=()=>{if(off.size===0)Object.keys(GROUPS).forEach(k=>off.add(k));else off.clear();
+  store.set('off',[...off]);renderAll();closeMenu();toast(off.size?'All categories off. Tap the ones you want.':'All categories on')};
+function showOnly(k){flags.beenOnly=k==='beenOnly';flags.mineOnly=k==='mineOnly';flags.hideDone=false;radius=99;store.set('radius',radius);
+  document.querySelectorAll('#radius button').forEach(x=>x.classList.toggle('on',+x.dataset.r===99));
+  store.set('flags',flags);renderAll();closeMenu();setSheet('mid')}
+document.getElementById('mBeen').onclick=()=>showOnly('beenOnly');
+document.getElementById('mMine').onclick=()=>showOnly('mineOnly');
+document.getElementById('statBtn').onclick=()=>{if(flags.beenOnly){flags.beenOnly=false;store.set('flags',flags);renderAll()}else showOnly('beenOnly')};
+document.getElementById('mExport').onclick=()=>{
+  const data={app:'bangkok-nearby',version:1,exported:new Date().toISOString(),been,saved:[...saved],custom};
+  const blob=new Blob([JSON.stringify(data,null,1)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`bangkok-nearby-backup-${today()}.json`;
+  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);toast('Backup downloaded')};
+document.getElementById('mCopy').onclick=async()=>{
+  const txt=custom.length?JSON.stringify(custom.map(({id,name,g,lat,lng,vibe,sources,night,date_friendly})=>({name,category:g,lat:+lat.toFixed(5),lng:+lng.toFixed(5),note:vibe,sources,night,date_friendly})),null,1):'';
+  if(!txt){toast('You haven\'t added any places yet');return}
+  try{await navigator.clipboard.writeText(txt);toast('Copied. Paste it to Claude to add these to the main guide.')}catch(e){prompt('Copy this:',txt)}};
+document.getElementById('importFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();
+  r.onload=()=>{try{const d=JSON.parse(r.result);if(d.app!=='bangkok-nearby')throw 0;
+      Object.assign(been,d.been||{});(d.saved||[]).forEach(x=>saved.add(x));
+      const ids=new Set(custom.map(c=>c.id));(d.custom||[]).forEach(c=>{if(!ids.has(c.id))custom.push(c)});
+      saveBeen();store.set('saved',[...saved]);saveCustom();renderAll();closeMenu();toast('Backup restored')}
+    catch(err){toast('That file isn\'t a Bangkok Nearby backup')}};r.readAsText(f);e.target.value=''};
+
+// Add / edit a place
+const form=document.getElementById('form');
+const fCat=document.getElementById('fCat');
+fCat.innerHTML=Object.entries(GROUPS).map(([k,g])=>`<option value="${k}">${g.emoji} ${g.label}</option>`).join('');
+let draft=null; // {editing, lat, lng}
+function setLocNote(msg,ok){const n=document.getElementById('fLocNote');n.textContent=msg;n.classList.toggle('ok',!!ok)}
+function setMode(m){document.querySelectorAll('#fLocMode button').forEach(b=>b.classList.toggle('on',b.dataset.m===m));
+  document.getElementById('fLink').hidden=m!=='link'}
+function openForm(p){
+  closeCard();draft={editing:p||null,lat:p?p.lat:null,lng:p?p.lng:null};
+  document.getElementById('formTitle').textContent=p?'Edit place':'Add a place';
+  document.getElementById('fName').value=p?p.name:'';
+  fCat.value=p?p.g:'bar';
+  document.getElementById('fSrc').value=p&&p.sources&&p.sources[0]||'';
+  document.getElementById('fNote').value=p?p.vibe||'':'';
+  document.getElementById('fNight').checked=p?!!p.night:false;
+  document.getElementById('fDate').checked=p?!!p.date_friendly:false;
+  document.getElementById('fBeen').checked=p?isBeen(p.id):false;
+  document.getElementById('fLink').value='';
+  document.getElementById('fDelete').hidden=!p;
+  setMode(p?null:null);
+  if(p)setLocNote(`Location set (${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}). Pick again to move it.`,true);
+  else setLocNote('Choose how to set the location.');
+  form.hidden=false;
+}
+function closeForm(){form.hidden=true}
+document.getElementById('addBtn').onclick=()=>openForm(null);
+document.getElementById('fCancel').onclick=closeForm;
+form.onclick=e=>{if(e.target===form)closeForm()};
+document.querySelectorAll('#fLocMode button').forEach(b=>b.onclick=()=>{
+  const m=b.dataset.m;setMode(m);
+  if(m==='here'){
+    if(me){draft.lat=me.lat;draft.lng=me.lng;setLocNote('Using your current location ✓',true)}
+    else{setLocNote('Getting your location…');navigator.geolocation&&navigator.geolocation.getCurrentPosition(pos=>{
+      draft.lat=pos.coords.latitude;draft.lng=pos.coords.longitude;setLocNote('Using your current location ✓',true)},
+      ()=>setLocNote('Location is off. Use "Pick on map" instead.'),{enableHighAccuracy:true,timeout:15000})}
+  }
+  if(m==='map')startPick();
+  if(m==='link'){document.getElementById('fLink').focus();setLocNote('Tip: in Google Maps, long-press the spot to drop a pin, then copy the coordinates shown and paste them here.')}
+});
+function parseLoc(s){
+  s=decodeURIComponent(String(s||'').trim().replace(/\+/g,' '));
+  let m=s.match(/!3d(-?\d{1,2}\.\d+)!4d(-?\d{1,3}\.\d+)/)||s.match(/@(-?\d{1,2}\.\d+),\s*(-?\d{1,3}\.\d+)/)||
+        s.match(/[?&](?:q|query|ll|destination|center)=(-?\d{1,2}\.\d+),\s*(-?\d{1,3}\.\d+)/)||s.match(/^\s*\(?(-?\d{1,2}\.\d+)\s*,\s*(-?\d{1,3}\.\d+)\)?\s*$/);
+  if(!m)return null;const lat=+m[1],lng=+m[2];if(Math.abs(lat)>90||Math.abs(lng)>180)return null;
+  const nm=s.match(/\/place\/([^/@]+)/);return {lat,lng,name:nm?nm[1].trim():''};
+}
+document.getElementById('fLink').oninput=e=>{
+  const v=e.target.value;if(!v.trim()){setLocNote('Paste a Google Maps link or coordinates.');return}
+  const r=parseLoc(v);
+  if(r){draft.lat=r.lat;draft.lng=r.lng;if(r.name&&!document.getElementById('fName').value)document.getElementById('fName').value=r.name;
+    setLocNote(`Found it: ${r.lat.toFixed(5)}, ${r.lng.toFixed(5)} ✓`,true)}
+  else if(/goo\.gl|maps\.app/.test(v))setLocNote('Short share links can\'t be read here. Open the link, then long-press the place and copy the coordinates, or use "Pick on map".');
+  else setLocNote('Couldn\'t find coordinates in that. Try "Pick on map".');
+};
+// Pick on map
+const pickUI=document.getElementById('pickUI');
+function startPick(){form.hidden=true;document.body.classList.add('picking');pickUI.hidden=false;
+  if(draft.lat!=null)map.setView([draft.lat,draft.lng],Math.max(map.getZoom(),17));else if(me)map.setView([me.lat,me.lng],17);else map.setZoom(Math.max(map.getZoom(),16))}
+function endPick(){document.body.classList.remove('picking');pickUI.hidden=true;form.hidden=false;placeFab()}
+document.getElementById('pickOk').onclick=()=>{
+  // the 📍 tip sits at the exact screen center
+  const c=map.getCenter();draft.lat=c.lat;draft.lng=c.lng;endPick();setLocNote(`Picked on map: ${c.lat.toFixed(5)}, ${c.lng.toFixed(5)} ✓`,true)};
+document.getElementById('pickCancel').onclick=endPick;
+
+document.getElementById('fSave').onclick=()=>{
+  const name=document.getElementById('fName').value.trim();
+  if(!name){toast('Give the place a name');document.getElementById('fName').focus();return}
+  if(draft.lat==null){toast('Set a location first');return}
+  const src=document.getElementById('fSrc').value.trim();
+  const fields={name,g:fCat.value,lat:draft.lat,lng:draft.lng,vibe:document.getElementById('fNote').value.trim(),
+    sources:src?[/^https?:/i.test(src)?src:'https://'+src]:[],night:document.getElementById('fNight').checked,
+    date_friendly:document.getElementById('fDate').checked,mine:true,area:'',tip:'',price:'',hours:''};
+  let p=draft.editing;
+  if(p)Object.assign(p,fields);else{p=Object.assign({id:'c'+Date.now(),created:today()},fields);custom.push(p)}
+  const wantBeen=document.getElementById('fBeen').checked;
+  if(wantBeen&&!isBeen(p.id))been[p.id]={date:today(),rating:0,note:''};
+  if(!wantBeen&&isBeen(p.id))delete been[p.id];
+  off.delete(p.g);store.set('off',[...off]);
+  saveCustom();saveBeen();closeForm();renderAll();map.setView([p.lat,p.lng],Math.max(map.getZoom(),16));openCard(p);
+  toast(draft.editing?'Saved changes':'Added to your map 📌');
+};
+let delArmed=false;
+document.getElementById('fDelete').onclick=e=>{
+  if(!delArmed){delArmed=true;e.target.textContent='Tap again to delete';setTimeout(()=>{delArmed=false;e.target.textContent='Delete this place'},3000);return}
+  const p=draft.editing;custom=custom.filter(c=>c.id!==p.id);delete been[p.id];saved.delete(p.id);
+  saveCustom();saveBeen();store.set('saved',[...saved]);delArmed=false;e.target.textContent='Delete this place';closeForm();renderAll();toast('Deleted')};
+
+// Surprise
+document.getElementById('surprise').onclick=()=>{
+  const o=origin();let pool=ALL().filter(visible).map(p=>({p,d:distKm(o,p)}));
+  let near=pool.filter(x=>x.d<=Math.min(radius,5));if(!near.length)near=pool.sort((a,b)=>a.d-b.d).slice(0,10);
+  if(!near.length){toast('No spots match your filters');return}
+  const fresh=near.filter(x=>!isBeen(x.p.id));const src=fresh.length?fresh:near;const pick=src[Math.floor(Math.random()*src.length)];
+  map.flyTo([pick.p.lat,pick.p.lng],16,{duration:.8});openCard(pick.p);setSheet('peek');
+};
+
+// Location
+function onPos(pos){
+  const first=!me;me={lat:pos.coords.latitude,lng:pos.coords.longitude};
+  if(!youMarker){youMarker=L.marker([me.lat,me.lng],{icon:L.divIcon({className:'',html:'<div class="you"></div>',iconSize:[18,18],iconAnchor:[9,9]}),zIndexOffset:1000}).addTo(map);
+    youCircle=L.circle([me.lat,me.lng],{radius:pos.coords.accuracy,color:'#1a73e8',weight:1,fillOpacity:.08}).addTo(map)}
+  else{youMarker.setLatLng([me.lat,me.lng]);youCircle.setLatLng([me.lat,me.lng]).setRadius(pos.coords.accuracy)}
+  if(first&&!document.body.classList.contains('picking')){map.setView([me.lat,me.lng],15);if(distKm(me,CENTER)>60)toast('You seem to be outside Bangkok. Distances are from you anyway.')}
+  renderList();
+}
+function onErr(){if(!me){document.getElementById('sheetSub').textContent='Location is off, so distances are from the map center';renderList()}}
+function startGeo(){if(!navigator.geolocation){onErr();return}
+  navigator.geolocation.watchPosition(onPos,onErr,{enableHighAccuracy:true,maximumAge:15000,timeout:20000})}
+document.getElementById('locate').onclick=()=>{if(me)map.flyTo([me.lat,me.lng],16,{duration:.6});else{toast('Asking for your location…');startGeo()}};
+map.on('moveend',()=>{if(!me)renderList()});
+
+let tt;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2600)}
+
+function renderAll(){renderChips();renderPins();renderList()}
+renderAll();setSheet('peek');startGeo();
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>
