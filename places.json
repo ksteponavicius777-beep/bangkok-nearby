@@ -721,7 +721,7 @@
 "https://www.outlooktraveller.com/experiences/food-and-drink/bizarre-bangkok-weird-cafes-to-visit",
 "https://www.ladyironchef.com/2019/09/caturday-cat-cafe/"
 ],
-"g": "cafe",
+"g": "animals",
 "id": 29
 },
 {
@@ -790,7 +790,7 @@
 "https://thailand.tripcanvas.co/bangkok/unique-cafes-restaurants/",
 "https://www.thatbangkoklife.com/unique-cafes-in-bangkok/"
 ],
-"g": "cafe",
+"g": "animals",
 "id": 32
 },
 {
@@ -4878,7 +4878,7 @@
 "sources": [
 "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok"
 ],
-"g": "shop",
+"g": "thrift",
 "id": 193
 },
 {
@@ -4902,7 +4902,7 @@
 "sources": [
 "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok"
 ],
-"g": "shop",
+"g": "thrift",
 "id": 194
 },
 {
@@ -4926,7 +4926,3971 @@
 "sources": [
 "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok"
 ],
-"g": "shop",
+"g": "thrift",
 "id": 195
+},
+{
+"name": "2nd STREET CentralWorld",
+"category": "thrift",
+"area": "Siam / Ratchaprasong",
+"lat": 13.74669,
+"lng": 100.53927,
+"coord_confidence": "high",
+"vibe": "Japan's biggest resale chain: racks of pre-loved Comme des Garcons, Stussy and designer bags in a mall",
+"tip": "5th floor, 10am-10pm. Shoes and bags sections are the strongest; weekday evenings are calmer",
+"price": "฿฿",
+"hours": "Daily 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"thrift",
+"japanese",
+"designer",
+"streetwear",
+"mall"
+],
+"sources": [
+"https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+"https://www.themarketsociety.co/blogs/giving-back/bangkok-secondhand-thrifting-neighborhood-guide"
+],
+"g": "thrift",
+"id": 196
+},
+{
+"name": "2nd STREET Siam Discovery",
+"category": "thrift",
+"area": "Siam",
+"lat": 13.74661,
+"lng": 100.5314,
+"coord_confidence": "high",
+"vibe": "Brand-new 2nd Street (opened Sept 2026) right on the BTS, fresh racks of Japanese pre-loved fashion",
+"tip": "Mezzanine floor. New stores get stocked heavy at launch, so go early before the good stuff is picked",
+"price": "฿฿",
+"hours": "Mall hours approx 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"thrift",
+"japanese",
+"streetwear",
+"new-opening",
+"mall"
+],
+"sources": [
+"https://retailnews.asia/second-street-opens-13th-thai-store-in-bangkok-as-regional-network-reaches-111",
+"https://insideretail.com.au/business/how-far-can-second-street-take-its-resale-stores-in-southeast-asia-202609"
+],
+"g": "thrift",
+"id": 197
+},
+{
+"name": "2nd STREET Big C Rama 4",
+"category": "thrift",
+"area": "Khlong Toei / Rama 4",
+"lat": 13.7153,
+"lng": 100.5756,
+"coord_confidence": "low",
+"vibe": "The first and biggest 2nd Street in Thailand, a full floor of Japanese resale fashion and luxury",
+"tip": "1st floor of Big C Rama 4, 10am-8pm. Bigger than the mall branches, so best for a long dig",
+"price": "฿฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"thrift",
+"japanese",
+"luxury",
+"streetwear"
+],
+"sources": [
+"https://www.fashionsnap.com/article/2023-12-07/2nd-street-thailand/",
+"https://confirmgood.com/post/2nd-street-bangkok/"
+],
+"g": "thrift",
+"id": 198
+},
+{
+"name": "Treasure Factory Sukhumvit 39",
+"category": "thrift",
+"area": "Phrom Phong",
+"lat": 13.7339,
+"lng": 100.5714,
+"coord_confidence": "medium",
+"vibe": "Japanese reuse store stuffed with brand clothes, bags, cameras and homeware that Phrom Phong expats sold off",
+"tip": "10am-7pm. Expat area means good branded stock; you can also sell your own stuff here 10am-6pm",
+"price": "฿฿",
+"hours": "Daily 10:00-19:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"thrift",
+"japanese",
+"cameras",
+"homeware"
+],
+"sources": [
+"https://www.trefac-th.com/location/"
+],
+"g": "thrift",
+"id": 199
+},
+{
+"name": "Treasure Factory Cloud 11",
+"category": "thrift",
+"area": "Punnawithi / Bang Na",
+"lat": 13.6895,
+"lng": 100.6095,
+"coord_confidence": "medium",
+"vibe": "Newest Treasure Factory inside the Cloud 11 creative complex, combine with a rooftop flea when one is on",
+"tip": "10am-8pm, near BTS Punnawithi. Check Cloud 11 events: Made by Legacy flea markets have run on its rooftop",
+"price": "฿฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"thrift",
+"japanese",
+"homeware"
+],
+"sources": [
+"https://www.trefac-th.com/location/",
+"https://www.trefac-th.com/blog/6828/"
+],
+"g": "thrift",
+"id": 200
+},
+{
+"name": "Treasure Factory Bang Khae",
+"category": "thrift",
+"area": "Bang Khae",
+"lat": 13.7128,
+"lng": 100.4076,
+"coord_confidence": "low",
+"vibe": "West-side Treasure Factory with less competition from other thrifters, so better odds on gems",
+"tip": "10am-8pm, near MRT Lak Song/Bang Khae area. Good for appliances, kitchen gear and Japanese brands",
+"price": "฿฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"thrift",
+"japanese",
+"homeware"
+],
+"sources": [
+"https://www.trefac-th.com/location/",
+"https://www.trefac-th.com/blog/4876/"
+],
+"g": "thrift",
+"id": 201
+},
+{
+"name": "Komehyo CentralWorld",
+"category": "thrift",
+"area": "Ratchaprasong",
+"lat": 13.7464,
+"lng": 100.5399,
+"coord_confidence": "medium",
+"vibe": "Japan's legendary second-hand luxury house: authenticated Rolex, Hermes and LV you can actually touch",
+"tip": "2nd floor of Central@centralwOrld. Window shopping is free; book a private room if you want to sell",
+"price": "฿฿฿",
+"hours": "Daily approx 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"luxury",
+"watches",
+"bags",
+"japanese",
+"resale"
+],
+"sources": [
+"https://bangkokpost.com/thailand/pr/2418975/komehyo-a-paradise-for-second-hand-brand-name-shoppers-",
+"https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/"
+],
+"g": "thrift",
+"id": 202
+},
+{
+"name": "RAGTAG One Bangkok",
+"category": "thrift",
+"area": "Lumphini / Rama 4",
+"lat": 13.7268,
+"lng": 100.5475,
+"coord_confidence": "medium",
+"vibe": "Tokyo's cult designer consignment store: 70% Japanese labels like Yohji, Issey and Undercover",
+"tip": "Opened mid-2025 in One Bangkok. Prices run 600 to 500,000 baht; the oversized pieces sell out fastest",
+"price": "฿฿฿",
+"hours": "Mall hours approx 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"designer",
+"japanese",
+"consignment",
+"fashion"
+],
+"sources": [
+"https://www.khaosodenglish.com/news/business/2025/07/31/japanese-luxury-consignment-chain-ragtag-opens-bangkok-flagship/amp/"
+],
+"g": "thrift",
+"id": 203
+},
+{
+"name": "Bangsue Junction (Red Building / Tuek Daeng)",
+"category": "thrift",
+"area": "Chatuchak",
+"lat": 13.7986,
+"lng": 100.5487,
+"coord_confidence": "medium",
+"vibe": "Six air-conditioned floors of vintage denim, band tees, military jackets, cameras and antiques by Chatuchak",
+"tip": "Go Fri-Sun after 11am when most shops open. Tees 100-200 baht, jackets 1,000-2,500. Start at top floor",
+"price": "฿",
+"hours": "Daily 10:00-20:00 (to 22:00 Fri-Sun)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vintage",
+"thrift",
+"antiques",
+"cameras",
+"vinyl",
+"aircon"
+],
+"sources": [
+"https://www.phuket101.net/the-red-building-chatuchak/",
+"https://says.com/my/lifestyle/bang-sue-junction-mall-bangkok-is-a-thrift-shoppers-haven"
+],
+"g": "thrift",
+"id": 204
+},
+{
+"name": "Mixt Chatuchak",
+"category": "thrift",
+"area": "Chatuchak",
+"lat": 13.803,
+"lng": 100.5488,
+"coord_confidence": "medium",
+"vibe": "Indoor, air-conditioned side mall of Chatuchak with secondhand bags, clothes and anime figure stalls",
+"tip": "2nd floor is the secondhand and figures floor. Great escape from JJ heat; open daily, so weekdays work too",
+"price": "฿",
+"hours": "Mon-Thu 10:00-20:00, Fri-Sun 10:00-22:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"thrift",
+"anime",
+"figures",
+"aircon"
+],
+"sources": [
+"https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/"
+],
+"g": "thrift",
+"id": 205
+},
+{
+"name": "Pattavikorn Market (Nawamin 72)",
+"category": "thrift",
+"area": "Bueng Kum",
+"lat": 13.8372,
+"lng": 100.6388,
+"coord_confidence": "low",
+"vibe": "Gritty bale-dump flea market: fresh sacks get ripped open and everyone dives in for 5-25 baht pieces",
+"tip": "Tue night and Wed morning bring fresh bales. Bring small cash, sanitiser and a big bag; no haggling",
+"price": "฿",
+"hours": "Daily 7:00-20:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"bale",
+"flea-market",
+"thrift",
+"cheap",
+"tiktok"
+],
+"sources": [
+"https://www.nationthailand.com/life/travel/40048415",
+"https://www.bkmagazine.com/shopping/best-places-bangkok-to-go-thrift-shopping/",
+"https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/"
+],
+"g": "thrift",
+"id": 206
+},
+{
+"name": "Talat Khlong Thom (Saturday flea)",
+"category": "thrift",
+"area": "Chinatown / Pom Prap",
+"lat": 13.7457,
+"lng": 100.5072,
+"coord_confidence": "medium",
+"vibe": "Chaotic old-Bangkok junk market: tools, watches, film cameras and random gadgets spread on tarps",
+"tip": "Saturday evening is the big night. Dig the ground-level tarps, bring small notes, walk from MRT Sam Yot",
+"price": "฿",
+"hours": "Daily shops 7:30-19:00; main flea Sat evening",
+"date_friendly": false,
+"night": true,
+"tags": [
+"flea-market",
+"junk",
+"cameras",
+"electronics",
+"chinatown"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/klong-thom-market/"
+],
+"g": "thrift",
+"id": 207
+},
+{
+"name": "Mega Plaza Saphan Lek",
+"category": "thrift",
+"area": "Old Town / Chinatown",
+"lat": 13.7466,
+"lng": 100.5013,
+"coord_confidence": "high",
+"vibe": "Bangkok's Akihabara: floors of anime figures, Gundam, Pokemon cards, retro consoles and used cameras",
+"tip": "Walk a whole floor before buying, many shops sell the same thing. Prize figures 240-400 baht. Closes 7:30pm",
+"price": "฿฿",
+"hours": "Daily 10:00-19:30",
+"date_friendly": true,
+"night": false,
+"tags": [
+"anime",
+"figures",
+"retro-games",
+"cameras",
+"collectibles"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/mega-plaza-saphan-lek/",
+"https://www.touristbangkok.com/vintage-cameras-shop/"
+],
+"g": "thrift",
+"id": 208
+},
+{
+"name": "Wang Lang Market",
+"category": "thrift",
+"area": "Bangkok Noi / Siriraj",
+"lat": 13.7558,
+"lng": 100.4865,
+"coord_confidence": "high",
+"vibe": "Riverside alley maze with some of Bangkok's oldest secondhand clothes stalls plus killer street snacks",
+"tip": "Take the boat to Wang Lang pier. Most clothes 100-200 baht; go late morning before the lunch crush",
+"price": "฿",
+"hours": "Daily approx 9:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"thrift",
+"market",
+"street-food",
+"river"
+],
+"sources": [
+"https://thesmartlocal.co.th/bangkok-second-hand-markets/",
+"https://www.bkmagazine.com/shopping/best-places-bangkok-to-go-thrift-shopping/"
+],
+"g": "thrift",
+"id": 209
+},
+{
+"name": "Shinjuku Outlet Lat Phrao",
+"category": "thrift",
+"area": "Wang Thonglang / Lat Phrao",
+"lat": 13.7853,
+"lng": 100.6063,
+"coord_confidence": "low",
+"vibe": "Multi-floor Japanese and Korean used clothing sold by weight, from 30-39 baht per 100 grams",
+"tip": "Weigh your basket before the till. New stock drops every couple of weeks; winter coats are the steal",
+"price": "฿",
+"hours": "Daily approx 11:00-21:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"thrift",
+"by-weight",
+"japanese",
+"cheap"
+],
+"sources": [
+"https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+"https://www.bkmagazine.com/shopping/best-places-bangkok-to-go-thrift-shopping/"
+],
+"g": "thrift",
+"id": 210
+},
+{
+"name": "Sakura Japan Second-hand Market",
+"category": "thrift",
+"area": "On Nut / Sukhumvit 50",
+"lat": 13.7068,
+"lng": 100.602,
+"coord_confidence": "low",
+"vibe": "Warehouse of Japanese import junk: kawaii plushies, ceramics, homeware and clothes, often by the kilo",
+"tip": "Near BTS On Nut, 11am-9pm. Lots of it is 50-100 baht per kg; fixed-price items are tagged separately",
+"price": "฿",
+"hours": "Daily 11:00-21:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"thrift",
+"japanese",
+"by-weight",
+"homeware",
+"kawaii"
+],
+"sources": [
+"https://thesmartlocal.co.th/bangkok-second-hand-markets/"
+],
+"g": "thrift",
+"id": 211
+},
+{
+"name": "Papaya Studio",
+"category": "thrift",
+"area": "Bang Khen / Ram Intra",
+"lat": 13.88235,
+"lng": 100.65181,
+"coord_confidence": "medium",
+"vibe": "Giant antique warehouse of diner chairs, neon signs, old movie props and retro toys; feels like a film set",
+"tip": "Free to browse, 9:30am-7pm. Trinkets around 1,000 baht, furniture much more. Bring a camera, it's very photogenic",
+"price": "฿฿฿",
+"hours": "Daily 9:30-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"antiques",
+"vintage-furniture",
+"photo-spot",
+"retro"
+],
+"sources": [
+"https://thesmartlocal.co.th/bangkok-second-hand-markets/",
+"https://wanderlog.com/place/details/472873/papaya-studio-thailands-largest-antique-vintage-store"
+],
+"g": "thrift",
+"id": 212
+},
+{
+"name": "Lucky Home Samrong",
+"category": "thrift",
+"area": "Samrong",
+"lat": 13.646,
+"lng": 100.597,
+"coord_confidence": "low",
+"vibe": "Japan shipping-container warehouse: crates of digicams, film cameras, lenses, guitars and vinyl",
+"tip": "10 min walk from BTS Samrong. Digicams can be under 300 baht; test everything, no returns",
+"price": "฿",
+"hours": "Tue-Sun approx 10:00-18:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"cameras",
+"digicam",
+"japanese",
+"vinyl",
+"warehouse"
+],
+"sources": [
+"https://thesmartlocal.com/read/lucky-home-samrong-bangkok/",
+"https://www.bkmagazine.com/shopping/best-places-bangkok-to-go-thrift-shopping/"
+],
+"g": "thrift",
+"id": 213
+},
+{
+"name": "Dasa Book Cafe",
+"category": "thrift",
+"area": "Phrom Phong / Sukhumvit 26",
+"lat": 13.7262,
+"lng": 100.5704,
+"coord_confidence": "high",
+"vibe": "Three cosy floors of 18,000 used books in English and European languages, with coffee",
+"tip": "Between Soi 26 and 28. Trade in your old books for credit; open daily 10am-8pm",
+"price": "฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"books",
+"secondhand",
+"cafe",
+"chill"
+],
+"sources": [
+"https://www.timeout.com/bangkok/shopping/dasa-book-cafe"
+],
+"g": "thrift",
+"id": 214
+},
+{
+"name": "Classic Movie Poster",
+"category": "thrift",
+"area": "Siam Square",
+"lat": 13.7455,
+"lng": 100.5326,
+"coord_confidence": "medium",
+"vibe": "Tiny shop of hand-painted Thai movie posters from the 1950s on, including Thai versions of Hollywood hits",
+"tip": "Next to Lido, Siam Square Soi 2; opens around 2pm. Ask for original painted theatre posters",
+"price": "฿฿",
+"hours": "Approx 14:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"posters",
+"retro",
+"collectibles",
+"quirky"
+],
+"sources": [
+"https://luxecityguides.com/bangkok-vintage-shops/",
+"https://vi.hotels.com/see/go/thailand/great-bangkok-vintage-shopping"
+],
+"g": "thrift",
+"id": 215
+},
+{
+"name": "Tokyo Joe",
+"category": "thrift",
+"area": "Phrom Phong / Sukhumvit 39",
+"lat": 13.7356,
+"lng": 100.5732,
+"coord_confidence": "low",
+"vibe": "Two floors of vintage and luxury resale: designer tops downstairs, sneakers, jeans and coats upstairs",
+"tip": "Daily 10am-8pm. They also buy branded vintage, so bring pieces to trade",
+"price": "฿฿฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vintage",
+"luxury",
+"sneakers",
+"resale"
+],
+"sources": [
+"https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 216
+},
+{
+"name": "(un)FASHION Vintage S39",
+"category": "thrift",
+"area": "Phrom Phong / Sukhumvit 39",
+"lat": 13.7325,
+"lng": 100.5704,
+"coord_confidence": "medium",
+"vibe": "Leather heaven: vintage cowboy boots, belts and Italian bags plus Japanese imports, with a cafe vibe",
+"tip": "Behind EmQuartier, 10am-8:30pm. Original Ekkamai 10 branch gets new stock on Wednesdays",
+"price": "฿฿",
+"hours": "Daily 10:00-20:30",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vintage",
+"leather",
+"boots",
+"bags"
+],
+"sources": [
+"https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+"https://vi.hotels.com/see/go/thailand/great-bangkok-vintage-shopping"
+],
+"g": "thrift",
+"id": 217
+},
+{
+"name": "Labellist Vintage Vibes",
+"category": "thrift",
+"area": "Ratchaprasong",
+"lat": 13.7444,
+"lng": 100.5408,
+"coord_confidence": "medium",
+"vibe": "Museum-grade vintage Chanel, Hermes and 60s-2000s designer pieces in a luxe mall",
+"tip": "2nd floor Gaysorn. Mostly for looking unless you have a fat budget; call ahead to confirm it's open",
+"price": "฿฿฿",
+"hours": "Mall hours approx 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vintage",
+"luxury",
+"designer"
+],
+"sources": [
+"https://luxecityguides.com/bangkok-vintage-shops/",
+"https://www.bkmagazine.com/city-living/news/bangkoks-best-vintage-stores-and-markets/"
+],
+"g": "thrift",
+"id": 218
+},
+{
+"name": "Again & Again Vintage (Suan Plern Market)",
+"category": "thrift",
+"area": "Rama 4 / Khlong Toei",
+"lat": 13.7215,
+"lng": 100.5482,
+"coord_confidence": "low",
+"vibe": "Colour-sorted racks of 70s boho vintage inside a quirky little retro market on Rama 4",
+"tip": "Pieces around 500-5,000 baht. Pair with a wander around the rest of Suan Plern market",
+"price": "฿฿",
+"hours": "Daily approx 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vintage",
+"womenswear",
+"boho"
+],
+"sources": [
+"https://vi.hotels.com/see/go/thailand/great-bangkok-vintage-shopping",
+"https://www.themarketsociety.co/blogs/giving-back/bangkok-secondhand-thrifting-neighborhood-guide"
+],
+"g": "thrift",
+"id": 219
+},
+{
+"name": "Zudrangma Records",
+"category": "thrift",
+"area": "Thonglor / Sukhumvit 51",
+"lat": 13.7256,
+"lng": 100.5806,
+"coord_confidence": "medium",
+"vibe": "Legendary crate-digger shop for Thai funk, molam and luk thung; the Studio Lam bar is right there",
+"tip": "Wed-Sun noon-8pm, closed Mon-Tue. Lost & Found Japanese vintage clothing sits upstairs",
+"price": "฿฿",
+"hours": "Wed-Sun 12:00-20:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"records",
+"thai-funk",
+"molam",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok",
+"https://www.bkmagazine.com/city-living/news/bangkoks-best-vintage-stores-and-markets/"
+],
+"g": "thrift",
+"id": 220
+},
+{
+"name": "Fortune Town Record Shops (DP Music, Coconut Records)",
+"category": "thrift",
+"area": "Rama 9 / Ratchada",
+"lat": 13.7579,
+"lng": 100.5653,
+"coord_confidence": "high",
+"vibe": "A whole floor of an old IT mall turned vinyl hub: original Thai luk thung pressings, 60s-80s rock and soul",
+"tip": "3rd floor, roughly 11:30am-8pm. MRT Phra Ram 9. Coconut for original pressings, DP Music for Thai rarities",
+"price": "฿",
+"hours": "Daily approx 11:30-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vinyl",
+"records",
+"music",
+"mall"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok",
+"https://www.bkmagazine.com/city-living/news/bangkoks-best-vintage-stores-and-markets/"
+],
+"g": "thrift",
+"id": 221
+},
+{
+"name": "Format BKK",
+"category": "thrift",
+"area": "Ari",
+"lat": 13.7795,
+"lng": 100.5442,
+"coord_confidence": "low",
+"vibe": "Ari record shop for off-mainstream Thai and international vinyl plus used 60s-90s LPs and workshops",
+"tip": "Daily 11am-8pm. Combine with Ari cafe hopping; check their IG for listening sessions and workshops",
+"price": "฿฿",
+"hours": "Daily 11:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vinyl",
+"records",
+"indie",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 222
+},
+{
+"name": "HAVE YOU HEARD? Records",
+"category": "thrift",
+"area": "Charoen Krung / Si Phraya",
+"lat": 13.729,
+"lng": 100.5148,
+"coord_confidence": "low",
+"vibe": "Charoen Krung record store with indie, house, techno and world music, open till midnight on weekends",
+"tip": "Fri-Sat noon-midnight, Wed/Thu/Sun to 8pm, closed Mon-Tue. Good pre-drinks stop on the creative strip",
+"price": "฿฿",
+"hours": "Wed-Thu & Sun 12:00-20:00, Fri-Sat 12:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"records",
+"house",
+"techno",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 223
+},
+{
+"name": "More Rice Record Store",
+"category": "thrift",
+"area": "Sukhumvit 31",
+"lat": 13.7365,
+"lng": 100.5672,
+"coord_confidence": "low",
+"vibe": "House and techno vinyl shop with DJ gear, merch and zines; the city's club-head record spot",
+"tip": "Tue-Fri 1-8pm, Sat 3-8pm, closed Sun-Mon. Ask staff what's on at the clubs this week",
+"price": "฿฿",
+"hours": "Tue-Fri 13:00-20:00, Sat 15:00-20:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"vinyl",
+"house",
+"techno",
+"dj",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 224
+},
+{
+"name": "Sassysoul Record",
+"category": "thrift",
+"area": "Chinatown / Yaowarat",
+"lat": 13.7405,
+"lng": 100.51,
+"coord_confidence": "low",
+"vibe": "Chinatown vinyl shop for anime and film soundtracks, Japanese city pop, Disney and R&B",
+"tip": "Daily 11am-7pm on Yaowarat 27. Hit it before Chinatown street food comes alive at night",
+"price": "฿฿",
+"hours": "Daily 11:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vinyl",
+"city-pop",
+"anime",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 225
+},
+{
+"name": "Get Back and Jude Records",
+"category": "thrift",
+"area": "Chinatown / Samphanthawong",
+"lat": 13.7395,
+"lng": 100.508,
+"coord_confidence": "low",
+"vibe": "7-inch singles, 60s rock, Britpop, disco and Thai alternative in a Chinatown shophouse",
+"tip": "Daily 11am-8pm. Pairs well with Sassysoul for a Chinatown vinyl crawl",
+"price": "฿฿",
+"hours": "Daily 11:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"vinyl",
+"records",
+"britpop",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 226
+},
+{
+"name": "Cassette Shop",
+"category": "thrift",
+"area": "Ratchathewi / Victory Monument",
+"lat": 13.7605,
+"lng": 100.5372,
+"coord_confidence": "low",
+"vibe": "Tiny shop of tapes plus refurbished Walkmans and decks; peak retro analog nerd energy",
+"tip": "Mon-Sat 11am-7pm, closed Sun. A refurbished Walkman makes a great gift",
+"price": "฿",
+"hours": "Mon-Sat 11:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"cassettes",
+"walkman",
+"retro",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 227
+},
+{
+"name": "Vinyl Die Hards",
+"category": "thrift",
+"area": "Srinakarin / Prawet",
+"lat": 13.692,
+"lng": 100.646,
+"coord_confidence": "low",
+"vibe": "Classic rock, soul and soft pop LPs from the 60s-80s, a solid dig before Rot Fai Srinakarin",
+"tip": "Daily 10am-6:30pm. Go late afternoon, then head to the Srinakarin train market when it opens",
+"price": "฿",
+"hours": "Daily 10:00-18:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"vinyl",
+"classic-rock",
+"records",
+"music"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 228
+},
+{
+"name": "Vinyl & Toys Cafe",
+"category": "thrift",
+"area": "Lat Phrao / Pradit Manutham",
+"lat": 13.809,
+"lng": 100.608,
+"coord_confidence": "low",
+"vibe": "Late-night cafe with 500+ records, vintage toys and old Sega consoles to nerd out over",
+"tip": "Listed as open all day. Good late-night hang; spin records over coffee",
+"price": "฿",
+"hours": "Daily, long hours",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"toys",
+"retro-games",
+"cafe"
+],
+"sources": [
+"https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok"
+],
+"g": "thrift",
+"id": 229
+},
+{
+"name": "Tay Flea Market (seasonal)",
+"category": "thrift",
+"area": "Samyan / Chula Centenary Park",
+"lat": 13.7395,
+"lng": 100.5242,
+"coord_confidence": "low",
+"vibe": "Seasonal 200+ vendor vintage and collectibles flea with giant sculptures, pets welcome",
+"tip": "Pop-up seasons run a few days, 4-11pm, free entry. Watch their socials for the next season dates",
+"price": "฿",
+"hours": "Seasonal, approx 16:00-23:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"flea-market",
+"vintage",
+"collectibles",
+"pop-up"
+],
+"sources": [
+"https://www.timeout.com/bangkok/th/news/two-flea-markets-th-010826"
+],
+"g": "thrift",
+"id": 230
+},
+{
+"name": "Little Zoo Garden Capybara Cafe",
+"category": "animals",
+"area": "On Nut",
+"lat": 13.71299,
+"lng": 100.61129,
+"coord_confidence": "high",
+"vibe": "Capybaras with their own pool, plus meerkats, wallabies, deer and corgis. Bangkok's best-known capy spot.",
+"tip": "450 THB with drink, cookie and treat basket, unlimited time. Walk-in. Weekend afternoons get packed.",
+"price": "฿฿",
+"hours": "Daily 11:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"capybara",
+"meerkat",
+"animal cafe",
+"on nut",
+"bts on nut"
+],
+"sources": [
+"https://littlezoogarden.com/",
+"https://www.yellowpages.co.th/profile/Little-Zoo-Garden-Capybara-Cafe-dUZ1FqaKc",
+"https://lostontheroute.com/bangkoks-7-best-capybara-cafes-ranked-by-experience-animal-welfare/"
+],
+"g": "animals",
+"id": 231
+},
+{
+"name": "Capybara Coffee Bangkok (Ekkamai)",
+"category": "animals",
+"area": "Ekkamai (Sukhumvit 61)",
+"lat": 13.7225,
+"lng": 100.5838,
+"coord_confidence": "medium",
+"vibe": "Timed capybara sessions on the 2nd floor of Union Ekkamai 61, with meerkats, monkeys and ducks too.",
+"tip": "400 THB for 30 min, drinks extra. Book on WhatsApp +66 88 179 3315, especially weekends.",
+"price": "฿฿",
+"hours": "",
+"date_friendly": true,
+"night": false,
+"tags": [
+"capybara",
+"meerkat",
+"animal cafe",
+"ekkamai",
+"tiktok"
+],
+"sources": [
+"https://caffeinespots.com/cafes/capybara-cafes-in-bangkok-where-to-meet-thailands-chillest-animals/",
+"https://programminginsider.com/inside-bangkoks-viral-capybara-cafe-everyone-loves/"
+],
+"g": "animals",
+"id": 232
+},
+{
+"name": "Capybara Coffee Bangkok (Silom)",
+"category": "animals",
+"area": "Silom Soi 26, Bang Rak",
+"lat": 13.7262,
+"lng": 100.523,
+"coord_confidence": "low",
+"vibe": "Tucked-away alley branch of the viral capybara cafe, smaller and more intimate than Ekkamai.",
+"tip": "400 THB per 30-min slot, drinks from 80 THB. Book ahead; check pin on Google Maps, alley is hidden.",
+"price": "฿฿",
+"hours": "",
+"date_friendly": true,
+"night": false,
+"tags": [
+"capybara",
+"meerkat",
+"animal cafe",
+"silom",
+"tiktok"
+],
+"sources": [
+"https://nz.trip.com/moments/poi-capybara-coffee-silom-bangkok-147749751/",
+"https://caffeinespots.com/cafes/capybara-cafes-in-bangkok-where-to-meet-thailands-chillest-animals/"
+],
+"g": "animals",
+"id": 233
+},
+{
+"name": "BlueGold Coffee & MiniZoo",
+"category": "animals",
+"area": "Ram Intra / Liap Duan (Bueng Kum)",
+"lat": 13.828,
+"lng": 100.622,
+"coord_confidence": "low",
+"vibe": "Big cafe with a capybara family, camels, goats, deer and parrots out back. Feels like a mini safari.",
+"tip": "No entry fee, just order at the bar to get in. Civet coffee is their thing; skip it if welfare bothers you.",
+"price": "฿",
+"hours": "Daily 8:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"capybara",
+"camel",
+"mini zoo",
+"animal cafe",
+"ram intra"
+],
+"sources": [
+"https://www.lemon8-app.com/@bluegoldcoffee/7485699108246897169?region=th",
+"https://thesmartlocal.co.th/pet-cafes-bangkok/",
+"https://lostontheroute.com/bangkoks-7-best-capybara-cafes-ranked-by-experience-animal-welfare/"
+],
+"g": "animals",
+"id": 234
+},
+{
+"name": "All Weather Farm",
+"category": "animals",
+"area": "Thian Thale, Bang Khun Thian",
+"lat": 13.605,
+"lng": 100.442,
+"coord_confidence": "low",
+"vibe": "Organic farm cafe on the far south edge of Bangkok with capybaras, goats, pigs and chickens.",
+"tip": "Free entry, no minimum order. Go weekday mornings; closed Mondays. Grab/car needed.",
+"price": "฿",
+"hours": "Tue-Thu 10:30-21:00, Fri-Sun 9:00-21:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"capybara",
+"farm",
+"animal cafe",
+"bang khun thian",
+"day trip"
+],
+"sources": [
+"https://www.lemon8-app.com/@icemikiii/7489482680875221521?region=us",
+"https://lostontheroute.com/bangkoks-7-best-capybara-cafes-ranked-by-experience-animal-welfare/"
+],
+"g": "animals",
+"id": 235
+},
+{
+"name": "Cafe De Musketeer",
+"category": "animals",
+"area": "Phutthamonthon Sai 3, Thawi Watthana",
+"lat": 13.774,
+"lng": 100.368,
+"coord_confidence": "low",
+"vibe": "Sprawling family-style garden cafe on the west edge where you can watch and feed capybaras.",
+"tip": "Free entry, cheap animal feed. Capybaras come out from about 3pm. Busy and noisy with kids on weekends.",
+"price": "฿",
+"hours": "",
+"date_friendly": false,
+"night": false,
+"tags": [
+"capybara",
+"farm",
+"animal cafe",
+"thonburi side"
+],
+"sources": [
+"https://travel.trueid.net/detail/KJeO4lEaRZR5",
+"https://lostontheroute.com/bangkoks-7-best-capybara-cafes-ranked-by-experience-animal-welfare/"
+],
+"g": "animals",
+"id": 236
+},
+{
+"name": "Little Zoo Cafe (On Nut)",
+"category": "animals",
+"area": "On Nut",
+"lat": 13.71133,
+"lng": 100.60862,
+"coord_confidence": "high",
+"vibe": "Old-school exotic pet cafe: raccoons, fennec foxes, meerkats, owls, corgis and hedgehogs.",
+"tip": "About 390 THB incl. drink and snack. Some reviews raise welfare concerns about the exotic animals.",
+"price": "฿฿",
+"hours": "Daily 11:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"raccoon",
+"fennec fox",
+"meerkat",
+"owl",
+"animal cafe",
+"on nut"
+],
+"sources": [
+"https://wanderlog.com/place/details/1075054",
+"https://thesmartlocal.co.th/pet-cafes-bangkok/",
+"https://caffeinespots.com/cafes/best-animal-cafes-in-bangkok/"
+],
+"g": "animals",
+"id": 237
+},
+{
+"name": "Dog Country Cafe (Chatuchak flagship)",
+"category": "animals",
+"area": "Kamphaeng Phet 2 Rd, Chatuchak",
+"lat": 13.8005,
+"lng": 100.5525,
+"coord_confidence": "low",
+"vibe": "Massive dog resort with 400+ dogs, a big-dog zone, pool, plus cats, rabbits, goats and pigs upstairs.",
+"tip": "300 THB unlimited play with a drink. Shoe covers given. Easy add-on to a Chatuchak market day.",
+"price": "฿฿",
+"hours": "Daily 9:30-21:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"dogs",
+"husky",
+"corgi",
+"animal cafe",
+"chatuchak"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/dog-country-cafe"
+],
+"g": "animals",
+"id": 238
+},
+{
+"name": "Dog in Town Ari",
+"category": "animals",
+"area": "Ari",
+"lat": 13.779,
+"lng": 100.542,
+"coord_confidence": "medium",
+"vibe": "Bright backyard-style room full of fluffy malamutes, samoyeds and goldens who will climb on you.",
+"tip": "350 THB with one drink, unlimited stay, walk-in. Weekday afternoons are calmest.",
+"price": "฿฿",
+"hours": "Daily 11:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"dogs",
+"samoyed",
+"malamute",
+"animal cafe",
+"ari",
+"bts ari"
+],
+"sources": [
+"https://caffeinespots.com/cafes/husky-and-dog-breed-cafes-in-bangkok-the-complete-guide/",
+"https://thethaiger.com/guides/best-of/5-must-visit-dog-cafes-in-bangkok"
+],
+"g": "animals",
+"id": 239
+},
+{
+"name": "TrueLove @ Neverland",
+"category": "animals",
+"area": "Ari Samphan, Phaya Thai",
+"lat": 13.7745,
+"lng": 100.54,
+"coord_confidence": "low",
+"vibe": "Session-based husky cafe where 20+ Siberian huskies get released into the room at once. Pure chaos.",
+"tip": "Sessions 1pm and 4pm. 350 THB with drink and cake. Cash only, first come first served.",
+"price": "฿฿",
+"hours": "Sessions 13:00 & 16:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"husky",
+"dogs",
+"animal cafe",
+"ari"
+],
+"sources": [
+"https://caffeinespots.com/cafes/husky-and-dog-breed-cafes-in-bangkok-the-complete-guide/",
+"https://thesmartlocal.co.th/pet-cafes-bangkok/"
+],
+"g": "animals",
+"id": 240
+},
+{
+"name": "Corgi in the Garden",
+"category": "animals",
+"area": "Bang Wa, Phasi Charoen",
+"lat": 13.707,
+"lng": 100.462,
+"coord_confidence": "low",
+"vibe": "Garden cafe packed with name-tagged corgis waddling around. TikTok corgi content factory.",
+"tip": "300-350 THB with drink. Closed Mondays. Near BTS Wutthakat; go at session start for max zoomies.",
+"price": "฿฿",
+"hours": "Tue-Fri 12:30-18:00, Sat-Sun 10:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"corgi",
+"dogs",
+"animal cafe",
+"thonburi side"
+],
+"sources": [
+"https://caffeinespots.com/cafes/husky-and-dog-breed-cafes-in-bangkok-the-complete-guide/",
+"https://thesmartlocal.co.th/pet-cafes-bangkok/"
+],
+"g": "animals",
+"id": 241
+},
+{
+"name": "The Wrinkles Pug House",
+"category": "animals",
+"area": "NapLab, Chula Soi 6 (Samyan)",
+"lat": 13.744,
+"lng": 100.5235,
+"coord_confidence": "medium",
+"vibe": "Tiny weekend-only pug cafe. A room of snorting wrinkly pugs for under 200 baht.",
+"tip": "169 THB with drink and snack. Fri-Sun only, booking required via Facebook or 083-177-8483.",
+"price": "฿",
+"hours": "Fri-Sat 12:00-19:30, Sun 13:00-16:30",
+"date_friendly": true,
+"night": false,
+"tags": [
+"pug",
+"dogs",
+"animal cafe",
+"samyan",
+"chula"
+],
+"sources": [
+"https://caffeinespots.com/cafes/husky-and-dog-breed-cafes-in-bangkok-the-complete-guide/",
+"https://thethaiger.com/guides/best-of/5-must-visit-dog-cafes-in-bangkok"
+],
+"g": "animals",
+"id": 242
+},
+{
+"name": "Rabbito Cafe",
+"category": "animals",
+"area": "Sukhumvit 101/1, Bang Chak",
+"lat": 13.6905,
+"lng": 100.611,
+"coord_confidence": "low",
+"vibe": "Around 40 free-roaming rabbits hopping around your feet in a homey cafe.",
+"tip": "About 100 THB entry, no time limit. Wear clothes you don't mind getting fur on.",
+"price": "฿",
+"hours": "Daily 12:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"rabbit",
+"animal cafe",
+"punnawithi",
+"bang chak"
+],
+"sources": [
+"https://thaiest.com/blog/pet-cafes-in-bangkok",
+"https://www.wongnai.com/restaurants/195728zW-rabbito-cafe"
+],
+"g": "animals",
+"id": 243
+},
+{
+"name": "Mohu Mohu Cat Cafe",
+"category": "animals",
+"area": "Naret Rd, Si Phraya (Bang Rak)",
+"lat": 13.731,
+"lng": 100.524,
+"coord_confidence": "medium",
+"vibe": "Japanese-style cat cafe with about 20 rescued strays and a proper Japanese menu.",
+"tip": "Pay per 10 min (25-30 THB), waived if you spend more on food. Book for weekends; no kids under 10.",
+"price": "฿",
+"hours": "12:00-20:00, check closing day",
+"date_friendly": true,
+"night": false,
+"tags": [
+"cats",
+"animal cafe",
+"rescue",
+"bang rak"
+],
+"sources": [
+"https://thaiest.com/blog/cat-cafes-in-bangkok",
+"https://cat-cafe-club-nuxt.nuxt.dev/cat-cafes/mohu-mohu-cat-cafe-bang-rak-bangkok-th"
+],
+"g": "animals",
+"id": 244
+},
+{
+"name": "Catsanova Adoptable Cat Cafe",
+"category": "animals",
+"area": "Sathu Pradit, Bang Kho Laem",
+"lat": 13.6955,
+"lng": 100.526,
+"coord_confidence": "low",
+"vibe": "Non-profit cat cafe where all 20+ cats are up for adoption. Feel-good welfare-first option.",
+"tip": "150 THB, exchangeable for food. Reservation only. Closed Tuesdays.",
+"price": "฿",
+"hours": "Wed-Mon 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"cats",
+"adoption",
+"animal cafe",
+"rama 3"
+],
+"sources": [
+"https://thaiest.com/blog/cat-cafes-in-bangkok",
+"https://muic.mahidol.ac.th/en/news/animal-lovers-club-visits-catsanova/"
+],
+"g": "animals",
+"id": 245
+},
+{
+"name": "Brown Matcha House",
+"category": "cafe",
+"area": "Luang Rd, Dusit",
+"lat": 13.7535,
+"lng": 100.5125,
+"coord_confidence": "medium",
+"vibe": "There is a Batmobile parked inside a matcha cafe. Vintage sci-fi room, seriously good matcha.",
+"tip": "Daytime only, closes 4-5pm. Combine with an Old Town walk.",
+"price": "฿฿",
+"hours": "Tue-Fri 9:30-16:00, Sat-Mon 10:00-17:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"matcha",
+"batmobile",
+"quirky",
+"new 2026",
+"old town"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/brown-matcha-house",
+"https://www.timeout.com/bangkok/restaurants/bangkok-best-new-cafes-of-2026"
+],
+"g": "cafe",
+"id": 246
+},
+{
+"name": "Dine in the Dark (Sheraton Grande Sukhumvit)",
+"category": "restaurant",
+"area": "Sukhumvit (Asok/Nana)",
+"lat": 13.73823,
+"lng": 100.5602,
+"coord_confidence": "high",
+"vibe": "Four-course dinner in total blackness, served by visually impaired guides. Mind-bending date night.",
+"tip": "Book well ahead on +66 2 649 8888. Try the Surprise menu and guess what you ate.",
+"price": "฿฿฿",
+"hours": "Mon-Sat 18:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dark dining",
+"experience",
+"date night",
+"sukhumvit",
+"bts asok"
+],
+"sources": [
+"https://thailandmagazine.com/bangkok/eat-drink/dine-in-the-dark/",
+"https://www.timeout.com/bangkok/restaurants/dine-in-the-dark"
+],
+"g": "food",
+"id": 247
+},
+{
+"name": "Alien Bangkok",
+"category": "restaurant",
+"area": "Sukhumvit 16",
+"lat": 13.7291,
+"lng": 100.56195,
+"coord_confidence": "medium",
+"vibe": "New 'fine bistro' designed like dining in outer space, cosmic murals and all.",
+"tip": "Pricey, dinner from 17:00. Order the onion tarte tatin with chicken liver pate. IG @alien_bangkok.",
+"price": "฿฿฿฿",
+"hours": "12:00-15:00, 17:00-23:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"space theme",
+"new",
+"fine dining",
+"sukhumvit"
+],
+"sources": [
+"https://www.masalathai.com/trending/bangkoks-new-restaurants-caf%C3%A9s-cultural-openings-to-know-right-now",
+"https://foodle.pro/restaurants/bangkok/alien"
+],
+"g": "food",
+"id": 248
+},
+{
+"name": "Mocking Tales",
+"category": "dessert",
+"area": "Ratchaphruek, Phasi Charoen",
+"lat": 13.72948,
+"lng": 100.45175,
+"coord_confidence": "high",
+"vibe": "Wizard-world fantasy cafe with smoking potions, erupting 'Inferno Mountain' desserts and candy-floss drinks.",
+"tip": "Closed Tuesdays. Order the Inferno Mountain for the video. Far west, go by Grab.",
+"price": "฿฿",
+"hours": "Wed-Mon 11:00-21:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"fantasy",
+"wizard",
+"dessert",
+"themed",
+"thonburi side"
+],
+"sources": [
+"https://wanderlog.com/place/details/381270/mocking-tales",
+"https://kampatour.com/bangkok-cafe",
+"https://www.thatbangkoklife.com/unique-cafes-in-bangkok/"
+],
+"g": "cafe",
+"id": 249
+},
+{
+"name": "The Ghost House",
+"category": "cafe",
+"area": "Soi RCA, Huai Khwang",
+"lat": 13.74961,
+"lng": 100.57758,
+"coord_confidence": "high",
+"vibe": "Cafe run by the host of Thailand's famous ghost radio show, full of spirit-house and creature props.",
+"tip": "Open till midnight on weekends, perfect before RCA clubs. Try the 'Ghost Coffee' or honey toast.",
+"price": "฿",
+"hours": "Mon-Fri 8:00-20:00, Sat-Sun 12:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"ghost",
+"horror",
+"themed",
+"rca"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/669332Oa-the-ghost-house",
+"https://thesmartlocal.co.th/spooky-bangkok-cafes/"
+],
+"g": "cafe",
+"id": 250
+},
+{
+"name": "Kid Mai Death Awareness Cafe",
+"category": "cafe",
+"area": "Phahonyothin Rd, Saphan Khwai/Ari",
+"lat": 13.786,
+"lng": 100.547,
+"coord_confidence": "low",
+"vibe": "Death-themed Buddhist cafe: lie in a coffin for a discount, then do one of the horror escape rooms.",
+"tip": "Status has been patchy over the years, check Facebook or KKday before you go. Escape rooms from ~690 THB.",
+"price": "฿",
+"hours": "10:00-20:00 (verify)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"death",
+"coffin",
+"horror",
+"escape room",
+"weird"
+],
+"sources": [
+"https://www.kkday.com/en/product/144381-kid-mai-death-awareness-cafe-exhibition-admission-bangkok-thailand",
+"https://thesmartlocal.co.th/spooky-bangkok-cafes/"
+],
+"g": "cafe",
+"id": 251
+},
+{
+"name": "Natura Cafe at Poomjai Garden",
+"category": "cafe",
+"area": "Chom Thong (Rama 2)",
+"lat": 13.7,
+"lng": 100.47,
+"coord_confidence": "low",
+"vibe": "Hidden jungle cafe through a bamboo village, with a canal pavilion. Feels hours from Bangkok.",
+"tip": "Daytime only. Dog-friendly. Pair with the boat to Wat Paknam's giant Buddha nearby.",
+"price": "฿",
+"hours": "Mon-Fri 10:00-17:00, Sat-Sun 9:00-17:30",
+"date_friendly": true,
+"night": false,
+"tags": [
+"forest",
+"garden",
+"canal",
+"hidden",
+"thonburi side"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/natura-cafe",
+"https://kampatour.com/bangkok-cafe"
+],
+"g": "cafe",
+"id": 252
+},
+{
+"name": "HILLING Glamping Cafe",
+"category": "cafe",
+"area": "Chuea Phloeng, Sathorn",
+"lat": 13.714,
+"lng": 100.545,
+"coord_confidence": "low",
+"vibe": "Glamping-style cafe with tents and rustic camp gear, right in the middle of Sathorn.",
+"tip": "New for 2026. Daytime coffee and bakery; best late afternoon light.",
+"price": "฿",
+"hours": "Daily 10:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"glamping",
+"camping",
+"new 2026",
+"sathorn"
+],
+"sources": [
+"https://gangtravel.com/87683"
+],
+"g": "cafe",
+"id": 253
+},
+{
+"name": "Patom Organic Living",
+"category": "cafe",
+"area": "Thonglor",
+"lat": 13.7339,
+"lng": 100.5779,
+"coord_confidence": "low",
+"vibe": "Tiny glass greenhouse cafe in a residential garden, all plants and organic drinks.",
+"tip": "Only about 25 seats, go on a weekday morning. Closed Tuesdays.",
+"price": "฿฿",
+"hours": "Wed-Mon 9:30-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"greenhouse",
+"garden",
+"thonglor"
+],
+"sources": [
+"https://www.thatbangkoklife.com/unique-cafes-in-bangkok/"
+],
+"g": "cafe",
+"id": 254
+},
+{
+"name": "San Rafael Cafe",
+"category": "cafe",
+"area": "Bang Waek, Bang Khae",
+"lat": 13.729,
+"lng": 100.429,
+"coord_confidence": "low",
+"vibe": "Giant wine-glass-shaped wooden pavilions, seat pods, an indoor waterfall and a 360-degree brew bar.",
+"tip": "Opens 7am, go early for empty photo spots. Far west, take a Grab.",
+"price": "฿",
+"hours": "Daily 7:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"architecture",
+"instagram",
+"quirky",
+"thonburi side"
+],
+"sources": [
+"https://www.thatbangkoklife.com/unique-cafes-in-bangkok/"
+],
+"g": "cafe",
+"id": 255
+},
+{
+"name": "Featherstone Cafe",
+"category": "cafe",
+"area": "Ekkamai Soi 12",
+"lat": 13.729,
+"lng": 100.588,
+"coord_confidence": "low",
+"vibe": "Apothecary-style vintage cafe with colorful 'potion' sparkling drinks served in lab flasks.",
+"tip": "Get the colored sparkling 'potions' for photos. Weekday afternoons are quietest.",
+"price": "฿฿",
+"hours": "Daily 10:30-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"potion",
+"vintage",
+"instagram",
+"ekkamai"
+],
+"sources": [
+"https://www.thatbangkoklife.com/unique-cafes-in-bangkok/"
+],
+"g": "cafe",
+"id": 256
+},
+{
+"name": "Jeh O Chula",
+"category": "street-food",
+"area": "Banthat Thong, Samyan",
+"lat": 13.7423,
+"lng": 100.5228,
+"coord_confidence": "medium",
+"vibe": "Legendary late-night Tom Yum Mama: a giant pot of instant noodles loaded with seafood and crispy pork.",
+"tip": "Use the QueQ app; waits hit 2 hours. Mama pot (250-300 THB) feeds two. Go right at 4pm or near midnight.",
+"price": "฿฿",
+"hours": "Daily 16:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"mama noodles",
+"late night",
+"michelin bib",
+"banthat thong",
+"tiktok"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/jeh-o-chula/",
+"https://berkeleypratunam.com/th/?p=14897"
+],
+"g": "food",
+"id": 257
+},
+{
+"name": "P'Aor Tom Yum Noodles",
+"category": "street-food",
+"area": "Phetchaburi Soi 5, Ratchathewi",
+"lat": 13.75588,
+"lng": 100.52944,
+"coord_confidence": "high",
+"vibe": "Creamy tom yum noodles topped with a whole lobster or giant river prawns. Mukbang royalty.",
+"tip": "Lobster bowl is the flex; regular bowls are cheap. Expect a queue at lunch.",
+"price": "฿฿",
+"hours": "Daily 10:00-21:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"tom yum",
+"lobster",
+"mukbang",
+"ratchathewi"
+],
+"sources": [
+"https://wanderlog.com/place/details/381300/피어-똠얌꿍-국수집",
+"https://www.eatingthaifood.com/the-best-tom-yum-goong-noodles-in-bangkok/"
+],
+"g": "food",
+"id": 258
+},
+{
+"name": "Go-Ang Kaomunkai Pratunam (Pink Chicken Rice)",
+"category": "street-food",
+"area": "Pratunam",
+"lat": 13.7505,
+"lng": 100.5427,
+"coord_confidence": "medium",
+"vibe": "The famous pink-shirt chicken rice shop: Bib Gourmand Hainanese chicken, packed day and night.",
+"tip": "Cheap and fast, line moves quickly. Open late, great after Pratunam shopping.",
+"price": "฿",
+"hours": "Daily 6:00-14:00, 15:00-22:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"chicken rice",
+"michelin bib",
+"pratunam",
+"cheap eats"
+],
+"sources": [
+"https://berkeleypratunam.com/th/?p=14897"
+],
+"g": "food",
+"id": 259
+},
+{
+"name": "Yaowarat Toasted Bread",
+"category": "dessert",
+"area": "Yaowarat (Chinatown)",
+"lat": 13.74,
+"lng": 100.509,
+"coord_confidence": "low",
+"vibe": "Charcoal-toasted buns oozing custard and pandan, under 30 baht. Lines go past midnight.",
+"tip": "Night-only stall on Yaowarat Rd. Get pandan and Thai tea custard. Bring cash.",
+"price": "฿",
+"hours": "Evenings till late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"toast",
+"custard",
+"chinatown",
+"late night",
+"tiktok"
+],
+"sources": [
+"https://getplotline.app/blog/best-bangkok-street-food-tiktok"
+],
+"g": "cafe",
+"id": 260
+},
+{
+"name": "Spire Rooftop Bar (Dusit Thani)",
+"category": "rooftop",
+"area": "Silom / Saladaeng",
+"lat": 13.7297,
+"lng": 100.5368,
+"coord_confidence": "high",
+"vibe": "Newest big Silom rooftop on the rebuilt Dusit Thani, looking straight down onto Lumpini Park's greenery.",
+"tip": "Arrive before sunset for magic hour over the park. Try the Proton Candy cocktail (฿420). Smart casual.",
+"price": "฿฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"sunset",
+"park view",
+"cocktails",
+"new"
+],
+"sources": [
+"https://brutus.jp/en/post-436822",
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "rooftop",
+"id": 261
+},
+{
+"name": "Sanctuary Bangkok (InterContinental Sukhumvit)",
+"category": "rooftop",
+"area": "Thonglor / Sukhumvit",
+"lat": 13.723,
+"lng": 100.5825,
+"coord_confidence": "medium",
+"vibe": "Tichuca's calmer little sister: bamboo roof, greenery and open sky on the 34th floor.",
+"tip": "Few seats, so book ahead. Good pre-dinner or nightcap stop near BTS Thong Lo. Closes if it rains.",
+"price": "฿฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"chill",
+"bamboo",
+"date spot",
+"opened 2025"
+],
+"sources": [
+"https://phuket101.net/sanctuary-bangkok-rooftop-bar",
+"https://brutus.jp/en/post-436822"
+],
+"g": "rooftop",
+"id": 262
+},
+{
+"name": "Sato San (Moxy Ratchaprasong)",
+"category": "rooftop",
+"area": "Ratchaprasong / CentralWorld",
+"lat": 13.7456,
+"lng": 100.5405,
+"coord_confidence": "medium",
+"vibe": "Japanese-Isan 'Electric Carnival' rooftop with a red-glowing bamboo arch and a DJ facing the city lights.",
+"tip": "Take the lift from the 9th-floor Moxy lobby to 32F. Sunset aperitifs, then DJ sets late. Opened NYE 2025.",
+"price": "฿฿฿",
+"hours": "Daily 6pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"new 2026",
+"japanese",
+"late night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2026",
+"https://www.phuket101.net/bangkok/sato-san-rooftop-bar-bangkok/",
+"https://sawasdee.thaiairways.com/the-2026-sip-list-3-new-bangkok-bars-to-hop/"
+],
+"g": "rooftop",
+"id": 263
+},
+{
+"name": "Piscari (Andaz One Bangkok)",
+"category": "rooftop",
+"area": "One Bangkok / Rama IV",
+"lat": 13.7262,
+"lng": 100.547,
+"coord_confidence": "medium",
+"vibe": "Mediterranean rooftop that goes calm at sunset, party with DJ sets after dark, plus a hidden speakeasy corner.",
+"tip": "Come for golden hour, stay for the DJ. Ask about the secret speakeasy room for a quieter drink.",
+"price": "฿฿฿฿",
+"hours": "Daily 5pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"speakeasy",
+"new 2026",
+"mediterranean"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2026",
+"https://sawasdee.thaiairways.com/the-2026-sip-list-3-new-bangkok-bars-to-hop/"
+],
+"g": "rooftop",
+"id": 264
+},
+{
+"name": "Starlight Rooftop Bar (Mercure Surawong)",
+"category": "rooftop",
+"area": "Surawong / Bang Rak",
+"lat": 13.7296,
+"lng": 100.5243,
+"coord_confidence": "low",
+"vibe": "Gem-themed 31st-floor rooftop with 360 views from the river to Silom, and Thai-spirit cocktails.",
+"tip": "New for 2026 and still under the radar, so easy to get a good seat at sunset. Mid-range prices.",
+"price": "฿฿",
+"hours": "From 5pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"new 2026",
+"360 view",
+"river view"
+],
+"sources": [
+"https://sawasdee.thaiairways.com/the-2026-sip-list-3-new-bangkok-bars-to-hop/",
+"https://eatigo.com/th/bangkok/en/r/starlight-rooftop-bar-mercure-hotel-bangkok-surawong-5013068"
+],
+"g": "rooftop",
+"id": 265
+},
+{
+"name": "Nobu Bangkok Rooftop Bar (The Empire)",
+"category": "rooftop",
+"area": "Sathorn",
+"lat": 13.7213,
+"lng": 100.5276,
+"coord_confidence": "high",
+"vibe": "Lounge, whisky bar and rooftop on floors 57-60 of The Empire with full 360 skyline views.",
+"tip": "Dress sharp. Go up for a drink only if dinner is too pricey. Right by BTS Chong Nonsi.",
+"price": "฿฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"luxury",
+"360 view",
+"sathorn"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025",
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 266
+},
+{
+"name": "Red Sky (Centara Grand CentralWorld)",
+"category": "rooftop",
+"area": "Ratchaprasong / Siam",
+"lat": 13.7479,
+"lng": 100.539,
+"coord_confidence": "high",
+"vibe": "Classic 56th-floor sky bar under a red arch, right above CentralWorld's lights.",
+"tip": "Smart casual. Combine with the Centara pool party on 26F, which sometimes moves its afterparty up here.",
+"price": "฿฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"classic",
+"city view",
+"cocktails"
+],
+"sources": [
+"https://thaiest.com/blog/best-sky-bars-rooftop-bars-in-bangkok",
+"https://bangkok-rooftops.com/events/"
+],
+"g": "rooftop",
+"id": 267
+},
+{
+"name": "Penthouse Bar + Grill (Park Hyatt)",
+"category": "rooftop",
+"area": "Phloen Chit / Central Embassy",
+"lat": 13.7439,
+"lng": 100.5466,
+"coord_confidence": "high",
+"vibe": "Three-level penthouse with a 70s-style speakeasy, live music and an open-air terrace on top.",
+"tip": "Direct walkway from BTS Phloen Chit. Book the terrace for sunset; dress smart.",
+"price": "฿฿฿฿",
+"hours": "Daily 5:30pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"terrace",
+"live music",
+"luxury"
+],
+"sources": [
+"https://thaiest.com/blog/best-sky-bars-rooftop-bars-in-bangkok"
+],
+"g": "rooftop",
+"id": 268
+},
+{
+"name": "Paradise Lost (Siam@Siam Design Hotel)",
+"category": "rooftop",
+"area": "Siam / National Stadium",
+"lat": 13.7466,
+"lng": 100.5256,
+"coord_confidence": "medium",
+"vibe": "Quirky 25th-floor rooftop garden over Siam with jungle-ish decor and fair prices.",
+"tip": "Steps from BTS National Stadium. Good cheaper warm-up before heading out.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"garden",
+"budget-friendly",
+"siam"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 269
+},
+{
+"name": "Yao Rooftop Bar (Marriott Surawongse)",
+"category": "rooftop",
+"area": "Surawong / Bang Rak",
+"lat": 13.73005,
+"lng": 100.52285,
+"coord_confidence": "medium",
+"vibe": "32nd-floor Chinese-styled rooftop with lanterns and sweeping views over the river bend.",
+"tip": "Sunset is the move. Walkable to Talat Noi and Charoen Krung bars afterward.",
+"price": "฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"river view",
+"sunset"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 270
+},
+{
+"name": "CHAR (Hotel Indigo Wireless Road)",
+"category": "rooftop",
+"area": "Ploenchit / Wireless Road",
+"lat": 13.7379,
+"lng": 100.5476,
+"coord_confidence": "medium",
+"vibe": "Relaxed 26th-floor rooftop with good-value cocktails and a casual crowd above Wireless Road.",
+"tip": "Happy hour early evening; a low-key alternative to the pricier Ploenchit sky bars.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"casual",
+"happy hour"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 271
+},
+{
+"name": "ABAR Rooftop (Marriott Marquis Queen's Park)",
+"category": "rooftop",
+"area": "Phrom Phong / Sukhumvit 22",
+"lat": 13.7268,
+"lng": 100.566,
+"coord_confidence": "medium",
+"vibe": "38th-floor rooftop overlooking Benjakitti and Benjasiri parks, gin-focused bar with a big terrace.",
+"tip": "Sunset over the parks is the reason to go. Short taxi from BTS Phrom Phong.",
+"price": "฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"park view",
+"gin",
+"sunset"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 272
+},
+{
+"name": "Above Eleven (Fraser Suites Sukhumvit)",
+"category": "rooftop",
+"area": "Nana / Sukhumvit 11",
+"lat": 13.7458,
+"lng": 100.5557,
+"coord_confidence": "medium",
+"vibe": "Peruvian-Japanese rooftop on 33F with a lively weekend crowd and DJ-driven nights.",
+"tip": "Smart casual enforced. Pair with Pastel and Nao nearby for a Soi 11 crawl.",
+"price": "฿฿฿",
+"hours": "Evenings till late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"nana",
+"nikkei"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 273
+},
+{
+"name": "Throwback Rooftop (Silom Edge)",
+"category": "rooftop",
+"area": "Silom",
+"lat": 13.7287,
+"lng": 100.5347,
+"coord_confidence": "medium",
+"vibe": "Low-rise 9th-floor rooftop with no hotel stiffness, right at the Silom-Rama IV junction.",
+"tip": "Cheaper casual drinks before a Silom night. Steps from BTS Sala Daeng and MRT Silom.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": false,
+"night": true,
+"tags": [
+"rooftop",
+"casual",
+"budget-friendly",
+"silom"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/best-rooftop-bars-in-bangkok/"
+],
+"g": "rooftop",
+"id": 274
+},
+{
+"name": "Pastel Rooftop Bar (Aira Hotel)",
+"category": "rooftop",
+"area": "Nana / Sukhumvit 11",
+"lat": 13.7443,
+"lng": 100.5554,
+"coord_confidence": "medium",
+"vibe": "Pastel-and-neon Mediterranean rooftop on 22F built to run from dinner into a party.",
+"tip": "Busiest on weekends. Watch their Instagram for themed DJ nights and the NYE party.",
+"price": "฿฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"party",
+"dj",
+"instagrammable"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/pastel-rooftop-bar",
+"https://bangkok-rooftops.com/events/"
+],
+"g": "rooftop",
+"id": 275
+},
+{
+"name": "Cloud 36 (Chatrium Riverside)",
+"category": "rooftop",
+"area": "Charoen Krung / Riverside",
+"lat": 13.707,
+"lng": 100.5098,
+"coord_confidence": "medium",
+"vibe": "36th-floor river-bend rooftop with 360 views of the Chao Phraya and Asian-spiced cocktails.",
+"tip": "Live music and guest shifts on select nights. Smart casual. Quieter than the big-name sky bars.",
+"price": "฿฿฿",
+"hours": "Daily 4pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"river view",
+"cocktails",
+"sunset"
+],
+"sources": [
+"https://chatriumhotelriverside.wa.profitroom.com/stories/rooftop-bar-in-riverside-bangkok"
+],
+"g": "rooftop",
+"id": 276
+},
+{
+"name": "Swing Bar by ChingCha",
+"category": "rooftop",
+"area": "Old Town / Giant Swing",
+"lat": 13.7519,
+"lng": 100.5008,
+"coord_confidence": "medium",
+"vibe": "Hostel rooftop looking straight at the Giant Swing and temple roofs, with ฿100 beers.",
+"tip": "Cheapest rooftop sunset in the old town. Cocktails from ฿150. Easy walk to Phra Sumen bars.",
+"price": "฿",
+"hours": "Daily 5pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"cheap",
+"old town",
+"temple view"
+],
+"sources": [
+"https://www.therooftopguide.com/bangkok/cheap-rooftop-bars-in-bangkok.html"
+],
+"g": "rooftop",
+"id": 277
+},
+{
+"name": "YABAR Secret Bar & Rooftop",
+"category": "bar",
+"area": "Banglamphu / Rambuttri",
+"lat": 13.7615,
+"lng": 100.498,
+"coord_confidence": "medium",
+"vibe": "Hidden bar and rooftop you reach through Olive Kitchen on Soi Rambuttri, open till 2:30am.",
+"tip": "Enter via Olive Kitchen. Closed Wednesdays. Jumbo Singha ฿160, Long Island ฿169.",
+"price": "฿",
+"hours": "Thu-Tue 6:30pm-2:30am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"hidden bar",
+"rooftop",
+"late night",
+"khaosan",
+"cheap"
+],
+"sources": [
+"https://www.therooftopguide.com/bangkok/cheap-rooftop-bars-in-bangkok.html"
+],
+"g": "bar",
+"id": 278
+},
+{
+"name": "Brewski (Radisson Blu Plaza)",
+"category": "rooftop",
+"area": "Asok / Sukhumvit 27",
+"lat": 13.738,
+"lng": 100.5634,
+"coord_confidence": "medium",
+"vibe": "30th-floor rooftop beer bar with American craft and Belgian classics plus a party feel.",
+"tip": "Best rooftop for beer people. Easy walk from Asok BTS / Sukhumvit MRT.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": false,
+"night": true,
+"tags": [
+"rooftop",
+"craft beer",
+"asok"
+],
+"sources": [
+"https://www.bkmagazine.com/nightlife/bangkoks-15-best-beer-bars-to-check-out-2025/"
+],
+"g": "rooftop",
+"id": 279
+},
+{
+"name": "Electric Sheep (The Warehouse Talat Noi)",
+"category": "rooftop",
+"area": "Talat Noi / Charoen Krung",
+"lat": 13.7323,
+"lng": 100.5138,
+"coord_confidence": "medium",
+"vibe": "Blade Runner-styled 4th-floor rooftop with big cushions and ferment-heavy food from the J'AIME chefs.",
+"tip": "Closed Mon-Tue. Last orders 10:30pm, so go early, then head downstairs to Clutch Bar.",
+"price": "฿฿฿",
+"hours": "Wed-Sun 6:30pm-10:30pm (last order)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"futuristic",
+"talat noi",
+"date spot"
+],
+"sources": [
+"https://brutus.jp/en/post-436822"
+],
+"g": "rooftop",
+"id": 280
+},
+{
+"name": "Centara Grand Pool Party (26F Pool Deck)",
+"category": "club",
+"area": "Ratchaprasong / CentralWorld",
+"lat": 13.7477,
+"lng": 100.5392,
+"coord_confidence": "high",
+"vibe": "Regular Saturday pool party with house and deep house DJs on a 26th-floor deck above CentralWorld.",
+"tip": "Roughly monthly Saturdays 3pm-10pm, from ฿600 (early bird cheapest). Next: 31 Oct, 21 Nov, 12 Dec 2026.",
+"price": "฿฿",
+"hours": "Event Saturdays 3pm-10pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"pool party",
+"house",
+"deep house",
+"day party",
+"rooftop"
+],
+"sources": [
+"https://bangkok-rooftops.com/pool-parties-bangkok/",
+"https://bangkok-rooftops.com/events/",
+"https://megatix.in.th/events/centara-pool-party-18-july-2026"
+],
+"g": "club",
+"id": 281
+},
+{
+"name": "WET Pool at W Bangkok (Beats by the Pool)",
+"category": "club",
+"area": "Sathorn",
+"lat": 13.723,
+"lng": 100.5292,
+"coord_confidence": "high",
+"vibe": "W's poolside party series with cabanas, Bangkok Invaders DJs and a big Songkran edition.",
+"tip": "Monthly-ish, mostly hip-hop leaning. Book a cabana for groups. Check W Bangkok IG for dates.",
+"price": "฿฿฿",
+"hours": "Event days",
+"date_friendly": true,
+"night": false,
+"tags": [
+"pool party",
+"hotel",
+"day party",
+"songkran"
+],
+"sources": [
+"https://pastelbangkok.com/best-pool-parties-bangkok/",
+"https://www.timeout.com/bangkok/things-to-do/beats-by-the-pool-x-bangkok-invaders"
+],
+"g": "club",
+"id": 282
+},
+{
+"name": "Mad Stash x Westin Pool Party",
+"category": "club",
+"area": "Asok / Sukhumvit 19",
+"lat": 13.7395,
+"lng": 100.5585,
+"coord_confidence": "medium",
+"vibe": "Westin Grande's poolside series with melodic techno, deep house and afro house selectors.",
+"tip": "Usually a Saturday afternoon, tickets around ฿900. Listed on Resident Advisor, so check RA for next date.",
+"price": "฿฿",
+"hours": "Event Saturdays, afternoon-evening",
+"date_friendly": true,
+"night": false,
+"tags": [
+"pool party",
+"deep house",
+"melodic techno",
+"afro house",
+"resident advisor"
+],
+"sources": [
+"https://ra.co/events/2169563",
+"https://pastelbangkok.com/best-pool-parties-bangkok/"
+],
+"g": "club",
+"id": 283
+},
+{
+"name": "Ambar Rooftop Pool (Four Points Sukhumvit 15)",
+"category": "rooftop",
+"area": "Asok / Sukhumvit 15",
+"lat": 13.7416,
+"lng": 100.5587,
+"coord_confidence": "medium",
+"vibe": "Affordable 8th-floor poolside rooftop with a first-Saturday pool party mixing afro, deep house and hip-hop.",
+"tip": "Cheapest pool party in central Sukhumvit. First Saturday of the month; confirm on their IG.",
+"price": "฿฿",
+"hours": "Evenings; party first Saturday",
+"date_friendly": true,
+"night": true,
+"tags": [
+"pool party",
+"rooftop",
+"deep house",
+"afro",
+"budget-friendly"
+],
+"sources": [
+"https://pastelbangkok.com/best-pool-parties-bangkok/"
+],
+"g": "rooftop",
+"id": 284
+},
+{
+"name": "Cloud 11 Rooftop Park",
+"category": "live-music",
+"area": "Punnawithi / Sukhumvit 101",
+"lat": 13.6848,
+"lng": 100.6087,
+"coord_confidence": "low",
+"vibe": "Thailand's biggest elevated park (Snohetta), now hosting big open-air parties like Kolour's 15th birthday.",
+"tip": "Kolour 15 Years (Richie Hawtin, Nora En Pure): Sat 21 Nov 2026, 2-10pm, from ฿1,600. Near BTS Punnawithi.",
+"price": "฿฿฿",
+"hours": "Event days",
+"date_friendly": true,
+"night": true,
+"tags": [
+"open air",
+"festival",
+"techno",
+"house",
+"rooftop park",
+"new 2026"
+],
+"sources": [
+"https://bangkok-rooftops.com/events/",
+"https://www.snohetta.com/news/snohettas-cloud-11-completed-in-thailand-with-the-countrys-largest-elevated-creative-park",
+"https://www.dtgo.com/news/624-cloud-11-gets-set-to-open-in-2025"
+],
+"g": "live",
+"id": 285
+},
+{
+"name": "Baccarat",
+"category": "club",
+"area": "Phrom Phong / Sukhumvit 24",
+"lat": 13.7254,
+"lng": 100.5686,
+"coord_confidence": "medium",
+"vibe": "Glossy New York-style club spinning afro, melodic and tech house mixed with hip-hop till 4am.",
+"tip": "Queues before opening on weekends. Book a table for groups. Dress sharp.",
+"price": "฿฿฿",
+"hours": "Daily 8pm-4am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"tech house",
+"afro house",
+"melodic house",
+"late night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/baccarat",
+"https://timeout.com/bangkok/bars/the-best-night-clubs-in-bangkok"
+],
+"g": "club",
+"id": 286
+},
+{
+"name": "APT 101",
+"category": "club",
+"area": "Asok",
+"lat": 13.7408,
+"lng": 100.5575,
+"coord_confidence": "low",
+"vibe": "70s New York apartment-style bar: vinyl arcade with pool table, chatty pantry, and a club room with tech and afro house.",
+"tip": "Hours vary, call 02-821-5813 or check apt101club.com. Balcony has city views.",
+"price": "฿฿฿",
+"hours": "From 6pm (check days)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"club",
+"vinyl",
+"tech house",
+"afro house",
+"bar"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/apt-101",
+"https://timeout.com/bangkok/bars/the-best-night-clubs-in-bangkok"
+],
+"g": "club",
+"id": 287
+},
+{
+"name": "Salon Kiku",
+"category": "bar",
+"area": "Thonglor / Sukhumvit 51",
+"lat": 13.7262,
+"lng": 100.5768,
+"coord_confidence": "medium",
+"vibe": "4th-floor DJ bar digging jazz, soul, Thai funk, global grooves and house.",
+"tip": "Check IG for guest selectors. Good warm-up before Thonglor clubs.",
+"price": "฿฿",
+"hours": "Evenings till midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dj bar",
+"house",
+"funk",
+"vinyl",
+"small venue"
+],
+"sources": [
+"https://timeout.com/bangkok/bars/the-best-night-clubs-in-bangkok"
+],
+"g": "bar",
+"id": 288
+},
+{
+"name": "Decommune",
+"category": "club",
+"area": "Banglamphu / Phra Sumen",
+"lat": 13.7618,
+"lng": 100.5003,
+"coord_confidence": "medium",
+"vibe": "Bare-walled underground club and culture room in Liberty Plaza: left-field electronic, gigs and film nights.",
+"tip": "Wed-Sun 7pm-midnight. Drinks are cheap for the area. Follow their IG for line-ups.",
+"price": "฿",
+"hours": "Wed-Sun 7pm-midnight",
+"date_friendly": false,
+"night": true,
+"tags": [
+"underground",
+"techno",
+"club",
+"old town",
+"cheap"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/decommune",
+"https://mixmag.asia/read/mixmag-asia-guide-to-the-best-underground-music-clubs-in-bangkok-city-guides"
+],
+"g": "club",
+"id": 289
+},
+{
+"name": "OBi Record Bar",
+"category": "bar",
+"area": "Silom / Naradhiwas",
+"lat": 13.7238,
+"lng": 100.5303,
+"coord_confidence": "medium",
+"vibe": "Japanese jazz-kissa style vinyl bar where bartenders take turns as DJs, jazz drifting into soul and hip-hop.",
+"tip": "Thu-Sat 6pm-1am, guest DJ some Wednesdays. Budget ฿500-1,000 per person.",
+"price": "฿฿฿",
+"hours": "Thu-Sat 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"listening bar",
+"vinyl",
+"jazz kissa",
+"new 2026"
+],
+"sources": [
+"https://thestandard.co/life/obi-record-bar-silom/",
+"https://www.timeout.com/bangkok/bars/vinyl-record-bars-in-bangkok-for-good-drinks-and-great-music"
+],
+"g": "bar",
+"id": 290
+},
+{
+"name": "Modern-Day Culture",
+"category": "bar",
+"area": "Ekkamai",
+"lat": 13.721,
+"lng": 100.5853,
+"coord_confidence": "medium",
+"vibe": "Vinyl bar run by 20-year record collectors, with Thai-herb cocktails and natural wine.",
+"tip": "Right by BTS Ekkamai. Order the herbal cocktails. Confirm days before going.",
+"price": "฿฿",
+"hours": "Tue-Sun 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"listening bar",
+"vinyl",
+"cocktails",
+"ekkamai"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/modern-day-culture",
+"https://www.timeout.com/bangkok/vinyl-bars"
+],
+"g": "bar",
+"id": 291
+},
+{
+"name": "Soulmate Listening Bar",
+"category": "bar",
+"area": "Lat Phrao",
+"lat": 13.818,
+"lng": 100.574,
+"coord_confidence": "low",
+"vibe": "Old house turned living-room listening bar with vinyl, occasional live acts and a front garden.",
+"tip": "Closed Wednesdays. Weekends fill up, so reserve via Instagram or Line.",
+"price": "฿฿",
+"hours": "Thu-Tue 7pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"listening bar",
+"vinyl",
+"garden",
+"local"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/soulmate-listening-bar"
+],
+"g": "bar",
+"id": 292
+},
+{
+"name": "aftersun Listening Bar",
+"category": "bar",
+"area": "Bang Bon",
+"lat": 13.664,
+"lng": 100.4,
+"coord_confidence": "low",
+"vibe": "70s-toned listening bar in an old dorm room with a different vinyl DJ nightly and 10 rotating craft taps.",
+"tip": "Far west, so make it a mission night. Closed Tuesdays. Dig the record crates for sale.",
+"price": "฿฿",
+"hours": "Wed-Mon 5pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"listening bar",
+"vinyl",
+"craft beer",
+"hidden gem"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/aftersun-listening-bar",
+"https://www.timeout.com/bangkok/bars/vinyl-record-bars-in-bangkok-for-good-drinks-and-great-music"
+],
+"g": "bar",
+"id": 293
+},
+{
+"name": "Yayyyyy Record Bar",
+"category": "bar",
+"area": "Old Town / Nang Loeng",
+"lat": 13.755,
+"lng": 100.5085,
+"coord_confidence": "low",
+"vibe": "Shophouse-sized wooden bar with 1,500+ records, highballs and easy cocktails.",
+"tip": "Tue-Sun 6pm-midnight. Pair with Bar Temp. and the Phra Sumen bars for an old-town crawl.",
+"price": "฿",
+"hours": "Tue-Sun 6pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"shophouse",
+"old town",
+"cheap"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/vinyl-record-bars-in-bangkok-for-good-drinks-and-great-music"
+],
+"g": "bar",
+"id": 294
+},
+{
+"name": "Long Play Music and Bar (Josh Hotel)",
+"category": "bar",
+"area": "Ari",
+"lat": 13.7796,
+"lng": 100.5429,
+"coord_confidence": "medium",
+"vibe": "Warm speakeasy-style vinyl room with a cinema projector and jazz and vinyl DJs.",
+"tip": "2F of Josh Hotel, Ari Soi 4. Start the Ari bar hop here. Closed Mondays.",
+"price": "฿฿",
+"hours": "Tue-Sun 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"speakeasy",
+"ari",
+"dj"
+],
+"sources": [
+"https://www.timeout.com/bangkok/vinyl-bars",
+"https://www.timeout.com/bangkok/bars/vinyl-record-bars-in-bangkok-for-good-drinks-and-great-music"
+],
+"g": "bar",
+"id": 295
+},
+{
+"name": "Nao Bar",
+"category": "bar",
+"area": "Nana / Sukhumvit 11",
+"lat": 13.7435,
+"lng": 100.5557,
+"coord_confidence": "medium",
+"vibe": "Locked-door Japandi speakeasy in an old office, where the kitchen counter is the bar.",
+"tip": "Call the front phone to get in. Try the Stay Alive (wasabi-cucumber gin). Check days, some Sundays closed.",
+"price": "฿฿฿",
+"hours": "7pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"speakeasy",
+"hidden bar",
+"cocktails",
+"japanese"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/nao-bar"
+],
+"g": "bar",
+"id": 296
+},
+{
+"name": "Residents Only",
+"category": "bar",
+"area": "Thonglor",
+"lat": 13.7347,
+"lng": 100.5818,
+"coord_confidence": "low",
+"vibe": "Kowloon Walled City-themed cocktail bar: deliberately raw, chaotic and creative.",
+"tip": "Thonglor Soi 17. Good stop between Thonglor bars and clubs.",
+"price": "฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"themed",
+"thonglor"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 297
+},
+{
+"name": "Chinatown Yacht Club",
+"category": "bar",
+"area": "Chinatown / Soi Nana",
+"lat": 13.7396,
+"lng": 100.5133,
+"coord_confidence": "medium",
+"vibe": "Gritty NY-style dive in a historic shophouse with a rooftop garden, B-sides and 90s boom bap.",
+"tip": "Hit Soi Nana Chinatown on a Friday: this, Xin Xe Goi and Bar Temp. are all within a few minutes.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dive bar",
+"rooftop garden",
+"chinatown",
+"hip-hop"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 298
+},
+{
+"name": "Xin Xe Goi",
+"category": "bar",
+"area": "Chinatown / Soi Nana",
+"lat": 13.7399,
+"lng": 100.5135,
+"coord_confidence": "medium",
+"vibe": "Three-storey neon bar with a rabbit mural, Thai-Chinese small plates and street views from the top.",
+"tip": "Grab the top floor for people-watching over Soi Nana.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"neon",
+"chinatown",
+"bar hop",
+"small plates"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 299
+},
+{
+"name": "Hair of the Dog (Phrom Phong)",
+"category": "bar",
+"area": "Phrom Phong / Sukhumvit 33/1",
+"lat": 13.734,
+"lng": 100.5695,
+"coord_confidence": "medium",
+"vibe": "Two-time best beer bar winner: heavy music, macabre decor, new brews and blind tastings.",
+"tip": "Mon-Sat. Good pre-game before Sukhumvit clubs.",
+"price": "฿฿",
+"hours": "Mon-Sat 11am-midnight",
+"date_friendly": false,
+"night": true,
+"tags": [
+"craft beer",
+"metal",
+"phrom phong"
+],
+"sources": [
+"https://www.bkmagazine.com/nightlife/bangkoks-15-best-beer-bars-to-check-out-2025/",
+"https://www.timeout.com/bangkok/bars/best-beer-bars-in-bangkok"
+],
+"g": "bar",
+"id": 300
+},
+{
+"name": "Two Palms Taproom",
+"category": "bar",
+"area": "Banglamphu / Phra Sumen",
+"lat": 13.7622,
+"lng": 100.4985,
+"coord_confidence": "medium",
+"vibe": "Local craft taps inside a 200-year-old colonial building near Phra Arthit.",
+"tip": "Closed Tuesdays. Combine with Decommune and Phra Arthit's riverside bars.",
+"price": "฿฿",
+"hours": "Wed-Mon 5pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"craft beer",
+"old town",
+"heritage building"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/best-beer-bars-in-bangkok",
+"https://www.bkmagazine.com/nightlife/bangkoks-15-best-beer-bars-to-check-out-2025/"
+],
+"g": "bar",
+"id": 301
+},
+{
+"name": "Yankii Robatayaki & Bar",
+"category": "bar",
+"area": "Phrom Phong / Sukhumvit 24",
+"lat": 13.7296,
+"lng": 100.5673,
+"coord_confidence": "medium",
+"vibe": "Charcoal grill upstairs, open karaoke bar downstairs: sing in front of strangers, no time limits.",
+"tip": "No bookings and no private rooms, so arrive early on weekends. Near BTS Phrom Phong.",
+"price": "฿฿",
+"hours": "Daily 6pm-1am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"karaoke",
+"japanese",
+"group night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-karaoke-bars-and-private-rooms-in-bangkok"
+],
+"g": "bar",
+"id": 302
+},
+{
+"name": "Haru Ranman Comic Cafe & Bar",
+"category": "bar",
+"area": "Phrom Phong / Sukhumvit 39",
+"lat": 13.7338,
+"lng": 100.5714,
+"coord_confidence": "low",
+"vibe": "24-hour Japanese manga cafe with karaoke rooms and 30,000 manga volumes.",
+"tip": "Open 24 hours, so a fun 3am landing spot after clubs.",
+"price": "฿",
+"hours": "Open 24 hours",
+"date_friendly": true,
+"night": true,
+"tags": [
+"karaoke",
+"manga",
+"24 hours",
+"late night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-karaoke-bars-and-private-rooms-in-bangkok"
+],
+"g": "bar",
+"id": 303
+},
+{
+"name": "Pickle.BKK",
+"category": "bar",
+"area": "Saladaeng",
+"lat": 13.7275,
+"lng": 100.5365,
+"coord_confidence": "medium",
+"vibe": "Two-level LGBTQ+ art-music-fashion space with a 90s-vibe DJ and a quirky vintage TV corner.",
+"tip": "Fills up late. Easy walk from BTS Sala Daeng and the Silom Soi 4 strip.",
+"price": "฿฿",
+"hours": "Evenings till late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"lgbtq",
+"dj",
+"silom",
+"late night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 304
+},
+{
+"name": "Mae Nak Shrine at Wat Mahabut",
+"category": "temple",
+"area": "On Nut",
+"lat": 13.7063,
+"lng": 100.6031,
+"coord_confidence": "medium",
+"vibe": "Shrine to Thailand's most famous ghost, piled with dresses, baby toys and lottery wishes by a canal",
+"tip": "Free. Go the evening before a lottery draw when it stays open late and gets packed. BTS On Nut, Soi On Nut 7",
+"price": "free",
+"hours": "7:30am-5:30pm (later before lottery days)",
+"date_friendly": false,
+"night": false,
+"tags": [
+"ghost",
+"shrine",
+"eerie",
+"local-beliefs",
+"free"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines",
+"https://en.wikipedia.org/wiki/Mae_Nak_Phra_Khanong"
+],
+"g": "sight",
+"id": 305
+},
+{
+"name": "Trimurti Shrine (the Love Shrine)",
+"category": "temple",
+"area": "Ratchaprasong",
+"lat": 13.7464,
+"lng": 100.5402,
+"coord_confidence": "medium",
+"vibe": "Singles in red offer nine red roses to a Hindu god outside CentralWorld, hoping to find love",
+"tip": "Thursday 9:30pm is the lucky slot. Roses and red incense sold on site. Ganesha shrine is next door",
+"price": "฿",
+"hours": "24 hours",
+"date_friendly": true,
+"night": true,
+"tags": [
+"shrine",
+"love",
+"night",
+"quirky",
+"ritual"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines"
+],
+"g": "sight",
+"id": 306
+},
+{
+"name": "Lakshmi Shrine (Gaysorn rooftop)",
+"category": "temple",
+"area": "Chit Lom",
+"lat": 13.7443,
+"lng": 100.5413,
+"coord_confidence": "medium",
+"vibe": "A gold goddess of wealth hidden on the 4th floor terrace of a luxury mall, above the traffic",
+"tip": "Free. Take the lift to 4F Gaysorn Village. Offer pink lotus and sugarcane juice for money luck",
+"price": "free",
+"hours": "10am-8pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"shrine",
+"hidden",
+"rooftop",
+"free"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines",
+"https://www.timeout.com/bangkok/attractions/lakshmi-shrine"
+],
+"g": "sight",
+"id": 307
+},
+{
+"name": "Huai Khwang Ganesha Shrine",
+"category": "temple",
+"area": "Huai Khwang",
+"lat": 13.7766,
+"lng": 100.5745,
+"coord_confidence": "medium",
+"vibe": "Neon-lit pink Ganesha shrine that buzzes with worshippers and fortune stalls till late night",
+"tip": "Free. Best after 9pm, then walk to Huai Khwang Night Market. Bring a marigold garland and fruit",
+"price": "free",
+"hours": "24 hours",
+"date_friendly": true,
+"night": true,
+"tags": [
+"shrine",
+"night",
+"local",
+"ganesha"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Huai_Khwang_district"
+],
+"g": "sight",
+"id": 308
+},
+{
+"name": "Wat Hua Lamphong (coffin donation temple)",
+"category": "temple",
+"area": "Sam Yan",
+"lat": 13.7327,
+"lng": 100.5297,
+"coord_confidence": "medium",
+"vibe": "Make merit by paying for a coffin for someone who can't afford a funeral. Weirdly uplifting",
+"tip": "Donation around ฿500. Ruamkatanyu Foundation desk is inside. MRT Sam Yan exit 1",
+"price": "฿",
+"hours": "24 hours (desk daytime)",
+"date_friendly": false,
+"night": false,
+"tags": [
+"temple",
+"ritual",
+"quirky",
+"merit"
+],
+"sources": [
+"https://yourthaiguide.com/wat-hua-lumphong-the-coffin-temple/",
+"https://thesmartlocal.com/read/eerie-bangkok/"
+],
+"g": "sight",
+"id": 309
+},
+{
+"name": "Teochew Cemetery Park",
+"category": "park",
+"area": "Sathorn",
+"lat": 13.7139,
+"lng": 100.525,
+"coord_confidence": "medium",
+"vibe": "A 1899 Chinese cemetery where locals jog, dance and do aerobics among 7,000 tombs",
+"tip": "Free. Go around 5-7pm to see the evening exercise crowd. BTS Surasak, Soi Charoen Rat 3",
+"price": "free",
+"hours": "Early morning to evening",
+"date_friendly": false,
+"night": false,
+"tags": [
+"eerie",
+"cemetery",
+"local-life",
+"free"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Teochew_Cemetery_(Bangkok)",
+"https://www.bkmagazine.com/city-living/why-sathorn-community-flocks-to-cemetery-exercise/"
+],
+"g": "park",
+"id": 310
+},
+{
+"name": "Wat Khanikaphon (the Madam's Temple)",
+"category": "temple",
+"area": "Chinatown",
+"lat": 13.7432,
+"lng": 100.5097,
+"coord_confidence": "low",
+"vibe": "Temple founded by a 19th century brothel owner, with a gold statue of the madam herself",
+"tip": "Free, quiet and almost tourist-free. Combine with Chinatown street food. MRT Wat Mangkon",
+"price": "free",
+"hours": "Daytime",
+"date_friendly": false,
+"night": false,
+"tags": [
+"temple",
+"history",
+"quirky",
+"free"
+],
+"sources": [
+"https://differentville.com/?p=7999"
+],
+"g": "sight",
+"id": 311
+},
+{
+"name": "Wat Intharawihan (32m Standing Buddha)",
+"category": "temple",
+"area": "Bang Khun Phrom",
+"lat": 13.7672,
+"lng": 100.503,
+"coord_confidence": "medium",
+"vibe": "A 32m golden Buddha towering over backstreets north of Khao San that took 60 years to build",
+"tip": "Free. Morning light is best for photos. 20 min walk from Khao San Road",
+"price": "free",
+"hours": "8am-6pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"giant-buddha",
+"photo-spot",
+"free"
+],
+"sources": [
+"https://differentville.com/?p=7999",
+"https://en.wikipedia.org/wiki/Wat_Intharawihan"
+],
+"g": "sight",
+"id": 312
+},
+{
+"name": "Loha Prasat (Wat Ratchanatdaram)",
+"category": "temple",
+"area": "Old Town",
+"lat": 13.7547,
+"lng": 100.5045,
+"coord_confidence": "high",
+"vibe": "The world's last 'metal castle': 37 black spires and a maze of corridors you can climb up",
+"tip": "Free entry. Climb to the top for Golden Mount views. Go near closing for soft light",
+"price": "free",
+"hours": "8am-5pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"architecture",
+"viewpoint",
+"photo-spot"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Wat_Ratchanatdaram"
+],
+"g": "sight",
+"id": 313
+},
+{
+"name": "Ban Bat (Monk Bowl Village)",
+"category": "experience",
+"area": "Old Town",
+"lat": 13.7513,
+"lng": 100.5067,
+"coord_confidence": "medium",
+"vibe": "Last alley where families still hammer monks' alms bowls by hand, the clanging guides you in",
+"tip": "Free to watch. Bowls from about ฿800. Go weekday mornings when workshops are active",
+"price": "free",
+"hours": "Daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"craft",
+"hidden-neighborhood",
+"heritage"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Ban_Bat"
+],
+"g": "experience",
+"id": 314
+},
+{
+"name": "Kudeejeen (Kudi Chin) Portuguese Quarter",
+"category": "landmark",
+"area": "Thonburi riverside",
+"lat": 13.7397,
+"lng": 100.4934,
+"coord_confidence": "high",
+"vibe": "Tiny Thai-Portuguese enclave with Santa Cruz Church and 250-year-old recipe cupcakes",
+"tip": "Free to wander. Try kanom farang at Lan Mae Pao. Cross-river ferry from Pak Khlong Talat",
+"price": "free",
+"hours": "Daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"hidden-neighborhood",
+"heritage",
+"walk",
+"food"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Kudi_Chin",
+"https://www.atlasobscura.com/things-to-do/bangkok-thailand"
+],
+"g": "sight",
+"id": 315
+},
+{
+"name": "Song Wat Road",
+"category": "landmark",
+"area": "Chinatown",
+"lat": 13.7387,
+"lng": 100.5085,
+"coord_confidence": "medium",
+"vibe": "Bangkok's oldest trading street, now spice shops, street art and hidden riverside cafes",
+"tip": "Go late afternoon, end with sunset beers at Samsara on the river deck",
+"price": "free",
+"hours": "Shops roughly 9am-6pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"hidden-neighborhood",
+"street-art",
+"cafes",
+"walk"
+],
+"sources": [
+"https://joujoutravels.com/non-touristy-things-to-do-in-bangkok/",
+"https://en.wikipedia.org/wiki/Song_Wat_Road"
+],
+"g": "sight",
+"id": 316
+},
+{
+"name": "Nang Loeng Market",
+"category": "market",
+"area": "Dusit",
+"lat": 13.7583,
+"lng": 100.5117,
+"coord_confidence": "medium",
+"vibe": "A 1900 wooden market hall full of old-school Thai desserts that most tourists never find",
+"tip": "Weekday lunchtime is best, many stalls close by 3pm and on Sundays. Cash only",
+"price": "฿",
+"hours": "Mon-Sat ~10am-2pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"market",
+"food",
+"heritage",
+"hidden"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Nang_Loeng_Market"
+],
+"g": "market",
+"id": 317
+},
+{
+"name": "Santichaiprakarn Park & Phra Sumen Fort",
+"category": "park",
+"area": "Phra Athit",
+"lat": 13.764,
+"lng": 100.4955,
+"coord_confidence": "high",
+"vibe": "Riverside lawn by an 18th century fort, sunset over Rama VIII bridge with buskers and fire jugglers",
+"tip": "Free. Come at sunset, bring drinks from Phra Athit Road. Closed Sundays per Time Out",
+"price": "free",
+"hours": "5am-9pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"sunset",
+"river",
+"free",
+"chill"
+],
+"sources": [
+"https://www.timeout.com/bangkok/news/some-of-the-best-places-to-watch-sunset-in-bangkok-072619"
+],
+"g": "park",
+"id": 318
+},
+{
+"name": "Public View Point (Wat Arun across the river)",
+"category": "landmark",
+"area": "Tha Tien",
+"lat": 13.7465,
+"lng": 100.4908,
+"coord_confidence": "medium",
+"vibe": "Free riverside spot with a postcard view of Wat Arun lit up at dusk, no rooftop bar prices",
+"tip": "Free, no booking. 2 min walk from Tha Tien pier. Arrive 30 min before sunset",
+"price": "free",
+"hours": "Open access",
+"date_friendly": true,
+"night": true,
+"tags": [
+"viewpoint",
+"sunset",
+"free",
+"photo-spot"
+],
+"sources": [
+"https://www.visitthailandtoday.com/activities-tours/bangkok/public-view-point"
+],
+"g": "sight",
+"id": 319
+},
+{
+"name": "Royal Barges National Museum",
+"category": "museum",
+"area": "Bangkok Noi",
+"lat": 13.7616,
+"lng": 100.4859,
+"coord_confidence": "high",
+"vibe": "Shed full of giant gilded dragon-headed royal barges, hidden down a Thonburi canal alley",
+"tip": "Around ฿100. Reach by longtail or walk from Bangkok Noi. Extra small fee for camera",
+"price": "฿",
+"hours": "9am-5pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"museum",
+"boats",
+"hidden",
+"heritage"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Royal_Barges_National_Museum"
+],
+"g": "museum",
+"id": 320
+},
+{
+"name": "Wat Mangkon Kamalawat (fortune sticks)",
+"category": "temple",
+"area": "Yaowarat",
+"lat": 13.7432,
+"lng": 100.5101,
+"coord_confidence": "medium",
+"vibe": "Smoky Chinatown temple where you shake numbered sticks for your fortune slip",
+"tip": "Free, donation for incense. Try kau cim early morning before crowds. MRT Wat Mangkon",
+"price": "free",
+"hours": "6am-6pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"fortune-telling",
+"chinatown"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines"
+],
+"g": "sight",
+"id": 321
+},
+{
+"name": "Sri Maha Mariamman Temple (Wat Khaek)",
+"category": "temple",
+"area": "Silom",
+"lat": 13.7243,
+"lng": 100.5231,
+"coord_confidence": "high",
+"vibe": "Technicolor Hindu temple with a midday Friday oil-lamp ritual right off busy Silom Road",
+"tip": "Free. Fridays are the big day. Shoes off, no photos inside",
+"price": "free",
+"hours": "6am-8pm (Fri till 9pm)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"hindu",
+"ritual",
+"colorful"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines"
+],
+"g": "sight",
+"id": 322
+},
+{
+"name": "Kathmandu Photo Gallery",
+"category": "art",
+"area": "Silom",
+"lat": 13.7248,
+"lng": 100.5232,
+"coord_confidence": "medium",
+"vibe": "Tiny restored shophouse with a photography gallery upstairs run by photographer Manit Sriwanichpoom",
+"tip": "Free. 87 Pan Road, near the Hindu temple. Check the site for current show",
+"price": "free",
+"hours": "Tue-Sun approx 11am-7pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"gallery",
+"photography",
+"shophouse",
+"free"
+],
+"sources": [
+"https://www.kathmanduphotobkk.com/?p=4312"
+],
+"g": "museum",
+"id": 323
+},
+{
+"name": "The Jam Factory",
+"category": "art",
+"area": "Khlong San",
+"lat": 13.7286,
+"lng": 100.5115,
+"coord_confidence": "medium",
+"vibe": "Old warehouses turned design store, bookshop, gallery and riverside lawn under a huge tree",
+"tip": "Free to wander. Weekend markets and gigs sometimes. Cross by ferry from Si Phraya pier",
+"price": "free",
+"hours": "10am-8pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"creative-space",
+"design",
+"riverside",
+"bookshop"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/the-jam-factory"
+],
+"g": "museum",
+"id": 324
+},
+{
+"name": "Doc Club & Pub",
+"category": "show",
+"area": "Sala Daeng",
+"lat": 13.7273,
+"lng": 100.5373,
+"coord_confidence": "medium",
+"vibe": "50-seat indie cinema plus cafe-pub showing documentaries and art films you won't find in malls",
+"tip": "Check the schedule online, tickets around ฿150-200. 2F Woof Pack, Soi Sala Daeng 1",
+"price": "฿",
+"hours": "11am-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cinema",
+"indie",
+"bar",
+"date-night"
+],
+"sources": [
+"https://www.timeout.com/bangkok/movie-theaters/doc-club-pub"
+],
+"g": "show",
+"id": 325
+},
+{
+"name": "Chalermla Park (Graffiti Park)",
+"category": "art",
+"area": "Ratchathewi",
+"lat": 13.7518,
+"lng": 100.534,
+"coord_confidence": "low",
+"vibe": "Under-bridge skate and graffiti park where Bangkok's street artists paint over each other constantly",
+"tip": "Free. Go golden hour for photos. Short walk from BTS Ratchathewi",
+"price": "free",
+"hours": "Open access",
+"date_friendly": false,
+"night": false,
+"tags": [
+"street-art",
+"skate",
+"free",
+"photo-spot"
+],
+"sources": [
+"https://www.masalathai.com/masala-recommends/looking-to-impress-your-partner-heres-a-curation-of-adventurous-outdoor-date-ideas-to-try-around-bangkok"
+],
+"g": "museum",
+"id": 326
+},
+{
+"name": "Captain Bush Lane & Charoen Krung 32 street art",
+"category": "art",
+"area": "Charoen Krung",
+"lat": 13.729,
+"lng": 100.515,
+"coord_confidence": "medium",
+"vibe": "Hidden riverside lane of huge murals by the old colonial-era docks, a strong Instagram backdrop",
+"tip": "Free. Combine with River City and Warehouse 30. Morning light is softer",
+"price": "free",
+"hours": "Open access",
+"date_friendly": true,
+"night": false,
+"tags": [
+"street-art",
+"photo-spot",
+"walk",
+"free"
+],
+"sources": [
+"https://www.masalathai.com/masala-recommends/looking-to-impress-your-partner-heres-a-curation-of-adventurous-outdoor-date-ideas-to-try-around-bangkok"
+],
+"g": "museum",
+"id": 327
+},
+{
+"name": "Butterfly Garden & Insectarium (Wachirabenchathat Park)",
+"category": "park",
+"area": "Chatuchak",
+"lat": 13.8128,
+"lng": 100.5562,
+"coord_confidence": "medium",
+"vibe": "Free walk-in dome with hundreds of butterflies, hidden inside a giant park next to Chatuchak",
+"tip": "Free. Go mornings when butterflies are active; closed Mondays. Rent a bike in the park",
+"price": "free",
+"hours": "Tue-Sun 8:30am-4:30pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"hidden-garden",
+"nature",
+"free",
+"butterflies"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Wachirabenchathat_Park"
+],
+"g": "park",
+"id": 328
+},
+{
+"name": "Ko Kret Pottery Island",
+"category": "landmark",
+"area": "Nonthaburi",
+"lat": 13.9118,
+"lng": 100.498,
+"coord_confidence": "high",
+"vibe": "Car-free Mon island in the Chao Phraya with pottery villages, fried flower snacks and bike loops",
+"tip": "Weekends are livelier. ฿2 ferry from Wat Sanam Nuea pier. Rent a bike around ฿40",
+"price": "฿",
+"hours": "Weekends ~9am-5pm best",
+"date_friendly": true,
+"night": false,
+"tags": [
+"island",
+"pottery",
+"day-trip",
+"cycling"
+],
+"sources": [
+"https://www.phuket101.net/bangkok/koh-kret-bangkok/"
+],
+"g": "sight",
+"id": 329
+},
+{
+"name": "Bang Pu Seagulls (Bang Pu Recreation Center)",
+"category": "park",
+"area": "Samut Prakan",
+"lat": 13.5126,
+"lng": 100.6582,
+"coord_confidence": "medium",
+"vibe": "Thousands of migrating seagulls swarm a seaside pier, feed them and get surrounded",
+"tip": "Season roughly Nov to Apr. Go late afternoon for sunset. Free entry, bird food a few baht",
+"price": "free",
+"hours": "Daily ~6am-8pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"seasonal",
+"nature",
+"sunset",
+"seaside"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Bang_Pu",
+"https://www.thaiholidayguide.com/attraction/bang-pu-recreation-center/"
+],
+"g": "park",
+"id": 330
+},
+{
+"name": "Khlong Lat Mayom Floating Market",
+"category": "market",
+"area": "Taling Chan",
+"lat": 13.7647,
+"lng": 100.4102,
+"coord_confidence": "medium",
+"vibe": "Local weekend floating market in canal-side orchards, way less touristy than Damnoen Saduak",
+"tip": "Weekends only, 9am-4pm. Hop on a ฿100 longtail canal ride through the orchards",
+"price": "฿",
+"hours": "Sat-Sun 9am-4pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"floating-market",
+"canal",
+"food",
+"longtail"
+],
+"sources": [
+"https://migrationology.com/khlong-lat-mayom-floating-market",
+"https://www.phuket101.net/khlong-lat-mayom-floating-market"
+],
+"g": "market",
+"id": 331
+},
+{
+"name": "Talat Phlu",
+"category": "market",
+"area": "Thonburi",
+"lat": 13.7215,
+"lng": 100.473,
+"coord_confidence": "medium",
+"vibe": "Old Thonburi railway-side food district that comes alive at night, beloved by Bangkok foodies",
+"tip": "Go after 6pm, try the satay, khao mok and Chinese desserts. BTS Talat Phlu",
+"price": "฿",
+"hours": "Evenings best",
+"date_friendly": true,
+"night": true,
+"tags": [
+"food",
+"night",
+"local",
+"hidden-neighborhood"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Talat_Phlu"
+],
+"g": "market",
+"id": 332
+},
+{
+"name": "Socials Sukhumvit (bar + bathhouse)",
+"category": "experience",
+"area": "Punnawithi",
+"lat": 13.687,
+"lng": 100.6115,
+"coord_confidence": "low",
+"vibe": "Cocktail bar downstairs, sauna and ice bath upstairs. Sweat, plunge, then have a drink",
+"tip": "From ฿200 (฿240 weekends). Closed Mondays. Bar can run till 2am on weekends",
+"price": "฿",
+"hours": "Tue-Sun 11:30am-10pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"sauna",
+"ice-bath",
+"bar",
+"social"
+],
+"sources": [
+"https://www.timeout.com/bangkok/sports-and-fitness/socials-sukhumvit",
+"https://www.timeout.com/bangkok/health-and-beauty/bangkoks-best-ice-bath-and-sauna-spots"
+],
+"g": "experience",
+"id": 333
+},
+{
+"name": "Dip Garden Onsen & Ice Bath",
+"category": "experience",
+"area": "Ari",
+"lat": 13.7745,
+"lng": 100.545,
+"coord_confidence": "medium",
+"vibe": "Outdoor Japanese-style onsen garden in Ari with 5C cold pools, 42C hot pools and a sauna",
+"tip": "฿500 weekdays, ฿750 weekends. Mixed-gender, swimwear required. Go at night when it's cooler",
+"price": "฿฿",
+"hours": "9am-10pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"onsen",
+"ice-bath",
+"sauna",
+"wellness"
+],
+"sources": [
+"https://www.timeout.com/bangkok/health-and-beauty/dip-garden-onsen-and-ice-bath"
+],
+"g": "experience",
+"id": 334
+},
+{
+"name": "ARAH Ice Bath & Sauna",
+"category": "experience",
+"area": "Sukhumvit 49",
+"lat": 13.7328,
+"lng": 100.5785,
+"coord_confidence": "low",
+"vibe": "Resort-style contrast circuit: 2C ice bath, magnesium hot tub, sauna and pool, no timers",
+"tip": "฿890 for 3 hours with a welcome drink. Book the 6-9pm sunset slot. Bring swimwear",
+"price": "฿฿",
+"hours": "9am-9pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"ice-bath",
+"sauna",
+"wellness",
+"date"
+],
+"sources": [
+"https://www.timeout.com/bangkok/health-and-beauty/arah-ice-bath-sauna"
+],
+"g": "experience",
+"id": 335
+},
+{
+"name": "The Ice Bath Club",
+"category": "experience",
+"area": "Nana",
+"lat": 13.7407,
+"lng": 100.5531,
+"coord_confidence": "medium",
+"vibe": "Big social sauna with aufguss sessions, ice showers and hot magnesium pool, a new way to meet people",
+"tip": "Drop-in passes and walk-ins OK. Towels and swimwear provided. Ground floor JLK Tower",
+"price": "฿฿",
+"hours": "7am-10pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"sauna",
+"ice-bath",
+"social",
+"wellness"
+],
+"sources": [
+"https://www.timeout.com/bangkok/health-and-beauty/the-ice-bath-club"
+],
+"g": "experience",
+"id": 336
+},
+{
+"name": "RECHILL Thonglor",
+"category": "experience",
+"area": "Thonglor",
+"lat": 13.7348,
+"lng": 100.583,
+"coord_confidence": "medium",
+"vibe": "Ice bath, sauna, steam and hot tub circuit plus a dome for breathwork and sound healing",
+"tip": "From ฿750 per 2 hours, book via the app. Packages cheaper. Also has an Asok branch",
+"price": "฿฿",
+"hours": "8am-9pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"ice-bath",
+"sauna",
+"sound-healing",
+"wellness"
+],
+"sources": [
+"https://www.timeout.com/bangkok/health-and-beauty/rechill-thonglor"
+],
+"g": "experience",
+"id": 337
+},
+{
+"name": "Fickle Lifestyle (splash painting)",
+"category": "activity",
+"area": "Ratchada",
+"lat": 13.77,
+"lng": 100.572,
+"coord_confidence": "low",
+"vibe": "Throw and splash paint at a giant canvas Jackson Pollock style, messy and fun with a date",
+"tip": "฿1,500 incl 60x80cm canvas and paint, 90 minutes. Wear clothes you don't mind ruining",
+"price": "฿฿",
+"hours": "Book ahead",
+"date_friendly": true,
+"night": false,
+"tags": [
+"workshop",
+"art",
+"date-idea",
+"messy"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/fun-workshops-in-bangkok"
+],
+"g": "activity",
+"id": 338
+},
+{
+"name": "PCHA Fine Art Studio (pottery)",
+"category": "activity",
+"area": "Ekkamai",
+"lat": 13.731,
+"lng": 100.59,
+"coord_confidence": "low",
+"vibe": "Private wheel and hand-building pottery classes in a calm Ekkamai studio",
+"tip": "฿2,500-3,000 per person, about 4 hours, reservation only. Pieces fired and ready later",
+"price": "฿฿฿",
+"hours": "By reservation",
+"date_friendly": true,
+"night": false,
+"tags": [
+"pottery",
+"workshop",
+"date-idea"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/fun-workshops-in-bangkok",
+"https://www.timeout.com/bangkok/art/pcha-fine-art-studio"
+],
+"g": "activity",
+"id": 339
+},
+{
+"name": "Tentacles Workshop (make your own perfume)",
+"category": "activity",
+"area": "Nang Linchi",
+"lat": 13.7085,
+"lng": 100.539,
+"coord_confidence": "low",
+"vibe": "Design a personal scent from scratch with a perfumer and walk out with your own 30ml bottle",
+"tip": "฿3,000 per person incl. bottle. Book in advance. Great gift or date idea",
+"price": "฿฿฿",
+"hours": "By booking",
+"date_friendly": true,
+"night": false,
+"tags": [
+"perfume",
+"workshop",
+"date-idea"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/tentacles-workshop",
+"https://www.timeout.com/bangkok/things-to-do/fun-workshops-in-bangkok"
+],
+"g": "activity",
+"id": 340
+},
+{
+"name": "Karaoke Manekineko Silom Edge",
+"category": "activity",
+"area": "Silom",
+"lat": 13.7289,
+"lng": 100.5349,
+"coord_confidence": "high",
+"vibe": "Japanese private karaoke boxes open till 5am, cheap enough for a spontaneous late-night session",
+"tip": "Promos from ฿100 pp for 2 hours with free soft drinks. Book on weekends. 4F Silom Edge",
+"price": "฿",
+"hours": "11am-5am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"karaoke",
+"late-night",
+"group",
+"cheap"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/karaoke-manekineko"
+],
+"g": "activity",
+"id": 341
+},
+{
+"name": "Teeshot Bar (Marriott Marquis Queen's Park)",
+"category": "activity",
+"area": "Phrom Phong",
+"lat": 13.7247,
+"lng": 100.5669,
+"coord_confidence": "medium",
+"vibe": "Sports simulator bar: golf swing analysis, virtual football, a karaoke room and cocktails",
+"tip": "Book a bay for groups. Direct access from BTS Phrom Phong. Food is burgers and pizza",
+"price": "฿฿฿",
+"hours": "Noon-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"golf-simulator",
+"bar",
+"karaoke",
+"group"
+],
+"sources": [
+"https://globetrender.com/2025/01/09/bangkok-marriott-launches-vr-sports-bar/"
+],
+"g": "activity",
+"id": 342
+},
+{
+"name": "Red Bull Skate Park, Benjakitti Sports Centre",
+"category": "activity",
+"area": "Khlong Toei",
+"lat": 13.7264,
+"lng": 100.559,
+"coord_confidence": "low",
+"vibe": "Free 1,400 sqm covered street skate park with murals, skateable even in the midday heat",
+"tip": "Free. Bring your own board. Busiest after 5pm when the local scene shows up",
+"price": "free",
+"hours": "4:30am-10pm",
+"date_friendly": false,
+"night": true,
+"tags": [
+"skate",
+"free",
+"sports",
+"street"
+],
+"sources": [
+"https://www.timeout.com/bangkok/sports-and-fitness/red-bull-skate-park-at-benjakitti-sports-centre",
+"https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-best-skate-spots"
+],
+"g": "activity",
+"id": 343
+},
+{
+"name": "Preduce Skatepark & Shop",
+"category": "activity",
+"area": "Phra Khanong",
+"lat": 13.7124,
+"lng": 100.588,
+"coord_confidence": "low",
+"vibe": "HQ of Thailand's first skateboard brand, with a covered street section and half bowl",
+"tip": "Open daily till 10pm. Buy or rent gear at the shop, ask about beginner lessons",
+"price": "฿",
+"hours": "Mon-Fri 10am-10pm, Sat-Sun 9am-10pm",
+"date_friendly": false,
+"night": true,
+"tags": [
+"skate",
+"sports",
+"shop"
+],
+"sources": [
+"https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-best-skate-spots"
+],
+"g": "activity",
+"id": 344
+},
+{
+"name": "Yokkao Training Center",
+"category": "activity",
+"area": "Sukhumvit 16",
+"lat": 13.731,
+"lng": 100.559,
+"coord_confidence": "low",
+"vibe": "Muay Thai gym for all levels, with pad work and masterclasses by real-name fighters",
+"tip": "Drop-in classes about ฿500-700. Beginners welcome, hand wraps sold at the gym",
+"price": "฿฿",
+"hours": "Morning and evening classes",
+"date_friendly": false,
+"night": false,
+"tags": [
+"muay-thai",
+"fitness",
+"beginner"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/unhinged-8-spots-to-vent-your-anger-without-getting-arrested"
+],
+"g": "activity",
+"id": 345
+},
+{
+"name": "The Movement Playground (parkour)",
+"category": "activity",
+"area": "Sukhumvit 69",
+"lat": 13.7165,
+"lng": 100.5965,
+"coord_confidence": "low",
+"vibe": "Learn parkour vaults, rolls and landings in an indoor playground, like being a kid again",
+"tip": "Book a beginner class online. Wear grippy shoes. Good stress-buster after work",
+"price": "฿฿",
+"hours": "Class schedule",
+"date_friendly": false,
+"night": false,
+"tags": [
+"parkour",
+"fitness",
+"unusual"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/unhinged-8-spots-to-vent-your-anger-without-getting-arrested"
+],
+"g": "activity",
+"id": 346
+},
+{
+"name": "Wat Pho Thai Massage Pavilions",
+"category": "experience",
+"area": "Rattanakosin",
+"lat": 13.7465,
+"lng": 100.493,
+"coord_confidence": "high",
+"vibe": "Get a Thai massage at the temple where the art was codified, inside the Reclining Buddha complex",
+"tip": "Temple ticket ฿300. Massage about ฿480 per hour. Go late afternoon to avoid queues",
+"price": "฿฿",
+"hours": "8am-6:30pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"massage",
+"temple",
+"wellness",
+"heritage"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/best-bangkok-shrines",
+"https://www.watpho.com/en/contact/plan"
+],
+"g": "experience",
+"id": 347
+},
+{
+"name": "Thai Film Archive (Film Museum, Salaya)",
+"category": "museum",
+"area": "Salaya",
+"lat": 13.793,
+"lng": 100.324,
+"coord_confidence": "low",
+"vibe": "Free film museum with a replica old-time cinema street, vintage projectors and outdoor screenings",
+"tip": "Free. Check the schedule for free weekend screenings. Far west, combine with Salaya cafes",
+"price": "free",
+"hours": "Tue-Sun 9:30am-5:30pm",
+"date_friendly": true,
+"night": false,
+"tags": [
+"museum",
+"cinema",
+"free",
+"quirky"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Thai_Film_Archive"
+],
+"g": "museum",
+"id": 348
+},
+{
+"name": "Bike Bangkok by Night (Co van Kessel)",
+"category": "experience",
+"area": "Talat Noi / River City",
+"lat": 13.7297,
+"lng": 100.5134,
+"coord_confidence": "medium",
+"vibe": "Cycle through dark alleys, lit temples and a flower market at night with a local guide",
+"tip": "Book online, around ฿1,500-2,000 incl. bike and snacks. Starts near River City",
+"price": "฿฿฿",
+"hours": "Evening departures",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cycling",
+"night",
+"tour",
+"hidden-alleys"
+],
+"sources": [
+"https://www.klook.com/activity/101183-bike-bangkok-by-night/",
+"https://magpie.travel/companies/co-van-kessel-bangkok-tours"
+],
+"g": "experience",
+"id": 349
 }
 ]

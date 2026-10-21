@@ -40,6 +40,7 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 .brand{display:flex;align-items:center;gap:10px;padding:0 max(14px,env(safe-area-inset-right,0px)) 8px max(14px,env(safe-area-inset-left,0px));pointer-events:auto}
 .brand h1{font:800 20px/1 var(--display);letter-spacing:-.02em;margin:0;flex:1}
 .brand h1 span{color:var(--accent)}
+@media (max-width:420px){.brand h1{font-size:17px}.stat{padding:0 8px}}
 .iconbtn{width:38px;height:38px;border-radius:12px;background:var(--panel);box-shadow:var(--shadow);display:grid;place-items:center;font-size:17px}
 .chips{display:flex;gap:6px;overflow-x:auto;padding:2px max(14px,env(safe-area-inset-left,0px));pointer-events:auto;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
@@ -107,6 +108,19 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 .pin i{position:absolute;right:-6px;top:-6px;transform:rotate(45deg);width:15px;height:15px;border-radius:50%;background:#1f8a3b;color:#fff;font:700 10px/15px var(--body);text-align:center;font-style:normal;border:1.5px solid #fff}
 .stat{font:600 12px var(--body);color:var(--muted);background:var(--panel);box-shadow:var(--shadow);padding:0 10px;height:38px;border-radius:12px;display:flex;align-items:center;gap:4px}
 .stat b{color:var(--fg)}
+.filt{color:var(--fg)}
+.filt span{background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:1px 7px;font-size:11px}
+.filt span:empty{display:none}
+.fhead{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fsec{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:16px 2px 6px}
+.link{color:var(--accent);font-weight:600;font-size:13px;text-transform:none;letter-spacing:0}
+.flist{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.frow{display:flex;align-items:center;gap:12px;padding:12px 14px;border-top:1px solid var(--line);cursor:pointer;font-size:15px}
+.frow:first-child{border-top:0}
+.frow input{width:22px;height:22px;accent-color:var(--accent);flex:none;margin:0}
+.frow .em{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:16px;flex:none}
+.frow .lb{flex:1;font-weight:500}
+.frow .ct{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
 .fab .add{font-size:24px;font-weight:600}
 
 /* menu + form overlay */
@@ -161,6 +175,7 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
 <div class="top">
   <div class="brand">
     <h1>Bangkok <span>Nearby</span></h1>
+    <button class="stat filt" id="filterBtn" title="Filters">⚙︎ <b>Filters</b> <span id="filterCount"></span></button>
     <button class="stat" id="statBtn" title="Places you've been"><b id="statN">0</b> been</button>
     <button class="iconbtn" id="menuBtn" title="Menu">☰</button>
   </div>
@@ -173,9 +188,17 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
   <button class="iconbtn" id="locate" title="Go to my location">◎</button>
 </div>
 
+<div class="overlay" id="filters" hidden><div class="panel">
+  <div class="fhead"><h3>Filters</h3><button class="btn" id="fDone" style="width:auto;padding:9px 16px">Done</button></div>
+  <p class="sub" id="fSummary"></p>
+  <div class="fsec"><span>What to show</span><span><button class="link" id="fAllOn">Select all</button> · <button class="link" id="fAllOff">Clear</button></span></div>
+  <div class="flist" id="fCats"></div>
+  <div class="fsec"><span>Options</span></div>
+  <div class="flist" id="fOpts"></div>
+</div></div>
+
 <div class="overlay" id="menu" hidden><div class="panel menu">
   <h3>Menu</h3><p class="sub" id="menuStats"></p>
-  <button class="btn" id="mAll">☰ Show all / hide all categories</button>
   <button class="btn" id="mBeen">✓ Show only places I've been</button>
   <button class="btn" id="mMine">📌 Show only places I added</button>
   <button class="btn" id="mExport">⬇️ Download backup of my data</button>
@@ -240,6 +263,8 @@ const GROUPS = {
   shop:{label:'Malls & shops',emoji:'🛍️',color:'#3a86ff'},
   park:{label:'Parks',emoji:'🌳',color:'#2d6a4f'},
   experience:{label:'Experiences',emoji:'✨',color:'#6d597a'},
+  thrift:{label:'Thrift & vintage',emoji:'👕',color:'#9c6644'},
+  animals:{label:'Animal cafés',emoji:'🦫',color:'#7f9c3a'},
 };
 const store = {
   get(k,d){try{const v=localStorage.getItem('bkk.'+k);return v?JSON.parse(v):d}catch(e){return d}},
@@ -295,20 +320,23 @@ function origin(){return me||(()=>{const c=map.getCenter();return {lat:c.lat,lng
 function renderChips(){
   const el=document.getElementById('chips');el.innerHTML='';
   const all=ALL();
-  const special=[];
-  if(flags.beenOnly)special.push(['beenOnly','✓ Only places I\'ve been ✕']);
-  if(flags.mineOnly)special.push(['mineOnly','📌 Only my places ✕']);
-  special.forEach(([k,l])=>{const b=document.createElement('button');b.className='chip toggle on';b.textContent=l;
-    b.onclick=()=>{flags[k]=false;store.set('flags',flags);renderAll()};el.appendChild(b)});
-  Object.entries(GROUPS).forEach(([k,g])=>{
-    const n=all.filter(p=>p.g===k).length;
-    const b=document.createElement('button');b.className='chip'+(off.has(k)?' off':'');
-    b.innerHTML=`<i class="dot" style="background:${g.color}"></i>${g.emoji} ${g.label} <span style="opacity:.55">${n}</span>`;
-    b.onclick=()=>{off.has(k)?off.delete(k):off.add(k);store.set('off',[...off]);renderAll()};
-    el.appendChild(b)});
-  const toggles=[['night','🌙 After 8pm'],['date','💘 Date-friendly'],['saved','⭐ Saved'],['hideDone','Hide places I\'ve been']];
-  toggles.forEach(([k,l])=>{const b=document.createElement('button');b.className='chip toggle'+(flags[k]?' on':'');b.textContent=l;
-    b.onclick=()=>{flags[k]=!flags[k];store.set('flags',flags);renderAll()};el.appendChild(b)});
+  const pills=[];
+  if(flags.beenOnly)pills.push(['✓ Only places I\'ve been',()=>{flags.beenOnly=false}]);
+  if(flags.mineOnly)pills.push(['📌 Only my places',()=>{flags.mineOnly=false}]);
+  if(flags.night)pills.push(['🌙 After 8pm',()=>{flags.night=false}]);
+  if(flags.date)pills.push(['💘 Date-friendly',()=>{flags.date=false}]);
+  if(flags.saved)pills.push(['⭐ Saved',()=>{flags.saved=false}]);
+  if(flags.hideDone)pills.push(['Hiding places I\'ve been',()=>{flags.hideDone=false}]);
+  const nOn=Object.keys(GROUPS).length-[...off].filter(k=>GROUPS[k]).length;
+  if(nOn<Object.keys(GROUPS).length){const b=document.createElement('button');b.className='chip toggle on';
+    b.textContent=nOn===1?(()=>{const k=Object.keys(GROUPS).find(k=>!off.has(k));return GROUPS[k].emoji+' '+GROUPS[k].label})():`${nOn} of ${Object.keys(GROUPS).length} categories`;
+    b.onclick=openFilters;el.appendChild(b)}
+  pills.forEach(([l,fn])=>{const b=document.createElement('button');b.className='chip toggle on';b.textContent=l+' ✕';
+    b.onclick=()=>{fn();store.set('flags',flags);renderAll()};el.appendChild(b)});
+  el.hidden=!el.children.length;
+  const active=(nOn<Object.keys(GROUPS).length?1:0)+pills.length;
+  document.getElementById('filterCount').textContent=active?active:'';
+  if(!document.getElementById('filters').hidden)renderFilterPanel();
   document.getElementById('statN').textContent=Object.keys(been).length;
 }
 function pinIcon(p){const g=GROUPS[p.g]||GROUPS.experience;
@@ -399,6 +427,36 @@ document.querySelectorAll('#radius button').forEach(b=>{
   if(+b.dataset.r===radius)b.classList.add('on');
   b.onclick=()=>{radius=+b.dataset.r;store.set('radius',radius);document.querySelectorAll('#radius button').forEach(x=>x.classList.toggle('on',x===b));renderList()}});
 
+// Filter panel
+const filters=document.getElementById('filters');
+function renderFilterPanel(){
+  const all=ALL();const cats=document.getElementById('fCats');cats.innerHTML='';
+  const sorted=Object.entries(GROUPS).sort((a,b)=>a[1].label.localeCompare(b[1].label));
+  sorted.forEach(([k,g])=>{const n=all.filter(p=>p.g===k).length;
+    const r=document.createElement('label');r.className='frow';
+    r.innerHTML=`<input type="checkbox" id="fc_${k}" ${off.has(k)?'':'checked'}><span class="em" style="background:${g.color}22">${g.emoji}</span><span class="lb">${g.label}</span><span class="ct">${n}</span>`;
+    r.querySelector('input').onchange=e=>{e.target.checked?off.delete(k):off.add(k);store.set('off',[...off]);renderAll()};
+    cats.appendChild(r)});
+  const opts=[['night','🌙','Good after 8pm'],['date','💘','Date-friendly only'],['saved','⭐','Saved only'],['hideDone','👁️','Hide places I\'ve been'],['beenOnly','✓','Only places I\'ve been'],['mineOnly','📌','Only places I added']];
+  const o=document.getElementById('fOpts');o.innerHTML='';
+  opts.forEach(([k,e,l])=>{const r=document.createElement('label');r.className='frow';
+    r.innerHTML=`<input type="checkbox" id="fo_${k}" ${flags[k]?'checked':''}><span class="em" style="background:var(--chip)">${e}</span><span class="lb">${l}</span>`;
+    r.querySelector('input').onchange=ev=>{flags[k]=ev.target.checked;
+      if(k==='beenOnly'&&flags[k]){flags.hideDone=false;flags.mineOnly=false}
+      if(k==='mineOnly'&&flags[k])flags.beenOnly=false;
+      if(k==='hideDone'&&flags[k])flags.beenOnly=false;
+      store.set('flags',flags);renderAll()};
+    o.appendChild(r)});
+  const shown=all.filter(visible).length;
+  document.getElementById('fSummary').textContent=`Showing ${shown} of ${all.length} places`;
+}
+function openFilters(){renderFilterPanel();filters.hidden=false}
+document.getElementById('filterBtn').onclick=openFilters;
+document.getElementById('fDone').onclick=()=>{filters.hidden=true};
+filters.onclick=e=>{if(e.target===filters)filters.hidden=true};
+document.getElementById('fAllOn').onclick=()=>{off.clear();store.set('off',[]);renderAll()};
+document.getElementById('fAllOff').onclick=()=>{Object.keys(GROUPS).forEach(k=>off.add(k));store.set('off',[...off]);renderAll()};
+
 // Menu
 const menu=document.getElementById('menu');
 function closeMenu(){menu.hidden=true}
@@ -408,8 +466,6 @@ document.getElementById('menuBtn').onclick=()=>{
   menu.hidden=false};
 menu.onclick=e=>{if(e.target===menu)closeMenu()};
 document.getElementById('mClose').onclick=closeMenu;
-document.getElementById('mAll').onclick=()=>{if(off.size===0)Object.keys(GROUPS).forEach(k=>off.add(k));else off.clear();
-  store.set('off',[...off]);renderAll();closeMenu();toast(off.size?'All categories off. Tap the ones you want.':'All categories on')};
 function showOnly(k){flags.beenOnly=k==='beenOnly';flags.mineOnly=k==='mineOnly';flags.hideDone=false;radius=99;store.set('radius',radius);
   document.querySelectorAll('#radius button').forEach(x=>x.classList.toggle('on',+x.dataset.r===99));
   store.set('flags',flags);renderAll();closeMenu();setSheet('mid')}

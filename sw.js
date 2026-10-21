@@ -1,4 +1,4 @@
-const C='bkk-v3';
+const C='bkk-v4';
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','index.html','data.js','manifest.webmanifest','icon.svg'])))});
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);
