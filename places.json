@@ -2128,32 +2128,6 @@
 "id": 84
 },
 {
-"name": "#FindTheLockerRoom",
-"category": "bar",
-"area": "Thonglor",
-"lat": 13.731,
-"lng": 100.5801,
-"coord_confidence": "medium",
-"vibe": "Speakeasy hidden behind a wall of steel gym lockers, and you have to find the right one",
-"tip": "Go down the unmarked alley at 406 Sukhumvit 55 and slide open the right locker. Daily until 2am",
-"price": "฿฿฿",
-"hours": "Daily 19:00–02:00",
-"date_friendly": true,
-"night": true,
-"tags": [
-"speakeasy",
-"secret-door",
-"hidden",
-"cocktails"
-],
-"sources": [
-"https://www.timeout.com/bangkok/bars/findthelockerroom",
-"https://www.tatlerasia.com/maps/tatler-best-thailand-the-best-20-bars-of-2026"
-],
-"g": "bar",
-"id": 85
-},
-{
 "name": "#FindThePhotoBooth",
 "category": "bar",
 "area": "Banthat Thong",
@@ -9823,156 +9797,6 @@
 "id": 385
 },
 {
-"name": "PK Saenchai Muay Thai Gym",
-"category": "thrill",
-"area": "Bang Kho Laem",
-"lat": 13.69562,
-"lng": 100.52173,
-"coord_confidence": "medium",
-"vibe": "Train at the GOAT Saenchai's gym with four rings, a cage and real Thai sparring partners",
-"tip": "฿400 per session, ฿800 for two a day, private with a champ ฿1,500. Mon-Sat afternoons. Near Central Rama 3",
-"price": "฿",
-"hours": "Mon-Sat 14:00-18:00",
-"date_friendly": false,
-"night": false,
-"tags": [
-"muay thai",
-"sparring",
-"fight gym",
-"training"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/pk-saenchai-muaythai-gym"
-],
-"g": "thrill",
-"id": 386
-},
-{
-"name": "Rithirit Gym Academy (Jitti Gym)",
-"category": "thrill",
-"area": "Din Daeng",
-"lat": 13.79803,
-"lng": 100.57367,
-"coord_confidence": "medium",
-"vibe": "Working fight gym where you train next to Thai stadium pros",
-"tip": "Group class from ฿500. Mon-Sat 09-12 and 14-21. Short walk from MRT Ratchadaphisek. Ask about sparring",
-"price": "฿",
-"hours": "Mon-Sat 09:00-12:00, 14:00-21:00; Sun 14:00-19:00",
-"date_friendly": false,
-"night": true,
-"tags": [
-"muay thai",
-"fight gym",
-"training"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/rithirit-gym-academy",
-"https://www.thailandstarterkit.com/lifestyle/bangkok-muay-thai-gyms/"
-],
-"g": "thrill",
-"id": 387
-},
-{
-"name": "Khongsittha Muay Thai",
-"category": "thrill",
-"area": "Lat Phrao",
-"lat": 13.82206,
-"lng": 100.60833,
-"coord_confidence": "medium",
-"vibe": "Muay Thai camp with light sparring, and they can line up a real fight if you stay 30+ days",
-"tip": "Drop-in intro class about ฿500. Tue-Sun from 15:00, closed Mon. Camp packages with room available",
-"price": "฿",
-"hours": "Tue-Fri 15:00-20:00, Sat 15:00-19:00, Sun 15:00-18:00",
-"date_friendly": false,
-"night": false,
-"tags": [
-"muay thai",
-"sparring",
-"fight camp"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/khongsittha-muay-thai",
-"https://www.thailandstarterkit.com/lifestyle/bangkok-muay-thai-gyms/"
-],
-"g": "thrill",
-"id": 388
-},
-{
-"name": "Petchyindee Academy",
-"category": "thrill",
-"area": "Bangkok Noi",
-"lat": 13.76773,
-"lng": 100.47987,
-"coord_confidence": "medium",
-"vibe": "Legendary promoter's gym where visitors grind pads beside active stadium fighters",
-"tip": "Message on Facebook before visiting. Mon-Fri 09-20, Sat from 11, closed Sun. Thonburi side, take a Grab",
-"price": "฿",
-"hours": "Mon-Fri 09:00-20:00, Sat 11:00-20:00",
-"date_friendly": false,
-"night": false,
-"tags": [
-"muay thai",
-"fight gym",
-"training"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/petchyindee-academy",
-"https://www.visitthailandtoday.com/top-lists/best-muay-thai-bangkok"
-],
-"g": "thrill",
-"id": 389
-},
-{
-"name": "Sitsongpeenong Muay Thai",
-"category": "thrill",
-"area": "Prawet",
-"lat": 13.68871,
-"lng": 100.67387,
-"coord_confidence": "medium",
-"vibe": "Serious pro camp out east, fighter-level pads and sparring standards",
-"tip": "Drop-in around ฿600, call 02 726 5700 first. Mon-Sat 07-18, closed Sun. Come fit, it is a performance gym",
-"price": "฿",
-"hours": "Mon-Sat 07:00-18:00",
-"date_friendly": false,
-"night": false,
-"tags": [
-"muay thai",
-"sparring",
-"fight camp"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/sitsongpeenong-muay-thai",
-"https://www.thailandstarterkit.com/lifestyle/bangkok-muay-thai-gyms/"
-],
-"g": "thrill",
-"id": 390
-},
-{
-"name": "Bangkok Fight Lab",
-"category": "thrill",
-"area": "On Nut",
-"lat": 13.70509,
-"lng": 100.5975,
-"coord_confidence": "medium",
-"vibe": "Muay Thai, BJJ and MMA under one roof with rings and cage, good for trying real combat sports",
-"tip": "Near BTS On Nut on Sukhumvit 50. Gear rental and showers. Prices via bangkokfightlab.com or 02 013 1087",
-"price": "฿฿",
-"hours": "Mon-Fri ~07:15-21:00, Sat 09:00-17:30",
-"date_friendly": false,
-"night": true,
-"tags": [
-"MMA",
-"muay thai",
-"BJJ",
-"training"
-],
-"sources": [
-"https://www.visitthailandtoday.com/activities-tours/bangkok/bangkok-fight-lab"
-],
-"g": "thrill",
-"id": 391
-},
-{
 "name": "Channel 7 Boxing Stadium",
 "category": "thrill",
 "area": "Chatuchak",
@@ -9994,7 +9818,7 @@
 "sources": [
 "https://muaythaistadiums.com/channel-7-boxing-stadium/"
 ],
-"g": "thrill",
+"g": "show",
 "id": 392
 },
 {
@@ -10018,7 +9842,7 @@
 "sources": [
 "https://muaythaistadiums.com/siam-omnoi-boxing-stadium"
 ],
-"g": "thrill",
+"g": "show",
 "id": 393
 },
 {
@@ -10046,5 +9870,1748 @@
 ],
 "g": "thrill",
 "id": 394
+},
+{
+"name": "Blessing Shophouse",
+"category": "bar",
+"area": "Sukhumvit 14 (Asok)",
+"lat": 13.737,
+"lng": 100.5588,
+"coord_confidence": "medium",
+"vibe": "Hidden two-storey family townhouse turned Chinese-spice cocktail den, plum blossoms and lucky symbols everywhere",
+"tip": "Entrance moved to the back alley behind 6-5 Sukhumvit 14, so walk around the building. Wed-Sun 6pm-midnight. Book on weekends.",
+"price": "฿฿",
+"hours": "Wed-Sun 18:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"hidden-door",
+"cocktails"
+],
+"sources": [
+"https://www.youtube.com/watch?v=mdSfAm88Su0",
+"https://timeout.com/bangkok/bars/blessing-shophouse"
+],
+"g": "bar",
+"id": 395
+},
+{
+"name": "Sugar Ray, You've Just Been Poisoned (Sukhumvit 24)",
+"category": "bar",
+"area": "Sukhumvit 24 (Phrom Phong)",
+"lat": 13.72845,
+"lng": 100.568,
+"coord_confidence": "medium",
+"vibe": "Cult Ekkamai speakeasy reborn in black marble behind a seafood bar, playful cocktails and a costumed doorman",
+"tip": "Go into Octo Seafood Bar at 88/2 Sukhumvit 24 and find the costumed doorman who leads you in. From 7pm, closed Mon. Smart casual.",
+"price": "฿฿฿",
+"hours": "Tue-Sun 19:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"hidden-door",
+"cocktails",
+"iykyk"
+],
+"sources": [
+"https://www.youtube.com/watch?v=bcWdlBw7Ngk",
+"https://www.youtube.com/watch?v=8UQ-ZYGHY00",
+"https://www.timeout.com/bangkok/bars/sugar-ray-youve-just-been-poisoned"
+],
+"g": "bar",
+"id": 396
+},
+{
+"name": "Ku Bar",
+"category": "bar",
+"area": "Phra Sumen Rd (Old Town)",
+"lat": 13.7608,
+"lng": 100.5015,
+"coord_confidence": "low",
+"vibe": "Minimalist third-floor speakeasy in an old printing house, avant-garde seasonal cocktails for the in-crowd",
+"tip": "No sign. Climb to the 3rd floor of 469 Phra Sumen Rd. Small room, so message ahead on IG and go early in the week.",
+"price": "฿฿฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"cocktails",
+"iykyk",
+"old-town"
+],
+"sources": [
+"https://www.youtube.com/watch?v=8UQ-ZYGHY00",
+"https://www.theinfatuation.com/bangkok/reviews/ku-bar"
+],
+"g": "bar",
+"id": 397
+},
+{
+"name": "The Last Call",
+"category": "bar",
+"area": "Thonglor",
+"lat": 13.7336,
+"lng": 100.5827,
+"coord_confidence": "medium",
+"vibe": "Closet-sized 10-seat whisky and cocktail micro-bar, now an official Nikka Whisky Embassy",
+"tip": "413 Thong Lo between Soi 10 and 12. Reservations essential (+66 96 612 0532). Often closed Fri and Sat, so go midweek.",
+"price": "฿฿฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"reservation-only",
+"speakeasy",
+"whisky",
+"intimate"
+],
+"sources": [
+"https://www.youtube.com/watch?v=TlAseMXViZ0",
+"https://www.theinfatuation.com/bangkok/reviews/last-call",
+"https://www.bkmagazine.com/nightlife/cocktails/thonglor-speakeasy-the-last-call-designated-as-thailands-newest-nikka-whisky-embassy/"
+],
+"g": "bar",
+"id": 398
+},
+{
+"name": "Black Cabin",
+"category": "live-music",
+"area": "Thonglor Soi 16",
+"lat": 13.7356,
+"lng": 100.5833,
+"coord_confidence": "medium",
+"vibe": "Red-lit jungle cabin hideaway with nightly live acts and creative cocktails",
+"tip": "Thonglor Soi 16, every night from 7pm. Reserve seats via LINE @BLACKCABINBAR and check Facebook for the monthly lineup.",
+"price": "฿฿",
+"hours": "Daily from 19:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"live-music",
+"hidden",
+"cocktails",
+"late-night"
+],
+"sources": [
+"https://www.youtube.com/watch?v=TlAseMXViZ0",
+"https://www.timeout.com/bangkok/news/stuck-for-plans-in-thonglor-this-red-lit-cabin-serves-live-music-and-creative-cocktails-every-night-012226"
+],
+"g": "live",
+"id": 399
+},
+{
+"name": "Wasteland",
+"category": "bar",
+"area": "Phra Khanong",
+"lat": 13.7165,
+"lng": 100.5942,
+"coord_confidence": "medium",
+"vibe": "Upcycled zero-waste cocktail lab tucked in Edison Alley, reclaimed fridges as decor",
+"tip": "3/19 Pridi Banomyong Soi 1, Edison Alley, a short walk from BTS Phra Khanong. Sit at the bar and talk to the team. Daily 6pm-midnight.",
+"price": "฿฿",
+"hours": "Daily 18:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"hidden-alley",
+"asia-50-best-pick",
+"iykyk"
+],
+"sources": [
+"https://www.youtube.com/watch?v=TlAseMXViZ0",
+"https://www.timeout.com/bangkok/bars/wasteland",
+"https://www.bkmagazine.com/nightlife/phra-khanongs-wasteland-is-turning-into-an-rd-lab-and-were-all-invited/"
+],
+"g": "bar",
+"id": 400
+},
+{
+"name": "1970 Bar (Dusit Thani)",
+"category": "bar",
+"area": "Silom / Rama IV",
+"lat": 13.7242,
+"lng": 100.535,
+"coord_confidence": "medium",
+"vibe": "Retro-glam 1970s lounge in the rebuilt Dusit Thani, velvet, vinyl and sophisticated cocktails",
+"tip": "Inside the new Dusit Thani Bangkok on Rama IV. Book a table on TableCheck for weekend live sets. Smart casual.",
+"price": "฿฿฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"luxury",
+"hotel-bar",
+"retro",
+"live-music",
+"cocktails"
+],
+"sources": [
+"https://www.youtube.com/watch?v=TlAseMXViZ0",
+"https://www.suppermag.com/stories/projects/dusit-thani-bangkok-hotel-introduces-the-1970-bar/",
+"https://www.tablecheck.com/dusit-thani-bangkok-1970-bar/reserve/message"
+],
+"g": "bar",
+"id": 401
+},
+{
+"name": "Spectrum Lounge & Bar (Hyatt Regency Sukhumvit)",
+"category": "rooftop",
+"area": "Sukhumvit Soi 13 (Nana)",
+"lat": 13.7425,
+"lng": 100.5564,
+"coord_confidence": "high",
+"vibe": "Sleek 29th/30th-floor rooftop with DJs every night and deep, melodic house takeovers",
+"tip": "Lift to level 29/30. DJs 8:30pm-midnight nightly. No sandals, vests or sportswear. Book a rail seat for sunset.",
+"price": "฿฿฿",
+"hours": "Daily 17:30-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"house-music",
+"dj",
+"sunset",
+"luxury"
+],
+"sources": [
+"https://www.youtube.com/watch?v=goIZ-VGooWY",
+"https://www.youtube.com/watch?v=GwPdMDT4dw4",
+"https://www.hyatt.com/hyatt-regency/en-US/bkkhr-hyatt-regency-bangkok-sukhumvit/dining/spectrum-lounge-and-bar",
+"https://deephousethailand.com/bangkok/deep-house-field-guide.html"
+],
+"g": "rooftop",
+"id": 402
+},
+{
+"name": "The Key Room No.72 (Josh Hotel)",
+"category": "bar",
+"area": "Ari",
+"lat": 13.7815,
+"lng": 100.5423,
+"coord_confidence": "medium",
+"vibe": "Wes Anderson style hotel hides a secret room behind an unmarked black wall",
+"tip": "Ask the Josh Hotel front desk for 'a key' like a check-in (small deposit), then find the black wall. Daily 6pm-1am.",
+"price": "฿฿",
+"hours": "Daily 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden-door",
+"speakeasy",
+"password-style"
+],
+"sources": [
+"https://www.youtube.com/watch?v=bcWdlBw7Ngk",
+"https://www.timeout.com/bangkok/bars/the-key-room-no-72"
+],
+"g": "bar",
+"id": 403
+},
+{
+"name": "Stella (Capella Bangkok)",
+"category": "bar",
+"area": "Charoen Krung riverside",
+"lat": 13.7178,
+"lng": 100.5121,
+"coord_confidence": "high",
+"vibe": "Glittering jewel-box cocktail bar inside ultra-luxe Capella, made for a special night",
+"tip": "Inside Capella Bangkok, 300/2 Charoen Krung. Reserve for weekends and dress up. Pair with a riverside stroll after.",
+"price": "฿฿฿฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"luxury",
+"hotel-bar",
+"cocktails",
+"exclusive"
+],
+"sources": [
+"https://www.youtube.com/watch?v=bcWdlBw7Ngk",
+"https://www.masalathai.com/food/capella-bangkok-stella",
+"https://guide.michelin.com/th/en/article/dining-out/non-alcoholic-drinks-festive-season-michelin-hotels-bangkok"
+],
+"g": "bar",
+"id": 404
+},
+{
+"name": "Abandoned Mansion",
+"category": "bar",
+"area": "Sukhumvit 14 (Asok)",
+"lat": 13.7363,
+"lng": 100.559,
+"coord_confidence": "medium",
+"vibe": "Gangster-era underground jazz and cigar bar two floors below a hotel lobby",
+"tip": "Head down the red-carpeted stairs to B2 of The Coach Hotel, 41 Sukhumvit 14. Jazz nights are the move. Book on 02 259 7007.",
+"price": "฿฿฿",
+"hours": "Daily 17:30-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"underground",
+"speakeasy",
+"jazz",
+"cigar"
+],
+"sources": [
+"https://timeout.com/bangkok/bars/best-speakeasy-bars-in-bangkok",
+"https://robbreport.co.th/abandoned-mansion-sweeps-robb-report-awards-best-jazz-bar-hotel-win-and-extended-jazz-nights-announced"
+],
+"g": "bar",
+"id": 405
+},
+{
+"name": "Philtration",
+"category": "bar",
+"area": "Kasemsan (National Stadium)",
+"lat": 13.7472,
+"lng": 100.5288,
+"coord_confidence": "medium",
+"vibe": "Basement apothecary speakeasy pouring Chinese-medicine cocktails in a heritage compound",
+"tip": "2 Kasemsan Soi 3: walk through the heritage compound, turn left, find the door by the antique medicine cabinet.",
+"price": "฿฿",
+"hours": "Daily 19:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden-door",
+"speakeasy",
+"basement",
+"cocktails"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/philtration",
+"https://citynomads.com/bar-review-basement-speakseasy-philtration-serves-traditional-chinese-medicine-cocktails-in-pathumwan-bangkok/"
+],
+"g": "bar",
+"id": 406
+},
+{
+"name": "Door No.6",
+"category": "bar",
+"area": "Sukhumvit Soi 6 (Nana)",
+"lat": 13.7403,
+"lng": 100.5535,
+"coord_confidence": "medium",
+"vibe": "Tiny speakeasy hiding in the back of a bespoke tailor, just six drinks named Doors 1 to 6",
+"tip": "25/1 Sukhumvit Soi 6. Walk through the tailoring shop to the back. Tue-Sun 5pm-1am. Call 080-356-3959 to hold seats.",
+"price": "฿฿",
+"hours": "Tue-Sun 17:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden-door",
+"speakeasy",
+"intimate"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/door-no-6",
+"https://badawards.bkmagazine.com/new-bars/best-new-bars-in-bangkok-for-2026/"
+],
+"g": "bar",
+"id": 407
+},
+{
+"name": "2463 Speakeasy",
+"category": "bar",
+"area": "Ekkamai",
+"lat": 13.7205,
+"lng": 100.5852,
+"coord_confidence": "low",
+"vibe": "1920s Prohibition bar behind a fake vintage tailor shop, password at the door",
+"tip": "8 Sukhumvit 63. Tell the 'tailor' the weekly password from their Facebook/IG or call 097 263 2463. Tue-Sun 7pm-2am.",
+"price": "฿฿",
+"hours": "Tue-Sun 19:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"password",
+"hidden-door",
+"speakeasy"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/2463-speakeasy",
+"https://www.tukme.co/blogs/tuk-me-bangkok-travel-by-tuk-tuk/best-speakeasy-bars-in-bangkok",
+"https://bangkokvenues.com/blog/secret-bars-bangkok/"
+],
+"g": "bar",
+"id": 408
+},
+{
+"name": "Rogue Affair",
+"category": "bar",
+"area": "Saladaeng (Silom)",
+"lat": 13.7264,
+"lng": 100.5376,
+"coord_confidence": "medium",
+"vibe": "Spy-themed James Bond style cocktail lounge hidden on a hotel's 5th floor",
+"tip": "5th floor of PASSA Hotel, 63 Saladaeng Soi 2. Free entry, Wed-Sun 6pm-1am. Order the Excommunicado.",
+"price": "฿฿",
+"hours": "Wed-Sun 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden",
+"themed",
+"speakeasy",
+"cocktails"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/rogue-affair",
+"https://bangkokvenues.com/blog/bangkok-nightlife-roundup-2026-07-10-new-openings-literary-bars-and-a-sky-bar/"
+],
+"g": "bar",
+"id": 409
+},
+{
+"name": "Cherry Olive Cocktail Club",
+"category": "bar",
+"area": "Convent Rd (Silom)",
+"lat": 13.7256,
+"lng": 100.5334,
+"coord_confidence": "medium",
+"vibe": "BK's Best New Bar 2026: two moods, playful Cherry side vs classic Olive side",
+"tip": "10 Convent Rd. Pick a side based on your mood. Pair with nearby Vesper for a Convent Rd crawl. Book Fri/Sat.",
+"price": "฿฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"new-2026",
+"award-winner"
+],
+"sources": [
+"https://badawards.bkmagazine.com/new-bars/best-new-bars-in-bangkok-for-2026/",
+"https://indagare.com/restaurant/cherry-olive-cocktail-club",
+"https://thestandard.co/life/cherry-olive-cocktail-club-silom/"
+],
+"g": "bar",
+"id": 410
+},
+{
+"name": "Ruby's (Kimpton Maa-Lai)",
+"category": "bar",
+"area": "Langsuan / Ton Son",
+"lat": 13.7415,
+"lng": 100.5462,
+"coord_confidence": "high",
+"vibe": "16-seat gem-themed hidden bar tucked inside Ms.Jigger, old-Bangkok glamour cocktails",
+"tip": "Ground floor of Kimpton Maa-Lai, 78 Soi Ton Son: ask at Ms.Jigger for Ruby's. Tiny room, book ahead. Daily 5:30pm-midnight.",
+"price": "฿฿฿",
+"hours": "Daily 17:30-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"bar-within-a-bar",
+"luxury",
+"intimate"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/rubys",
+"https://www.bkmagazine.com/food-drink/rubys-at-kimpton-maa-lai-bangkok-opens-a-compelling-new-chapter/"
+],
+"g": "bar",
+"id": 411
+},
+{
+"name": "SoolHaus (Canopy by Hilton Sukhumvit)",
+"category": "bar",
+"area": "Sukhumvit Soi 12 (Asok)",
+"lat": 13.738,
+"lng": 100.5572,
+"coord_confidence": "medium",
+"vibe": "Seoul-style soju bar with DJs spinning house, R&B and K-pop and a 10:30pm group shot ritual",
+"tip": "Level L, Building B, Canopy by Hilton, 98 Sukhumvit Soi 12. DJs Fri and Sat. Arrive before 10:30pm for the geonbae toast.",
+"price": "฿฿",
+"hours": "From 21:00 on DJ nights",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dj",
+"house-music",
+"new-2026",
+"social",
+"korean"
+],
+"sources": [
+"https://www.bkmagazine.com/nightlife/inside-soolhaus-the-nightlife-spot-bringing-seoul-to-sukhumvit/",
+"https://www.timeout.com/bangkok/bars/soolhaus-bar-at-canopy-by-hilton-bangkok-sukhumvit"
+],
+"g": "bar",
+"id": 412
+},
+{
+"name": "The Pickwick Chronicles",
+"category": "bar",
+"area": "Langsuan / Ploenchit",
+"lat": 13.7385,
+"lng": 100.5436,
+"coord_confidence": "low",
+"vibe": "Dickens-themed literary mystery bar off Langsuan, drinks named after his characters",
+"tip": "76/10 Lumphini, off Langsuan. Daily 6pm-1am. Thursday is women-only SipAndSparkle, so couples go Fri/Sat.",
+"price": "฿฿",
+"hours": "Daily 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"themed",
+"hidden",
+"cocktails",
+"literary"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/the-pickwicks-chronicles",
+"https://www.bkmagazine.com/nightlife/new-pickwicks-chronicles-bar-puts-dickensian-spin-nights-out-langsuan/",
+"https://bangkokvenues.com/blog/bangkok-nightlife-roundup-2026-07-10-new-openings-literary-bars-and-a-sky-bar/"
+],
+"g": "bar",
+"id": 413
+},
+{
+"name": "Arcadia Live",
+"category": "live-music",
+"area": "Phra Khanong",
+"lat": 13.7132,
+"lng": 100.59,
+"coord_confidence": "low",
+"vibe": "80s cyberpunk barcade reborn with a central DJ booth, live stage and a secret film-set hotel upstairs",
+"tip": "1112/91-93 Sukhumvit Plus Soi 1 near BTS Phra Khanong, look for the blue-lit dragon. Check IG for DJ nights. BK Best Theme Bar 2026.",
+"price": "฿฿",
+"hours": "From 09:00 (café), bar till late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dj",
+"themed",
+"live-music",
+"arcade",
+"award-winner"
+],
+"sources": [
+"https://www.youtube.com/watch?v=8UQ-ZYGHY00",
+"https://www.bkmagazine.com/nightlife/bars/arcadia-phra-khanongs-cyberpunk-pub-is-reborn-as-arcadia-live/",
+"https://www.khaosodenglish.com/life/2026/07/04/inside-cinematique-a-lost-thai-film-studio-reborn-above-a-phra-khanong-barcade/"
+],
+"g": "live",
+"id": 414
+},
+{
+"name": "Blaq Lyte Bloq",
+"category": "club",
+"area": "Thonglor Soi 13",
+"lat": 13.7355,
+"lng": 100.5812,
+"coord_confidence": "medium",
+"vibe": "New home of the Blaq Lyte crew: tight sound system, deep house, minimal and melodic techno",
+"tip": "251/1 Thonglor Soi 13. Follow @blaqlyte for lineups and tickets on RA. Parties run roughly 7pm-3am. Closed shoes.",
+"price": "฿฿",
+"hours": "Event nights ~19:00-03:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"house-music",
+"deep-house",
+"techno",
+"underground",
+"sound-system"
+],
+"sources": [
+"https://www.youtube.com/watch?v=E-tcf4LRi04",
+"https://ra.co/events/2380382",
+"https://deephousethailand.com/bangkok/underground-house-clubs.html"
+],
+"g": "club",
+"id": 415
+},
+{
+"name": "Fuchsia",
+"category": "club",
+"area": "Decho Rd (Silom)",
+"lat": 13.7252,
+"lng": 100.5246,
+"coord_confidence": "medium",
+"vibe": "Pink retro-futuristic Parisian-style club in an unmarked Decho Rd building, techno-house nights",
+"tip": "Unmarked building on Decho Rd, walk from BTS Chong Nonsi. 350-700 THB with a drink on event nights. Pair with Mustache next door.",
+"price": "฿฿",
+"hours": "Daily 20:00-03:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"house-music",
+"techno",
+"underground",
+"unmarked"
+],
+"sources": [
+"https://www.timeout.com/bangkok/nightlife/fuchsia",
+"https://bangkok-nights.com/guides/best-techno-clubs-bangkok-2026",
+"https://www.bkmagazine.com/nightlife/new-nightclub-fuchsia-brings-underground-parisian-vibes-to-silom/"
+],
+"g": "club",
+"id": 416
+},
+{
+"name": "24 BLVD",
+"category": "club",
+"area": "Sukhumvit 24 (Phrom Phong)",
+"lat": 13.7284,
+"lng": 100.5679,
+"coord_confidence": "medium",
+"vibe": "Open-air hi-so nightlife hub on Soi 24, afro and organic house parties into club hopping",
+"tip": "88/9 Sukhumvit 24. Weekends go party mode; Upper House club is on 2F. Bring your original passport, no slippers or gym wear.",
+"price": "฿฿฿",
+"hours": "Daily 07:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"house-music",
+"afro-house",
+"open-air",
+"hi-so",
+"terrace"
+],
+"sources": [
+"https://www.youtube.com/watch?v=IwVeuAlQrgs",
+"https://www.timeout.com/bangkok/things-to-do/24blvd",
+"https://deephousethailand.com/bangkok/deep-house-field-guide.html"
+],
+"g": "club",
+"id": 417
+},
+{
+"name": "Japanish Rooftop",
+"category": "rooftop",
+"area": "Sukhumvit Soi 11",
+"lat": 13.7448,
+"lng": 100.5558,
+"coord_confidence": "medium",
+"vibe": "19th-floor Soi 11 rooftop open till 4am with rotating deep and melodic house lineups",
+"tip": "19F Ramada by Wyndham, Sukhumvit Soi 11. Open till 04:00, so it works as an after-club rooftop. Book via Chope.",
+"price": "฿฿",
+"hours": "Daily 17:30-04:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"house-music",
+"late-night",
+"after-hours"
+],
+"sources": [
+"https://deephousethailand.com/bangkok/deep-house-field-guide.html",
+"https://www.visitthailandtoday.com/restaurants/bangkok/japanish-rooftop-bar-and-modern-kitchen",
+"https://www.chope.co/bangkok-restaurants/restaurant/japanish-bkk"
+],
+"g": "rooftop",
+"id": 418
+},
+{
+"name": "Bar 335",
+"category": "bar",
+"area": "Sukhumvit 39 (Phrom Phong)",
+"lat": 13.7325,
+"lng": 100.571,
+"coord_confidence": "low",
+"vibe": "Tiny YOLO Group counter bar built around music and late-night regulars",
+"tip": "Now on Sukhumvit 39. Very few seats, so come solo or as a pair. Daily 8pm-midnight. Watch IG for guest DJ nights.",
+"price": "฿฿",
+"hours": "Daily 20:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"intimate",
+"music-bar",
+"iykyk",
+"cocktails"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/bar-335-marks-six-years-with-an-all-month-celebration",
+"https://paitiewthailand.com/top-secret-bars-in-bangkok-2025/"
+],
+"g": "bar",
+"id": 419
+},
+{
+"name": "Q&A Bar",
+"category": "bar",
+"area": "Sukhumvit 21 (Asok)",
+"lat": 13.7415,
+"lng": 100.5613,
+"coord_confidence": "low",
+"vibe": "Moody Asok classic hiding behind a green marble wall with a tiny sign",
+"tip": "235/13 Sukhumvit 21 (Asok Rd). Look for the small plaque on the green marble wall. Mon-Sat 7pm-2am.",
+"price": "฿฿",
+"hours": "Mon-Sat 19:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden",
+"speakeasy",
+"cocktails"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/q-a-bar",
+"https://www.tukme.co/blogs/tuk-me-bangkok-travel-by-tuk-tuk/best-speakeasy-bars-in-bangkok"
+],
+"g": "bar",
+"id": 420
+},
+{
+"name": "Sugar Club",
+"category": "club",
+"area": "Sukhumvit Soi 11",
+"lat": 13.7442,
+"lng": 100.5556,
+"coord_confidence": "medium",
+"vibe": "Soi 11 late-license club for when you want a big dance floor after rooftops",
+"tip": "Sukhumvit Soi 11, busiest after midnight on weekends. Guest list via promoters. Bring passport, no shorts or sandals.",
+"price": "฿฿",
+"hours": "Late night till ~04:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"late-night",
+"soi-11"
+],
+"sources": [
+"https://www.youtube.com/watch?v=1XxMKTQqYvs",
+"https://www.timeout.com/bangkok/nightlife/sugar-club",
+"https://www.clubbable.com/sv-SE/Bangkok/Sugar-Club"
+],
+"g": "club",
+"id": 421
+},
+{
+"name": "008 Bar (MUU Bangkok)",
+"category": "bar",
+"area": "Thonglor",
+"lat": 13.7299,
+"lng": 100.582,
+"coord_confidence": "low",
+"vibe": "Hidden 11th-floor hotel bar in Thonglor with a Bond-esque low-light lounge feel",
+"tip": "Ride to 11F of MUU Bangkok (ex-Akyra Thonglor), 88/333 Sukhumvit 55. Daily 6pm-1am. Good warm-up before Thonglor clubs.",
+"price": "฿฿฿",
+"hours": "Daily 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden",
+"hotel-bar",
+"cocktails"
+],
+"sources": [
+"https://www.youtube.com/watch?v=bcWdlBw7Ngk",
+"https://prod.gcp.timeout.com/bangkok/bars/008-bar",
+"https://paitiewthailand.com/top-secret-bars-in-bangkok-2025/"
+],
+"g": "bar",
+"id": 422
+},
+{
+"name": "Hannibal",
+"category": "rooftop",
+"area": "Yaowarat / Chinatown",
+"lat": 13.7412,
+"lng": 100.5108,
+"coord_confidence": "medium",
+"vibe": "Hidden 10th-floor Chinatown bar with nightly DJs, Guan Yu statues and cocktails rolled down a bowling lane.",
+"tip": "Enter Pichaiyart Building (the one with Lotus's), lift to 10F, walk the neon corridor past massage and karaoke rooms to a heavy door.",
+"price": "฿฿",
+"hours": "Daily 5:30pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden-door",
+"dj",
+"chinatown",
+"quirky"
+],
+"sources": [
+"https://www.timeout.com/bangkok/news/hannibal-is-the-hidden-chinatown-rooftop-serving-cocktails-inside-bowling-balls-120825",
+"https://www.rexby.com/SomethingofFreedom/ttd/chinatowns-hidden-rooftop-bar"
+],
+"g": "rooftop",
+"id": 423
+},
+{
+"name": "Widdershins",
+"category": "bar",
+"area": "Yaowarat / Chinatown",
+"lat": 13.74,
+"lng": 100.5095,
+"coord_confidence": "low",
+"vibe": "Western-style hideaway tucked inside a Chinese restaurant, built around a giant wall clock.",
+"tip": "Go through Laoteng restaurant on Yaowarat. Draw a card and let the bartender make you a custom drink.",
+"price": "฿฿",
+"hours": "Sun-Thu 6pm-midnight, Fri-Sat 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"chinatown",
+"hidden-in-restaurant"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/widdershins",
+"https://www.phuket101.net/bangkok/widdershins-hidden-bar/"
+],
+"g": "bar",
+"id": 424
+},
+{
+"name": "Goldsmith Bar",
+"category": "bar",
+"area": "Yaowarat / Chinatown",
+"lat": 13.7408,
+"lng": 100.5103,
+"coord_confidence": "low",
+"vibe": "1930s Shanghai and Silk Road styled speakeasy upstairs from a Hong Kong diner.",
+"tip": "Climb the stairs above Chop Chop Cook Shop on Yaowarat. Closed Mon-Tue.",
+"price": "฿฿",
+"hours": "Wed-Sun 6pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"chinatown",
+"upstairs"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025",
+"https://www.tatlerasia.com/dining/drinks/bkk-best-hidden-bars"
+],
+"g": "bar",
+"id": 425
+},
+{
+"name": "Vol de Nuit, The Hidden Bar",
+"category": "bar",
+"area": "Suan Phlu / Sathorn",
+"lat": 13.7188,
+"lng": 100.541,
+"coord_confidence": "low",
+"vibe": "Marble-lit European speakeasy at the back of an art space, with a leafy courtyard garden bar.",
+"tip": "Walk through L'Envol Art Space on Soi Suan Phlu to the back. Garden Bar is the move on cooler nights.",
+"price": "฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"speakeasy",
+"garden",
+"art-space"
+],
+"sources": [
+"https://www.tatlerasia.com/dining/drinks/bkk-best-hidden-bars"
+],
+"g": "bar",
+"id": 426
+},
+{
+"name": "The Reading Room (Rangoon Tea House)",
+"category": "bar",
+"area": "Thonglor / Sukhumvit 38",
+"lat": 13.7218,
+"lng": 100.5815,
+"coord_confidence": "low",
+"vibe": "Vintage library bar with green armchairs, sultry light and a small outdoor terrace.",
+"tip": "Head upstairs above Rangoon Tea House. Try the Tokyo Nights section of the menu.",
+"price": "฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"upstairs",
+"terrace",
+"cosy"
+],
+"sources": [
+"https://www.tatlerasia.com/dining/drinks/bkk-best-hidden-bars",
+"https://www.bkmagazine.com/nightlife/rangoon-tea-house-ups-its-cocktail-game-reading-room/"
+],
+"g": "bar",
+"id": 427
+},
+{
+"name": "Thaipioka",
+"category": "bar",
+"area": "Thonglor",
+"lat": 13.729,
+"lng": 100.5813,
+"coord_confidence": "medium",
+"vibe": "Unmarked wooden door, jazz early then hip-hop and dancing late. World's 50 Best Discovery pick.",
+"tip": "Find the unmarked wooden door at the Salil Hotel. Weekdays for cocktails, Fri-Sat for dancing.",
+"price": "฿฿฿",
+"hours": "Daily 7pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden-door",
+"speakeasy",
+"dancing"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/best-clubs-where-people-go-to-dance",
+"https://www.theworlds50best.com/discovery/Establishments/Thailand/Bangkok/Thaipioka.html",
+"https://www.instagram.com/thaipioka.bkk/"
+],
+"g": "bar",
+"id": 428
+},
+{
+"name": "Crimson Room",
+"category": "bar",
+"area": "Langsuan",
+"lat": 13.736,
+"lng": 100.5429,
+"coord_confidence": "medium",
+"vibe": "Roaring Twenties theatre bar with private booths, velvet drama and live jazz.",
+"tip": "In Velaa Sindhorn Village off Langsuan. Book a booth for dates; dress up a little.",
+"price": "฿฿฿฿",
+"hours": "Daily 6pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"exclusive",
+"design-led",
+"live-jazz",
+"1920s"
+],
+"sources": [
+"https://www.timeout.com/bangkok/th/things-to-do/ดื่มด่ำความดรามาในค่ำคืนพิเศษที่-crimson-room",
+"https://citynomads.com/bar-review-crimson-room-takes-on-the-roaring-twenties-in-lang-suan-bangkok/"
+],
+"g": "bar",
+"id": 429
+},
+{
+"name": "The Red Door (Staybridge Suites)",
+"category": "bar",
+"area": "Sukhumvit 24 / Phrom Phong",
+"lat": 13.7299,
+"lng": 100.5676,
+"coord_confidence": "low",
+"vibe": "Parisian cafe-bar up front, a DJ club zone hidden in the back, live jazz some nights.",
+"tip": "Go to 3F of Staybridge Suites on Soi 24. Push through to the back room for the DJ. Closed Mon.",
+"price": "฿฿",
+"hours": "Tue-Sun 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"dj",
+"back-room",
+"hotel-bar"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 430
+},
+{
+"name": "Aqua Bar (Anantara Siam)",
+"category": "bar",
+"area": "Ratchadamri",
+"lat": 13.7409,
+"lng": 100.5406,
+"coord_confidence": "high",
+"vibe": "Asia's 50 Best Bars 2026 entry inside a grand hotel, polished and quietly glamorous.",
+"tip": "Inside Anantara Siam near BTS Ratchadamri. Smart casual. Great pre-dinner stop before Langsuan or Lumpini.",
+"price": "฿฿฿฿",
+"hours": "Evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"exclusive",
+"award-winning",
+"hotel-bar"
+],
+"sources": [
+"https://www.bkmagazine.com/nightlife/bars/8-bangkok-bars-rank-on-the-asias-50-best-bars-2026/"
+],
+"g": "bar",
+"id": 431
+},
+{
+"name": "La Copita",
+"category": "bar",
+"area": "Yaowarat / Chinatown",
+"lat": 13.7396,
+"lng": 100.5072,
+"coord_confidence": "low",
+"vibe": "Tiny standing agave bar run by rotating bartenders from Opium Bar, menu changes weekly.",
+"tip": "Standing room only, so treat it as a first or last stop on a Chinatown crawl. Closed Tue-Wed.",
+"price": "฿฿",
+"hours": "Thu-Mon 6pm-1am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"tiny",
+"agave",
+"chinatown",
+"bar-crawl"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 432
+},
+{
+"name": "The National Bar",
+"category": "bar",
+"area": "Song Wat / Chinatown",
+"lat": 13.7381,
+"lng": 100.5087,
+"coord_confidence": "low",
+"vibe": "Cocktails inside a historic Song Wat Road building with a Van Gogh lightbox and stories on tap.",
+"tip": "Ask staff for the building's history. Pair with a walk down Song Wat before it gets late.",
+"price": "฿฿",
+"hours": "Daily 4pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"heritage",
+"design-led",
+"chinatown"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "bar",
+"id": 433
+},
+{
+"name": "Thurty 30",
+"category": "bar",
+"area": "Soi Nana / Chinatown",
+"lat": 13.7399,
+"lng": 100.5133,
+"coord_confidence": "low",
+"vibe": "Speakeasy-style room on Soi Nana with vintage sofas and cocktails based on life stories.",
+"tip": "Easy add to a Soi Nana crawl with G.O.D and Tep Bar. Grab a sofa early on weekends.",
+"price": "฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"speakeasy",
+"chinatown",
+"bar-crawl"
+],
+"sources": [
+"https://www.timeout.com/bangkok/nightlife/bars-in-soi-nana-chinatown"
+],
+"g": "bar",
+"id": 434
+},
+{
+"name": "NANA'",
+"category": "rooftop",
+"area": "Soi Nana / Chinatown",
+"lat": 13.7396,
+"lng": 100.5134,
+"coord_confidence": "low",
+"vibe": "Small izakaya-style bar with craft beer, complex cocktails and a casual rooftop perch.",
+"tip": "Head up to the rooftop seats for a breather between Soi Nana bars. Open till 2am.",
+"price": "฿฿",
+"hours": "Daily 6pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"small",
+"chinatown",
+"late"
+],
+"sources": [
+"https://www.timeout.com/bangkok/nightlife/bars-in-soi-nana-chinatown"
+],
+"g": "rooftop",
+"id": 435
+},
+{
+"name": "Cul de Sac (The Quartier Hotel)",
+"category": "rooftop",
+"area": "Sukhumvit 39 / Phrom Phong",
+"lat": 13.7334,
+"lng": 100.5713,
+"coord_confidence": "low",
+"vibe": "1980s backyard-on-a-roof bar with a giant outdoor movie screen and games.",
+"tip": "Take the lift to 10F. Go Fri-Sat when it runs to 2am, or catch a movie night.",
+"price": "฿฿",
+"hours": "Sun-Thu 5:30pm-12:30am, Fri-Sat to 2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"terrace",
+"outdoor-cinema",
+"casual"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/bangkoks-best-new-bars-in-2025"
+],
+"g": "rooftop",
+"id": 436
+},
+{
+"name": "Flashback Rooftop Bar",
+"category": "rooftop",
+"area": "Sukhumvit 20 / Asok",
+"lat": 13.7304,
+"lng": 100.5634,
+"coord_confidence": "low",
+"vibe": "Retro-neon low-rise rooftop with a pool, BTS skyline views and live bands.",
+"tip": "9F of Tastoria Collection on Soi 20. Try the cult northern sausage spaghetti.",
+"price": "฿฿",
+"hours": "Daily 4pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"pool",
+"live-music",
+"retro"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/flashback-rooftop-bar"
+],
+"g": "rooftop",
+"id": 437
+},
+{
+"name": "Sky on 20 (Novotel Sukhumvit 20)",
+"category": "rooftop",
+"area": "Sukhumvit 20 / Asok",
+"lat": 13.7321,
+"lng": 100.5636,
+"coord_confidence": "medium",
+"vibe": "Laid-back 26th-floor rooftop with a live DJ most nights and wide Sukhumvit views.",
+"tip": "Casual dress OK. Arrive around 6pm for sunset and the first DJ sets.",
+"price": "฿฿",
+"hours": "Daily 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"sunset"
+],
+"sources": [
+"https://therooftopguide.com/rooftop-bars-in-bangkok/sky-on-20-at-novotel-bangkok-sukhumvit-20.html",
+"https://www.timeout.com/bangkok/bars/sky-on-20"
+],
+"g": "rooftop",
+"id": 438
+},
+{
+"name": "Vanilla Sky (SKYVIEW Hotel)",
+"category": "rooftop",
+"area": "Sukhumvit 24 / Phrom Phong",
+"lat": 13.7293,
+"lng": 100.5681,
+"coord_confidence": "medium",
+"vibe": "35th-floor 360-degree rooftop over the EM District with live DJs nightly.",
+"tip": "Smart casual: no sleeveless shirts, flip-flops or big bags. Sunset slot is the one to book.",
+"price": "฿฿฿",
+"hours": "Daily 5:30pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"sunset",
+"360-view"
+],
+"sources": [
+"https://therooftopguide.com/rooftop-bars-in-bangkok/vanilla-sky.html",
+"https://timeout.com/bangkok/bars/vanilla-sky"
+],
+"g": "rooftop",
+"id": 439
+},
+{
+"name": "Mimi's Rooftop (dusitD2 Samyan)",
+"category": "rooftop",
+"area": "Samyan / Si Phraya",
+"lat": 13.7317,
+"lng": 100.5271,
+"coord_confidence": "low",
+"vibe": "25th-floor open-air rooftop that runs from sunset drinks into DJ-fuelled late parties.",
+"tip": "Go for sunset, stay for the DJ. Big themed parties (NYE etc.) are ticketed. Book via Chope.",
+"price": "฿฿฿",
+"hours": "Daily 5pm-midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"sunset",
+"party"
+],
+"sources": [
+"https://www.chope.co/bangkok-restaurants/restaurant/mimis",
+"https://www.timeout.com/bangkok/things-to-do/ring-in-2026-at-mimis-glitter-riot-countdown-party"
+],
+"g": "rooftop",
+"id": 440
+},
+{
+"name": "What's Happened?",
+"category": "club",
+"area": "Phrom Phong / EmSphere",
+"lat": 13.7316,
+"lng": 100.5671,
+"coord_confidence": "high",
+"vibe": "Hidden club behind a deliberately discreet door, theatrical rooms and DJs mixing commercial and underground.",
+"tip": "5F EmSphere, Em Wonder zone. Book ahead on weekends, dress smart (no flip-flops), check lineup on IG.",
+"price": "฿฿฿",
+"hours": "Daily 8pm-3am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"secret",
+"club",
+"dj",
+"dress-code"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/whats-happened",
+"https://www.timeout.com/bangkok/clubs/best-clubs-where-people-go-to-dance",
+"https://www.instagram.com/whatshappened.bkk/"
+],
+"g": "club",
+"id": 441
+},
+{
+"name": "BEEF. BKK",
+"category": "club",
+"area": "Silom",
+"lat": 13.7293,
+"lng": 100.5348,
+"coord_confidence": "high",
+"vibe": "Packed 9th-floor queer club playing house, pop and disco to a crowd that actually dances.",
+"tip": "B400 entry includes two drinks. Saturday queues can hit two hours, so arrive before 10pm.",
+"price": "฿฿",
+"hours": "Mon-Thu 9pm-2am, Fri-Sun 9pm-3am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"house",
+"disco",
+"queer",
+"dancing"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/best-clubs-where-people-go-to-dance",
+"https://www.timeout.com/news/i-live-in-the-worlds-best-city-for-nightlife-here-are-the-8-spots-id-never-gatekeep-090226"
+],
+"g": "club",
+"id": 442
+},
+{
+"name": "The Consul (Yang Club)",
+"category": "bar",
+"area": "Sukhumvit / Nana",
+"lat": 13.741,
+"lng": 100.551,
+"coord_confidence": "low",
+"vibe": "Private members' club on the top floors of JLK Tower, with a Jackson Wang-curated music and culture club inside.",
+"tip": "Members only for most areas. Non-members can book public events like the Sunday caviar tea. Inquire via the club.",
+"price": "฿฿฿฿",
+"hours": "Varies by event",
+"date_friendly": true,
+"night": true,
+"tags": [
+"exclusive",
+"members-club",
+"skyline",
+"luxury"
+],
+"sources": [
+"https://www.fzine.com/culture/bangkok-the-consul-yang-club-jackson-wang",
+"https://www.timeout.com/bangkok/th/clubs/the-consul-club",
+"https://www.koktailmagazine.com/2026/02/06/socialising-at-bangkoks-prime-social-club-the-consul-club/"
+],
+"g": "bar",
+"id": 443
+},
+{
+"name": "Soho House Bangkok",
+"category": "rooftop",
+"area": "Sukhumvit 31",
+"lat": 13.7378,
+"lng": 100.5699,
+"coord_confidence": "low",
+"vibe": "Southeast Asia's first Soho House, rooftop pool and DJ-led sunset pool parties for members.",
+"tip": "Members and their guests only. Get a member to sign you in for a sunset pool party.",
+"price": "฿฿฿฿",
+"hours": "Members' hours",
+"date_friendly": true,
+"night": true,
+"tags": [
+"exclusive",
+"members-club",
+"rooftop",
+"pool",
+"dj"
+],
+"sources": [
+"https://www.sohohouse.com/en-us/houses/soho-house-bangkok",
+"https://ra.co/clubs/th/bangkok",
+"https://www.timeout.com/bangkok/things-to-do/sunset-splash-pool-party-x-innerbloom"
+],
+"g": "rooftop",
+"id": 444
+},
+{
+"name": "Berlin BKK",
+"category": "club",
+"area": "Ekkamai (5F Donki Mall, Sukhumvit 63)",
+"lat": 13.7316,
+"lng": 100.5852,
+"coord_confidence": "medium",
+"vibe": "New 2026 Berlin-blueprint techno room hidden on the 5th floor of a Japanese discount mall",
+"tip": "Fri-Sat only, 10:30pm-3:45am. Check RA for the lineup (Moodyboom, Kunanon). Expect around 300-500 THB at the door.",
+"price": "฿฿",
+"hours": "Fri-Sat 10:30pm-3:45am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"underground",
+"techno",
+"new-2026",
+"hidden"
+],
+"sources": [
+"https://bangkok-nights.com/guides/best-techno-clubs-bangkok-2026",
+"https://loopliner.com/news/the-best-house-and-techno-clubs-in-bangkok-2026-edition",
+"https://ra.co/clubs/th/bangkok"
+],
+"g": "club",
+"id": 445
+},
+{
+"name": "Amnesia RCA (INAKOMA Fridays)",
+"category": "club",
+"area": "RCA (Royal City Avenue)",
+"lat": 13.751,
+"lng": 100.5752,
+"coord_confidence": "medium",
+"vibe": "Weekly budget hard-techno rave with free early drinks and heavy production",
+"tip": "INAKOMA runs every Friday 10pm-4am, listed on RA. Around 400-500 THB, free beers 10pm-midnight. Bring passport, 20+.",
+"price": "฿",
+"hours": "Fri 10pm-4am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"underground",
+"hard-techno",
+"rave",
+"weekly"
+],
+"sources": [
+"https://de.ra.co/events/2549289",
+"https://bangkok-nights.com/guides/best-techno-clubs-bangkok-2026",
+"https://www.indiehackers.com/post/hard-techno-scene-in-bangkok-rising-clubs-and-events-c579a67b99"
+],
+"g": "club",
+"id": 446
+},
+{
+"name": "Blaq Lyte Rover & Blaq Lyte 11",
+"category": "club",
+"area": "Ekkamai Soi 5",
+"lat": 13.7253,
+"lng": 100.5862,
+"coord_confidence": "medium",
+"vibe": "Industrial neon club from the BLAQ LYTE crew: Void-powered main room plus a leather-couch backroom",
+"tip": "Rover rocks Fri-Sat, the Blaq Lyte 11 backroom runs Wed, Thu and Sun. Often free before 11pm, then about 260 THB with a drink. Follow @blaqlyte.",
+"price": "฿",
+"hours": "9pm-3am (Tue-Sun)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"underground",
+"deep-house",
+"techno",
+"collective-run"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/blaq-lyte",
+"https://de.ra.co/events/2226412",
+"https://www.trvlogue.com/en/bangkok-techno-clubs"
+],
+"g": "club",
+"id": 447
+},
+{
+"name": "Avve",
+"category": "club",
+"area": "Phra Khanong Nuea (Edison Alley)",
+"lat": 13.717,
+"lng": 100.593,
+"coord_confidence": "low",
+"vibe": "Five-storey raw event building where crews like Sacristy throw techno and DnB raves",
+"tip": "No fixed schedule: watch RA for avve, Sacristy and Rave RoomZ nights. Typically 200 THB, 11pm-3:30am, 20+.",
+"price": "฿",
+"hours": "Event nights only, approx 11pm-3:30am",
+"date_friendly": false,
+"night": true,
+"tags": [
+"underground",
+"warehouse",
+"techno",
+"rave",
+"secret-ish"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/avve-5-storey-event-space",
+"https://de.ra.co/events/2517141",
+"https://ra.co/guide/th/bangkok"
+],
+"g": "club",
+"id": 448
+},
+{
+"name": "Begrüntes Haus",
+"category": "club",
+"area": "Phra Khanong (Sukhumvit Rd)",
+"lat": 13.7165,
+"lng": 100.59,
+"coord_confidence": "low",
+"vibe": "Under-the-radar house-turned-party space hosting experimental techno series like BALK / INIT",
+"tip": "Only opens for events. Find dates on the RA Bangkok guide, then DM the promoter for the location details.",
+"price": "฿",
+"hours": "Event nights only",
+"date_friendly": false,
+"night": true,
+"tags": [
+"underground",
+"secret",
+"techno",
+"pop-up"
+],
+"sources": [
+"https://ra.co/clubs/th/bangkok",
+"https://ra.co/guide/th/bangkok"
+],
+"g": "club",
+"id": 449
+},
+{
+"name": "Bangkok Island (party barge)",
+"category": "club",
+"area": "Rama 3 / Chong Nonsi riverside",
+"lat": 13.694,
+"lng": 100.5295,
+"coord_confidence": "low",
+"vibe": "A converted sand barge with two decks that cruises the Chao Phraya while house DJs play",
+"tip": "Resonate BKK (UK deep house/minimal crew) runs sunset-to-midnight boat parties. 300-650 THB online, 800 at the door. Book via RA or bangkokisland.com.",
+"price": "฿฿",
+"hours": "Event days, often 3pm or 6pm to midnight",
+"date_friendly": true,
+"night": true,
+"tags": [
+"boat-party",
+"deep-house",
+"minimal",
+"river",
+"sunset"
+],
+"sources": [
+"https://ra.co/events/2274897",
+"https://www.timeout.com/bangkok/things-to-do/join-strangers-wholl-talk-like-old-friends-on-resonates-bangkok-island-boat-party",
+"https://www.bkmagazine.com/city-living/bangkok-island-live-music-venue-boat/"
+],
+"g": "club",
+"id": 450
+},
+{
+"name": "Levels Club & Lounge (The Terrace)",
+"category": "club",
+"area": "Sukhumvit Soi 11",
+"lat": 13.7435,
+"lng": 100.5556,
+"coord_confidence": "medium",
+"vibe": "Big Soi 11 club where the open-air terrace runs house and melodic techno while the main room goes commercial",
+"tip": "Head straight to The Terrace for house and melodic techno, nightly. Open until late on the 4am-licence soi. Reserve tables via clubbable.",
+"price": "฿฿฿",
+"hours": "Daily 10pm-late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"terrace",
+"house-music",
+"melodic-techno",
+"late-licence"
+],
+"sources": [
+"https://www.khaosanroad.com/events/the-terrace-house-melodic-techno-at-levels-club-nightly-2026-05-30",
+"https://jetsetbangkok.com/best-nightclubs/",
+"https://ra.co/clubs/th/bangkok"
+],
+"g": "club",
+"id": 451
+},
+{
+"name": "CHUPA BKK",
+"category": "club",
+"area": "Sukhumvit 40 (T-One Building 45F)",
+"lat": 13.7203,
+"lng": 100.5838,
+"coord_confidence": "medium",
+"vibe": "Glossy galaxy-themed luxury club one floor below Tichuca, where the rooftop crowd ends up",
+"tip": "Go up for sunset at Tichuca, then drop one floor when the party starts. Daily 8pm-2am. Dress sharp; call 083 494 5666 for tables.",
+"price": "฿฿฿฿",
+"hours": "Daily 8pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"luxury",
+"high-rise",
+"club",
+"after-rooftop"
+],
+"sources": [
+"https://www.timeout.com/bangkok/clubs/chupa",
+"https://www.timeout.com/bangkok/sitemaps/2026/07"
+],
+"g": "club",
+"id": 452
+},
+{
+"name": "Ambient Bar BKK",
+"category": "bar",
+"area": "Old Town (Samran Rat, near Giant Swing)",
+"lat": 13.7517,
+"lng": 100.503,
+"coord_confidence": "low",
+"vibe": "Tiny Old Town vinyl bar for strictly-vinyl soul, house and ambient sessions",
+"tip": "Free entry nights such as The Doorway Sessions (strictly vinyl) are listed on RA. Pair it with Bar Temp. nearby in Chinatown.",
+"price": "฿",
+"hours": "Evenings, event-dependent (approx 7pm-midnight)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"vinyl",
+"listening-bar",
+"house-music",
+"old-town",
+"free-entry"
+],
+"sources": [
+"https://ra.co/events/2442836",
+"https://ra.co/events/2408659",
+"https://ra.co/clubs/th/bangkok"
+],
+"g": "bar",
+"id": 453
+},
+{
+"name": "Bangkok Community Radio (BCR)",
+"category": "bar",
+"area": "Charoen Krung / Si Phraya",
+"lat": 13.7295,
+"lng": 100.5155,
+"coord_confidence": "low",
+"vibe": "Grassroots radio studio where Bangkok's underground DJs stream, gather and throw community parties",
+"tip": "Follow BCR on IG for open studio nights and BCR Soundsystem parties, often held at Clutch / The Warehouse with the RomRom crew.",
+"price": "฿",
+"hours": "Event-dependent",
+"date_friendly": true,
+"night": true,
+"tags": [
+"underground",
+"community",
+"collective",
+"dj-radio"
+],
+"sources": [
+"https://trippin.world/guide/issasha-guide-to-bangkok-nightlife",
+"https://ra.co/clubs/th/bangkok",
+"https://bangkok-nights.com/guides/best-techno-clubs-bangkok-2026"
+],
+"g": "bar",
+"id": 454
+},
+{
+"name": "House of Heals",
+"category": "rooftop",
+"area": "Ratchaprasong (Renaissance Bangkok 33F)",
+"lat": 13.7451,
+"lng": 100.544,
+"coord_confidence": "medium",
+"vibe": "33rd-floor queer-friendly rooftop with rotating DJs and drag, high above the city",
+"tip": "Closed Tuesday. Fri-Sun runs until 2am. Book a window table.",
+"price": "฿฿฿",
+"hours": "Mon, Wed, Thu 9pm-1:30am; Fri-Sun 8:30pm-2am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"lgbtq",
+"dj",
+"late"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/best-queer-venues-in-bangkok"
+],
+"g": "rooftop",
+"id": 455
+},
+{
+"name": "SEEN Restaurant & Bar (Avani+ Riverside)",
+"category": "rooftop",
+"area": "Thonburi riverside",
+"lat": 13.7072,
+"lng": 100.5065,
+"coord_confidence": "medium",
+"vibe": "Glam riverside sky-dining that turns into vocal deep house and Latin DJ sets after dinner",
+"tip": "Resident and guest house DJs. Go for sunset over the river, then head up one level to SIN Rooftop. Reserve.",
+"price": "฿฿฿฿",
+"hours": "Daily approx 6pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"deep-house",
+"river-view",
+"luxury"
+],
+"sources": [
+"https://www.khaosanroad.com/articles/bangkok-rooftop-bars-live-djs-khao-san"
+],
+"g": "rooftop",
+"id": 456
+},
+{
+"name": "Escape Bangkok",
+"category": "rooftop",
+"area": "Phrom Phong (EmQuartier 5F)",
+"lat": 13.7318,
+"lng": 100.5697,
+"coord_confidence": "medium",
+"vibe": "Mall-top terrace bar with house DJs, and a past venue for Mustache takeover nights",
+"tip": "Weekends get busy. Commercial house and pop edits on peak nights. Good pre-party a short walk from BTS Phrom Phong.",
+"price": "฿฿฿",
+"hours": "Daily approx 5pm-1am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"terrace",
+"house-music",
+"pre-party"
+],
+"sources": [
+"https://www.khaosanroad.com/articles/bangkok-rooftop-bars-live-djs-khao-san",
+"https://www.bkmagazine.com/bar/escape-bangkok/",
+"https://ra.co/clubs/th/bangkok"
+],
+"g": "rooftop",
+"id": 457
+},
+{
+"name": "FVTURE Bangkok",
+"category": "club",
+"area": "Huai Khwang (Bravo BKK, near RCA)",
+"lat": 13.748,
+"lng": 100.576,
+"coord_confidence": "low",
+"vibe": "6,000-capacity hyperclub on an L-Acoustics rig, booking CamelPhat, Kolsch and ARTBAT",
+"tip": "Opened Dec 2025. Check IG and Ticketmelon for headliner nights, which sell out. Buy online, dress smart, 20+.",
+"price": "฿฿฿",
+"hours": "Event nights, approx 10pm-late",
+"date_friendly": false,
+"night": true,
+"tags": [
+"hyperclub",
+"melodic-house",
+"tech-house",
+"big-room",
+"new"
+],
+"sources": [
+"https://www.timeout.com/bangkok/things-to-do/fvture-bangkok",
+"https://djmag.com/news/camelphat-announce-fvture-bangkok-show-association-dj-mag",
+"https://timeout.com/bangkok/nightlife/out-of-the-ashes-is-bangkoks-club-scene-burning-out-or-levelling-up"
+],
+"g": "club",
+"id": 458
+},
+{
+"name": "MOJJO Rooftop Lounge & Bar",
+"category": "rooftop",
+"area": "Sukhumvit 24 (Skyview Hotel 32F)",
+"lat": 13.7288,
+"lng": 100.5686,
+"coord_confidence": "medium",
+"vibe": "Boho rooftop lounge with a live DJ and Latin-to-house sets over Phrom Phong",
+"tip": "Open 6pm-1:30am. Go up a few floors to Vanilla Sky for a quieter nightcap. Best at sunset.",
+"price": "฿฿฿",
+"hours": "Daily 6pm-1:30am",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"sunset"
+],
+"sources": [
+"https://lubd.com/scoop/must-visit-rooftop-bars-in-bangkok-2026-edition/",
+"https://thailandmagazine.com/bangkok/rooftop-bars/mojjo-rooftop-lounge-bar/",
+"https://ra.co/clubs/th/bangkok"
+],
+"g": "rooftop",
+"id": 459
+},
+{
+"name": "Tulum Sky Bar (Mövenpick Ekkamai)",
+"category": "rooftop",
+"area": "Ekkamai (Sukhumvit 63, 29F)",
+"lat": 13.7335,
+"lng": 100.586,
+"coord_confidence": "low",
+"vibe": "Tulum-styled 29th-floor terrace for golden-hour beats on the Ekkamai side",
+"tip": "Come for sunset, when the beats are on. Then walk to Berlin BKK or Blaq Lyte Rover nearby for the late session.",
+"price": "฿฿฿",
+"hours": "Evenings from approx 5pm",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"sunset",
+"boho",
+"ekkamai"
+],
+"sources": [
+"https://lubd.com/scoop/must-visit-rooftop-bars-in-bangkok-2026-edition/"
+],
+"g": "rooftop",
+"id": 460
 }
 ]
