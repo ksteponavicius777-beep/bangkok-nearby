@@ -11613,5 +11613,1650 @@
 ],
 "g": "rooftop",
 "id": 460
+},
+{
+"name": "Taling Chan Floating Market (ตลาดน้ำตลิ่งชัน)",
+"category": "market",
+"area": "Taling Chan",
+"lat": 13.77627,
+"lng": 100.4566,
+"coord_confidence": "high",
+"vibe": "Weekend canal market where you eat grilled river prawns on floating rafts with live Thai music",
+"tip": "Go Sat or Sun before 11am. Long-tail boat loops leave from the pier to orchid gardens and Wat Kok, about 1 hour.",
+"price": "฿",
+"hours": "Sat-Sun 08:00-17:30",
+"date_friendly": true,
+"night": false,
+"tags": [
+"floating market",
+"canal",
+"seafood",
+"weekend",
+"boat tour"
+],
+"sources": [
+"https://wanderlog.com/place/details/484311",
+"https://thailand.go.th/event-detail/001_02_063",
+"https://en.wikipedia.org/wiki/Taling_Chan_Floating_Market"
+],
+"g": "market",
+"id": 461
+},
+{
+"name": "Song Khlong Floating Market at Wat Taling Chan (ตลาดน้ำวัดตลิ่งชัน)",
+"category": "market",
+"area": "Taling Chan",
+"lat": 13.77795,
+"lng": 100.45821,
+"coord_confidence": "high",
+"vibe": "Quieter twin of the main market, inside a temple, known for old-school tom yum pork noodles and homemade ice cream",
+"tip": "Walk 100 m from the main Taling Chan market and do both in one morning. Weekends only, closes around 3pm.",
+"price": "฿",
+"hours": "Sat-Sun 08:00-15:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"floating market",
+"temple",
+"noodles",
+"weekend",
+"local"
+],
+"sources": [
+"https://wanderlog.com/place/details/5673478/song-khlong-floating-market-wat-talingchan",
+"https://www.sanook.com/travel/1390773/"
+],
+"g": "market",
+"id": 462
+},
+{
+"name": "Taling Chan Canal Long-tail Boat Tour",
+"category": "activity",
+"area": "Taling Chan",
+"lat": 13.7765,
+"lng": 100.4572,
+"coord_confidence": "medium",
+"vibe": "Putter down Khlong Chak Phra and Bangkok Noi past stilt houses, orchards and Ayutthaya-era temples",
+"tip": "Shared boats run from the floating market pier on weekend afternoons. The Wat Kok loop is about 60 baht a seat, roughly 1 hour.",
+"price": "฿",
+"hours": "Sat-Sun, mostly 12:00-15:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"boat",
+"canal",
+"khlong",
+"scenic",
+"weekend"
+],
+"sources": [
+"https://thailand.go.th/event-detail/001_02_063",
+"https://www.sanook.com/travel/1390773/"
+],
+"g": "activity",
+"id": 463
+},
+{
+"name": "Wat Saphan Floating Market (ตลาดน้ำวัดสะพาน)",
+"category": "market",
+"area": "Taling Chan (Bang Phrom)",
+"lat": 13.74747,
+"lng": 100.43896,
+"coord_confidence": "high",
+"vibe": "Tiny local-only canal market behind an Ayutthaya temple, with bananas fried right on a rowing boat",
+"tip": "Cash only. Feed the fat temple fish and see the three big Buddha images. Weekends 8am to 3pm.",
+"price": "฿",
+"hours": "Sat-Sun 08:00-15:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"floating market",
+"local",
+"temple",
+"canal",
+"cheap eats"
+],
+"sources": [
+"https://www.visitthailandtoday.com/markets-shopping/bangkok/wat-saphan-floating-market",
+"https://thailand.go.th/event-detail/001_02_065"
+],
+"g": "market",
+"id": 464
+},
+{
+"name": "Wat Champa (วัดจำปา)",
+"category": "temple",
+"area": "Taling Chan (Bang Ramat)",
+"lat": 13.775,
+"lng": 100.43417,
+"coord_confidence": "medium",
+"vibe": "Late-Ayutthaya temple with porcelain-studded gables, a never-dry holy pond and a sleepy village floating market",
+"tip": "Off Phutthamonthon Sai 1 Soi 22. Pair it with nearby Khlong Lat Mayom market on a weekend morning.",
+"price": "free",
+"hours": "Daily, daylight hours",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"ayutthaya era",
+"canal",
+"village",
+"quiet"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Wat_Champa",
+"https://www.sanook.com/travel/1390773/"
+],
+"g": "sight",
+"id": 465
+},
+{
+"name": "Wat Ta Khian & Floating Market (วัดตะเคียน)",
+"category": "temple",
+"area": "Bang Kruai (Bang Khu Wiang, Nonthaburi)",
+"lat": 13.8275,
+"lng": 100.4227,
+"coord_confidence": "high",
+"vibe": "Enter a basement shrine through a tiger's mouth, exit via a dragon, meet a selfie-taking ogre and a statue rock band",
+"tip": "Canal market runs daily, busiest on weekends. Grab a car or bike there; public transport is a long walk.",
+"price": "free",
+"hours": "Daily 07:30-17:00 (weekdays to 16:00)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"quirky temple",
+"floating market",
+"statues",
+"nonthaburi",
+"photogenic"
+],
+"sources": [
+"https://wanderlog.com/place/details/400572/wat-takien-floating-market",
+"https://southeastasiabackpacker.com/wat-ta-khian/",
+"https://www.smilingalbino.com/blog/nine-weird-and-wonderful-wats-near-bangkok/"
+],
+"g": "sight",
+"id": 466
+},
+{
+"name": "Wat Chalo boat temple (วัดชลอ)",
+"category": "temple",
+"area": "Bang Kruai",
+"lat": 13.80601,
+"lng": 100.47659,
+"coord_confidence": "medium",
+"vibe": "An ordination hall built as a giant Suphannahong royal barge, plus a 1730s junk-shaped hall beside it",
+"tip": "Weekday mornings are quietest for photos. Short taxi from MRT Bang O or Bang Yi Khan.",
+"price": "free",
+"hours": "Daily 08:00-16:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"quirky temple",
+"boat shaped",
+"canal",
+"architecture"
+],
+"sources": [
+"https://www.thaiholidayguide.com/attraction/wat-chalor/",
+"https://thailex.info/THAILEX/THAILEXENG/lexicon/Lexicon%20-%20Wat%20Chalo,%20Bang%20Kruay,%20Nonthaburi,%20Bangkok.htm"
+],
+"g": "sight",
+"id": 467
+},
+{
+"name": "Wat Suwannaram (วัดสุวรรณาราม)",
+"category": "temple",
+"area": "Bangkok Noi (Charan 32)",
+"lat": 13.7633,
+"lng": 100.47683,
+"coord_confidence": "high",
+"vibe": "Junk-curved Ayutthaya hall with some of Bangkok's finest Rama III murals, and a famous haunted reputation",
+"tip": "Walk from Charan Soi 32. Combine with the Ban Bu bronze workshop and the canal-side Wat Thong market next door.",
+"price": "free",
+"hours": "Daily 08:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"murals",
+"history",
+"ghost stories",
+"canal"
+],
+"sources": [
+"https://wanderlog.com/place/details/976910",
+"https://en.wikipedia.org/wiki/Wat_Suwannaram"
+],
+"g": "sight",
+"id": 468
+},
+{
+"name": "Ban Bu Bronze Bowl Workshop (Jiam Saengsajja) & Khon mask painting",
+"category": "experience",
+"area": "Bangkok Noi (Charan 32)",
+"lat": 13.76235,
+"lng": 100.4779,
+"coord_confidence": "low",
+"vibe": "Last stone-polished bronze bowl makers in Bangkok, six generations deep, hammering away in a canal-side lane",
+"tip": "Weekdays 10:00-16:00, free to watch. A short walk away you can paint a mini Khon mask for about 120 baht.",
+"price": "free",
+"hours": "Mon-Fri 10:00-16:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"craft",
+"heritage",
+"workshop",
+"hidden gem",
+"bronze"
+],
+"sources": [
+"https://www.nationthailand.com/life/art-culture/40050387",
+"https://www.bangkokpost.com/life/social-and-lifestyle/1718491/following-in-sunthon-phus-footsteps",
+"https://en.wikipedia.org/wiki/Ban_Bu_Community"
+],
+"g": "experience",
+"id": 469
+},
+{
+"name": "Wat Sri Sudaram (วัดศรีสุดาราม)",
+"category": "temple",
+"area": "Bangkok Noi",
+"lat": 13.766,
+"lng": 100.4775,
+"coord_confidence": "low",
+"vibe": "Canal temple where poet Sunthorn Phu studied as a boy, with a statue of the young poet in the grounds",
+"tip": "Locals still call it Wat Chi Pakhao. Check the exact pin in Maps; it sits by Khlong Bangkok Noi near Wat Suwannaram.",
+"price": "free",
+"hours": "Daily, daylight hours",
+"date_friendly": false,
+"night": false,
+"tags": [
+"temple",
+"literature",
+"history",
+"canal"
+],
+"sources": [
+"https://www.bangkokpost.com/life/social-and-lifestyle/1718491/following-in-sunthon-phus-footsteps"
+],
+"g": "sight",
+"id": 470
+},
+{
+"name": "Wat Dusitaram murals (วัดดุสิตาราม)",
+"category": "temple",
+"area": "Arun Amarin, Bangkok Noi",
+"lat": 13.7622,
+"lng": 100.488,
+"coord_confidence": "medium",
+"vibe": "Riverside temple whose ordination hall mural is rated among the most beautiful of the Rattanakosin era",
+"tip": "Right next to CHANN Bangkok Noi, so do murals then a riverside coffee. Dress modestly.",
+"price": "free",
+"hours": "Daily, daylight hours",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"murals",
+"riverside",
+"history"
+],
+"sources": [
+"https://www.bangkokpost.com/life/social-and-lifestyle/1718491/following-in-sunthon-phus-footsteps",
+"https://wanderlog.com/place/details/1838981/찬-방콕-노이"
+],
+"g": "sight",
+"id": 471
+},
+{
+"name": "ARCH x CHANN Cafe (CHANN Bangkok Noi)",
+"category": "cafe",
+"area": "Arun Amarin, Bangkok Noi",
+"lat": 13.76146,
+"lng": 100.48688,
+"coord_confidence": "high",
+"vibe": "Dark-wood minimalist cafe inside a hidden boutique hotel with a lawn right on the Chao Phraya",
+"tip": "Open to non-guests. Late afternoon for river light; stays open to 22:00 on Fri-Sun.",
+"price": "฿฿",
+"hours": "Mon-Thu 09:30-21:00, Fri-Sun 09:30-22:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"riverside",
+"design",
+"hidden",
+"chao phraya",
+"sunset"
+],
+"sources": [
+"https://www.ktc.co.th/article/dining/cafe/waterside-cafe-near-me",
+"https://wanderlog.com/place/details/1838981/찬-방콕-노이",
+"https://www.timeout.com/bangkok/hotels/chann-bangkok-noi"
+],
+"g": "cafe",
+"id": 472
+},
+{
+"name": "N10 Cafe (Baan Wanglang Riverside)",
+"category": "cafe",
+"area": "Bangkok Noi (Wat Rakhang / Wang Lang)",
+"lat": 13.7542,
+"lng": 100.4868,
+"coord_confidence": "medium",
+"vibe": "Riverfront parlour cafe near Wat Rakhang with indoor AC and outdoor seats facing the Grand Palace side",
+"tip": "Good stop after Wang Lang market. Set lunch available; outdoor seats best near sunset.",
+"price": "฿฿",
+"hours": "Daily 09:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"riverside",
+"cafe",
+"views",
+"wang lang"
+],
+"sources": [
+"https://www.ktc.co.th/article/dining/cafe/waterside-cafe-near-me",
+"https://www.timeout.com/bangkok/restaurants/n10-cafe"
+],
+"g": "cafe",
+"id": 473
+},
+{
+"name": "Wat Rakhang (วัดระฆังโฆสิตาราม)",
+"category": "temple",
+"area": "Bangkok Noi",
+"lat": 13.75269,
+"lng": 100.48544,
+"coord_confidence": "high",
+"vibe": "Riverside temple of bells where you ring rows of bronze bells for luck, then watch the sun drop over the river",
+"tip": "Take the cross-river ferry from Tha Chang. Feed the fish at the pier; temple closes 17:00 but the pier stays open.",
+"price": "free",
+"hours": "Daily 08:00-17:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"temple",
+"bells",
+"riverside",
+"sunset",
+"ferry"
+],
+"sources": [
+"https://wanderlog.com/place/details/124587",
+"https://en.wikipedia.org/wiki/Wat_Rakhang"
+],
+"g": "sight",
+"id": 474
+},
+{
+"name": "Siriraj Bimuksthan Museum (old Bangkok Noi station)",
+"category": "museum",
+"area": "Bangkok Noi (Siriraj)",
+"lat": 13.75972,
+"lng": 100.48694,
+"coord_confidence": "high",
+"vibe": "Old Thonburi railway station turned museum on Thonburi history, with a WWII Japanese steam loco parked outside",
+"tip": "Different from the Siriraj 'death' museum. Arrive by Chao Phraya boat to Railway Station Pier.",
+"price": "฿",
+"hours": "Wed-Mon 10:00-17:00 (check)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"museum",
+"history",
+"trains",
+"architecture"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Bangkok_Noi_railway_station",
+"https://www.timeout.com/bangkok/attractions/siriraj-bimuksthan-museum"
+],
+"g": "museum",
+"id": 475
+},
+{
+"name": "Charan Sanitwong Halt: Death Railway train to River Kwai",
+"category": "experience",
+"area": "Bang Khun Non",
+"lat": 13.76985,
+"lng": 100.47315,
+"coord_confidence": "medium",
+"vibe": "Flag down the slow 3rd-class train to the Bridge on the River Kwai at a level crossing under your local MRT",
+"tip": "Halt is under MRT Bang Khun Non, Exit 2. Foreigners pay a flat 100 baht. Morning and afternoon trains; check SRT times.",
+"price": "฿",
+"hours": "Daily trains, morning and afternoon",
+"date_friendly": true,
+"night": false,
+"tags": [
+"train",
+"day trip",
+"kanchanaburi",
+"adventure",
+"local"
+],
+"sources": [
+"https://railtravelstation.com/ordinary-259-charan-sanitwong-saphan-kwae-yai/",
+"https://www.thaitrainguide.com/death-railway/"
+],
+"g": "experience",
+"id": 476
+},
+{
+"name": "Central Pinklao (The Park on Fifth)",
+"category": "mall",
+"area": "Pinklao, Bangkok Noi",
+"lat": 13.77757,
+"lng": 100.47645,
+"coord_confidence": "high",
+"vibe": "Freshly rebuilt west-side mall with an open-skylight green hangout floor and 200+ restaurants",
+"tip": "Head to the 5th floor park for coffee. IMAX Laser cinema and Soundcheck karaoke for rainy nights.",
+"price": "฿฿",
+"hours": "Daily 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"mall",
+"food hall",
+"cinema",
+"karaoke",
+"rainy day"
+],
+"sources": [
+"https://propholic.com/en/?p=409617",
+"https://www.centralgroup.com/en/newsroom/corporate-news/709/central-pinklao-s-grand-celebration-lights-up-west-bangkok-the-new-soul-of-bangkok"
+],
+"g": "shop",
+"id": 477
+},
+{
+"name": "The Circle Ratchaphruek",
+"category": "mall",
+"area": "Taling Chan (Ratchaphruek Rd)",
+"lat": 13.7637,
+"lng": 100.4441,
+"coord_confidence": "medium",
+"vibe": "Open-air lifestyle 'town' of five little streets packed with Japanese izakayas, omakase and dessert cafes",
+"tip": "Best after dark. Shakariki432 izakaya stays open to 1am; pop-up markets run some weekends.",
+"price": "฿฿",
+"hours": "Daily, shops ~10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"lifestyle mall",
+"japanese",
+"dinner",
+"open air"
+],
+"sources": [
+"https://www.wongnai.com/places/the-circle-ratchapruk?domain=1",
+"https://www.ryoiireview.com/article/hangout-ratchaphruek/"
+],
+"g": "shop",
+"id": 478
+},
+{
+"name": "Talad Thonburi (Sanam Luang 2) plant market",
+"category": "market",
+"area": "Thawi Watthana",
+"lat": 13.74657,
+"lng": 100.35279,
+"coord_confidence": "high",
+"vibe": "Huge plant and orchid market with pets, secondhand stuff and a coconut-grove canal park for jogging",
+"tip": "Busiest Sat-Sun when the secondhand stalls appear. New plants arrive on Wednesdays. First parking hour free.",
+"price": "฿",
+"hours": "Daily 06:00-18:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"plants",
+"orchids",
+"flea market",
+"park",
+"local"
+],
+"sources": [
+"https://www.wongnai.com/attractions/326682Dg-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5-%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87-2",
+"https://www.wongnai.com/trips/trip-around-taweewattana"
+],
+"g": "market",
+"id": 479
+},
+{
+"name": "Little Hideout Patisserie",
+"category": "dessert",
+"area": "Taling Chan (Chimphli)",
+"lat": 13.78407,
+"lng": 100.44306,
+"coord_confidence": "high",
+"vibe": "Shady garden cafe under big trees with French-style pastries ranked among Bangkok's top bakeries",
+"tip": "Come at opening or late afternoon on weekends for a seat. Some cakes are weekend-only. Likely closed Mondays.",
+"price": "฿฿฿",
+"hours": "Tue-Sun 09:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"garden cafe",
+"pastry",
+"instagrammable",
+"trees"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/littlehideout",
+"https://www.lemon8-app.com/nuttyreview/7237418575655502338?region=th"
+],
+"g": "cafe",
+"id": 480
+},
+{
+"name": "Limitless Roaster Suan Phak",
+"category": "cafe",
+"area": "Taling Chan (Suan Phak Rd)",
+"lat": 13.7981,
+"lng": 100.4421,
+"coord_confidence": "medium",
+"vibe": "Calm dark-green specialty roastery with a koi pond out front",
+"tip": "Order the iced pour-over and a rosemary croissant. Easy stop on the way to Wat Ta Khian.",
+"price": "฿฿",
+"hours": "Daily, daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"specialty coffee",
+"koi pond",
+"calm",
+"work friendly"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan"
+],
+"g": "cafe",
+"id": 481
+},
+{
+"name": "RAWVAELA Cafe (รอเวลา คาเฟ่)",
+"category": "cafe",
+"area": "Taling Chan (Khlong Lat Mayom)",
+"lat": 13.7615,
+"lng": 100.4164,
+"coord_confidence": "medium",
+"vibe": "Cozy Western cottage cafe with a fireplace, right beside Khlong Lat Mayom floating market",
+"tip": "Perfect cool-down after the weekend market. Try the s'mores cake.",
+"price": "฿฿",
+"hours": "Daily, daytime (check)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"themed cafe",
+"cottage",
+"instagrammable",
+"floating market"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan",
+"https://nz.trip.com/moments/destination-taling-chan-2016404/?page=5"
+],
+"g": "cafe",
+"id": 482
+},
+{
+"name": "128 Craft & Soul",
+"category": "cafe",
+"area": "Taling Chan (Bang Phrom)",
+"lat": 13.7475,
+"lng": 100.4519,
+"coord_confidence": "medium",
+"vibe": "Soft-yellow French-village style cafe with a lawn, mousse desserts and craft coffee",
+"tip": "Off Pak Nam Krachom Thong Soi 20. Reported closed Thursdays. Open to 21:00 on weekends.",
+"price": "฿฿",
+"hours": "Approx 08:00-20:00, closed Thu (check)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"garden cafe",
+"instagrammable",
+"desserts",
+"lawn"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan",
+"https://nz.trip.com/moments/destination-taling-chan-2016404/?page=5"
+],
+"g": "cafe",
+"id": 483
+},
+{
+"name": "The Salil House (เดอะ สลิล เฮาส์)",
+"category": "cafe",
+"area": "Taling Chan",
+"lat": 13.7648,
+"lng": 100.4533,
+"coord_confidence": "medium",
+"vibe": "Hidden big house with stained glass, East-meets-West decor and waterside outdoor tables",
+"tip": "Few reviews so far, so it stays quiet. Order the potato croquettes with salted fish.",
+"price": "฿฿",
+"hours": "Check before going",
+"date_friendly": true,
+"night": false,
+"tags": [
+"hidden gem",
+"waterside",
+"stained glass",
+"house cafe"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan"
+],
+"g": "cafe",
+"id": 484
+},
+{
+"name": "Rolling Roasters (Phran Nok-Phutthamonthon)",
+"category": "cafe",
+"area": "Taling Chan (Phran Nok-Phutthamonthon Sai 4)",
+"lat": 13.7533,
+"lng": 100.4321,
+"coord_confidence": "medium",
+"vibe": "Big airy branch of a well-loved Bangkok roaster with yuzu cheesecake and banoffee",
+"tip": "Lots of parking and space, good for working. Nearby Twist does chef-run Italian if you stay for dinner.",
+"price": "฿฿",
+"hours": "Daily, daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"specialty coffee",
+"roastery",
+"spacious",
+"cakes"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan",
+"https://www.timeout.com/bangkok/restaurants/rolling-roasters"
+],
+"g": "cafe",
+"id": 485
+},
+{
+"name": "Twist (Italian)",
+"category": "restaurant",
+"area": "Taling Chan (Phran Nok-Phutthamonthon Sai 4)",
+"lat": 13.752,
+"lng": 100.4368,
+"coord_confidence": "medium",
+"vibe": "Small chef-run Italian spot doing truffle pappardelle and scarlet panna cotta far from the tourist crowds",
+"tip": "Small room, so book for dinner on weekends.",
+"price": "฿฿฿",
+"hours": "Check before going",
+"date_friendly": true,
+"night": true,
+"tags": [
+"italian",
+"date night",
+"pasta",
+"hidden"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan"
+],
+"g": "food",
+"id": 486
+},
+{
+"name": "Scene Bangkok Patisserie & Brasserie",
+"category": "dessert",
+"area": "Taling Chan (Bang Phrom)",
+"lat": 13.75185,
+"lng": 100.43564,
+"coord_confidence": "high",
+"vibe": "Large photogenic French-style patisserie with a Matcha Bomb and almond croissants",
+"tip": "Open late for a dessert spot; kitchen closes earlier than the cafe.",
+"price": "฿฿",
+"hours": "Daily ~08:00-20:00 (some sources say to 23:00)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"patisserie",
+"desserts",
+"instagrammable",
+"french"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/291950fP-seen-bangkok",
+"https://nz.trip.com/moments/destination-taling-chan-2016404/?page=5"
+],
+"g": "cafe",
+"id": 487
+},
+{
+"name": "Talay Ma Talay Ma (ทะเลมา ทะเลมา)",
+"category": "restaurant",
+"area": "Taling Chan (Borommaratchachonnani)",
+"lat": 13.7911,
+"lng": 100.4283,
+"coord_confidence": "medium",
+"vibe": "Cafe by morning, steak and fried-chicken-waffle restaurant by night",
+"tip": "Go for dinner: ribeye and maple fried chicken waffle are the picks.",
+"price": "฿฿",
+"hours": "Day and evening (check)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cafe",
+"dinner",
+"steak",
+"casual"
+],
+"sources": [
+"https://www.wongnai.com/listings/cafe-talingchan"
+],
+"g": "food",
+"id": 488
+},
+{
+"name": "Chamthing (cafe + rooftop bar)",
+"category": "bar",
+"area": "Bang Phlat (Borommaratchachonnani, Pinklao)",
+"lat": 13.78597,
+"lng": 100.47046,
+"coord_confidence": "high",
+"vibe": "Four-floor hangout with a giant cherry sculpture out front, cafe by day, live-music rooftop bar by night",
+"tip": "Rooftop opens in the evening. Look for 1-for-1 cocktail promos and food discounts before 21:00.",
+"price": "฿฿",
+"hours": "Cafe ~09:00-18:00, bar and rooftop evenings",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"live music",
+"cocktails",
+"cafe",
+"pinklao"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/2581975gQ-chamthing",
+"https://www.lemon8-app.com/@sanaehereofficial/7416300305194746369?region=us"
+],
+"g": "bar",
+"id": 489
+},
+{
+"name": "Watcharapirom hidden bar (วัชรภิรมณ์)",
+"category": "bar",
+"area": "Pinklao-Taling Chan (Borommaratchachonnani Soi 30)",
+"lat": 13.7825,
+"lng": 100.459,
+"coord_confidence": "low",
+"vibe": "4th-floor secret bar with pool, board games, art on the walls and a balcony over the expressway lights",
+"tip": "Look for the Shell station and footbridge near Borom Soi 30, then the white building. Book window seats.",
+"price": "฿฿",
+"hours": "Evenings (check)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden bar",
+"board games",
+"live music",
+"city view"
+],
+"sources": [
+"https://www.lemon8-app.com/@fhonn_1479/7390410085991842321?region=us",
+"https://www.lemon8-app.com/experience/%EF%BF%BD%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2-%E0%B8%9B%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2?region=th"
+],
+"g": "bar",
+"id": 490
+},
+{
+"name": "The Most Bar & Bistro Ratchaphruek",
+"category": "live-music",
+"area": "Taling Chan (Ratchaphruek Rd)",
+"lat": 13.746,
+"lng": 100.4472,
+"coord_confidence": "medium",
+"vibe": "Big loft-style bar with a strong sound system, live bands from 8pm and charcoal-oven pizza",
+"tip": "Private karaoke rooms for groups. Parking on site.",
+"price": "฿฿",
+"hours": "Evenings, live music from ~20:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"live music",
+"karaoke",
+"pizza",
+"group night out"
+],
+"sources": [
+"https://www.wongnai.com/listings/bar-ratchaphruek",
+"https://www.wongnai.com/listings/chill-hang-out-thonburi"
+],
+"g": "live",
+"id": 491
+},
+{
+"name": "Adamus Cafe by the River",
+"category": "cafe",
+"area": "Bang Phlat (Charan Sanitwong)",
+"lat": 13.78699,
+"lng": 100.50422,
+"coord_confidence": "high",
+"vibe": "Vintage riverside garden cafe with a classic-car corner and bridge views, best in the evening glow",
+"tip": "Entrance through the Lotus's Charan car park. Closed Mondays. Halal, with a prayer room.",
+"price": "฿฿",
+"hours": "Tue-Fri 10:30-21:00, Sat-Sun 09:00-21:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"vintage",
+"sunset",
+"halal",
+"garden"
+],
+"sources": [
+"https://wanderlog.com/place/details/6731903",
+"https://www.lemon8-app.com/@jenniepanisar/7430290270312514064?region=th"
+],
+"g": "cafe",
+"id": 492
+},
+{
+"name": "Moon River Silk Dining (มูน ริเวอร์)",
+"category": "restaurant",
+"area": "Sai Ma, Mueang Nonthaburi",
+"lat": 13.86605,
+"lng": 100.47517,
+"coord_confidence": "high",
+"vibe": "Three-floor riverside Thai seafood spot staring straight at the Phra Nang Klao Bridge",
+"tip": "Come before sunset for a top-floor river table; exit Phra Nang Klao Bridge toward Wat Sai Ma Nuea",
+"price": "฿฿฿",
+"hours": "Daily from 11:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"sunset",
+"seafood",
+"bridge view",
+"Chao Phraya"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/261008wN-%E0%B8%A1%E0%B8%B9%E0%B8%99-%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C-moon-river-silk-dining-restaurant",
+"https://wanderlog.com/list/geoCategory/375862"
+],
+"g": "food",
+"id": 493
+},
+{
+"name": "Samsen Life - The River",
+"category": "restaurant",
+"area": "Sai Ma, Mueang Nonthaburi",
+"lat": 13.88016,
+"lng": 100.47733,
+"coord_confidence": "medium",
+"vibe": "Two-story black-wood river house with open decks, big Thai plates and the odd live band",
+"tip": "Grab the open-air upper deck after dark; open late, so it works as a riverside drinks stop too",
+"price": "฿฿",
+"hours": "Daily 12:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"live music",
+"Thai food",
+"late night"
+],
+"sources": [
+"https://wanderlog.com/place/details/4882090",
+"https://wanderlog.com/list/geoCategory/375862"
+],
+"g": "food",
+"id": 494
+},
+{
+"name": "The Waterside at Chesadabodin",
+"category": "restaurant",
+"area": "Suan Yai, Mueang Nonthaburi (Nonthaburi 1 Rd)",
+"lat": 13.85515,
+"lng": 100.48123,
+"coord_confidence": "high",
+"vibe": "Riverside Thai dining right under Thailand's first extradosed bridge, lit up at night",
+"tip": "Closed Mondays; there is parking, and the bridge lights make dinner better than lunch",
+"price": "฿฿฿",
+"hours": "Tue-Sun 11:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"bridge view",
+"Thai food",
+"dinner"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/2792027Qw-the-waterside-at-chesadabodin-the-waterside-at-chesadabodin"
+],
+"g": "food",
+"id": 495
+},
+{
+"name": "Maha Chesadabodindranusorn Bridge (สะพานมหาเจษฎาบดินทรานุสรณ์)",
+"category": "views",
+"area": "Mueang Nonthaburi",
+"lat": 13.85433,
+"lng": 100.47984,
+"coord_confidence": "high",
+"vibe": "Thailand's first extradosed bridge: sleek cable towers over the Chao Phraya, glowing at night",
+"tip": "Best seen from the riverbank restaurants on either side or from the Nonthaburi express boat at dusk",
+"price": "free",
+"hours": "24h",
+"date_friendly": true,
+"night": true,
+"tags": [
+"bridge",
+"sunset",
+"photo spot",
+"river"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Maha_Chesadabodindranusorn_Bridge"
+],
+"g": "views",
+"id": 496
+},
+{
+"name": "Nonthaburi Museum (Old Provincial Hall)",
+"category": "museum",
+"area": "Tha Nam Nonthaburi pier, Mueang Nonthaburi",
+"lat": 13.84152,
+"lng": 100.49188,
+"coord_confidence": "high",
+"vibe": "Gorgeous Rama VI-era teak hall on the river with pottery, orchard and local history rooms",
+"tip": "Free entry; closed Mondays. Ride the express boat to the last stop (N30) and it is right at the pier",
+"price": "free",
+"hours": "Tue-Fri 09:00-17:00, Sat-Sun 10:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"history",
+"architecture",
+"free",
+"riverside",
+"photo spot"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1801-Nonthaburi-Provincial-Museum.html",
+"https://en.wikipedia.org/wiki/Nonthaburi_Pier"
+],
+"g": "museum",
+"id": 497
+},
+{
+"name": "Tha Nam Nonthaburi Pier Market and Clock Tower",
+"category": "street-food",
+"area": "Tha Nam Nonthaburi, Mueang Nonthaburi",
+"lat": 13.842,
+"lng": 100.4924,
+"coord_confidence": "medium",
+"vibe": "Busy old-town pier hub with a 1957 clock tower, riverside market and famous 7-color chive cakes",
+"tip": "Hunt for the 7-color kuichai stall by the clock tower, then take the 4-baht ferry to Wat Chaloem Phra Kiat",
+"price": "฿",
+"hours": "Daily, busiest mornings and early evening",
+"date_friendly": false,
+"night": false,
+"tags": [
+"street food",
+"market",
+"pier",
+"local",
+"snacks"
+],
+"sources": [
+"https://www.wongnai.com/trips/one-day-trip-around-nonthaburi",
+"https://www.thailand.go.th/event-detail/must-eat-and-explore-in-nonthaburi"
+],
+"g": "food",
+"id": 498
+},
+{
+"name": "Wat Chaloem Phra Kiat Worawihan",
+"category": "temple",
+"area": "Bang Si Mueang, Mueang Nonthaburi",
+"lat": 13.8479,
+"lng": 100.4843,
+"coord_confidence": "medium",
+"vibe": "Rama III royal temple behind fortress walls, Thai-Chinese ubosot and a 45 m white chedi",
+"tip": "Cross-river ferry from Nonthaburi pier is the fun way in; usually quiet, great late afternoon light",
+"price": "free",
+"hours": "Daily, daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"royal temple",
+"riverside",
+"Chinese style",
+"quiet"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Wat_Chaloem_Phra_Kiat_Worawihan",
+"https://www.grab.com/th/attractions/nonthaburi/"
+],
+"g": "sight",
+"id": 499
+},
+{
+"name": "Wat Khema Phirataram",
+"category": "temple",
+"area": "Suan Yai, Mueang Nonthaburi (Phibun Songkhram Rd)",
+"lat": 13.82167,
+"lng": 100.50329,
+"coord_confidence": "high",
+"vibe": "Ayutthaya-era royal temple with a 30 m relic chedi and the old Red Palace hall",
+"tip": "Wat Khema express boat pier is close by; no entry fee",
+"price": "free",
+"hours": "Daily 08:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"royal temple",
+"history",
+"Ayutthaya era"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1845-Wat-Khemaphirataram.html",
+"https://de.wikivoyage.org/wiki/Nonthaburi"
+],
+"g": "sight",
+"id": 500
+},
+{
+"name": "Wat Sangkhathan (วัดสังฆทาน)",
+"category": "temple",
+"area": "Bang Phai, Mueang Nonthaburi",
+"lat": 13.82602,
+"lng": 100.49267,
+"coord_confidence": "high",
+"vibe": "Leafy forest monastery with a glass ubosot housing Luang Pho To; a real calm-down spot",
+"tip": "Dress modestly and keep quiet; they run meditation day visits and retreats",
+"price": "free",
+"hours": "Daily 08:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"meditation",
+"forest temple",
+"peaceful"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1842-Wat-Sangkhathan.html",
+"https://www.grab.com/th/attractions/nonthaburi/"
+],
+"g": "sight",
+"id": 501
+},
+{
+"name": "Wat Chomphuwek (วัดชมภูเวก)",
+"category": "temple",
+"area": "Tha Sai, Mueang Nonthaburi",
+"lat": 13.88725,
+"lng": 100.49623,
+"coord_confidence": "high",
+"vibe": "1757 Mon temple with a famous Mother Earth mural and a Mon-style chedi",
+"tip": "Look for the Thorani (earth goddess) mural in the old ordination hall, one of Thailand's best",
+"price": "free",
+"hours": "Daily 08:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"Mon heritage",
+"murals",
+"history"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1811-Wat-Chomphuwek.html",
+"https://de.wikivoyage.org/wiki/Nonthaburi"
+],
+"g": "sight",
+"id": 502
+},
+{
+"name": "Wat Prasat (วัดปราสาท)",
+"category": "temple",
+"area": "Bang Krang, Mueang Nonthaburi",
+"lat": 13.83866,
+"lng": 100.45193,
+"coord_confidence": "high",
+"vibe": "Tiny 300-year-old temple with a curved ship-hull ubosot and rare Ayutthaya murals",
+"tip": "A short ride from Bang Khun Non; murals are fragile, so no flash and ask before entering",
+"price": "free",
+"hours": "Daily 08:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"Ayutthaya era",
+"murals",
+"hidden gem",
+"history"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1825-Wat-Prasat.html",
+"https://en.wikipedia.org/wiki/Wat_Prasat,_Nonthaburi"
+],
+"g": "sight",
+"id": 503
+},
+{
+"name": "Wat Bang Phai (วัดบางไผ่)",
+"category": "temple",
+"area": "Bang Rak Phatthana, Bang Bua Thong",
+"lat": 13.87939,
+"lng": 100.43242,
+"coord_confidence": "high",
+"vibe": "Temple with fortress-style bastion walls and a glittering gilded glass-mosaic ordination hall",
+"tip": "Off Bang Kruai-Sai Noi Rd; combine with Central WestGate nearby",
+"price": "free",
+"hours": "Daily 08:00-16:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"temple",
+"glass mosaic",
+"fortress walls"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1822-Wat-Bang-Phai.html"
+],
+"g": "sight",
+"id": 505
+},
+{
+"name": "Bang Khu Wiang Floating Market (ตลาดน้ำบางคูเวียง)",
+"category": "market",
+"area": "Bang Khu Wiang, Bang Kruai",
+"lat": 13.82426,
+"lng": 100.41905,
+"coord_confidence": "high",
+"vibe": "Dawn trading by boat with monks collecting alms on the water; zero tourist polish",
+"tip": "Go Sat or Sun around 06:00-08:00 for the real boat market; later it becomes a regular stall market",
+"price": "฿",
+"hours": "Sat-Sun approx 06:00-14:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"floating market",
+"early morning",
+"monks",
+"authentic"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1796-Bang-Khu-Wiang-Floating-Market.html"
+],
+"g": "market",
+"id": 506
+},
+{
+"name": "Grazia Gelato and Coffee",
+"category": "dessert",
+"area": "Nakhon In Rd, Bang Khu Wiang, Bang Kruai",
+"lat": 13.82503,
+"lng": 100.42511,
+"coord_confidence": "high",
+"vibe": "Retro European-style house serving properly good Italian gelato and pastries",
+"tip": "Try the pistachio or tiramisu gelato; it is a 5-minute walk from Wat Takhian market",
+"price": "฿฿",
+"hours": "Mon-Fri 08:00-17:30, Sat-Sun 10:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"gelato",
+"coffee",
+"retro",
+"Instagrammable"
+],
+"sources": [
+"https://wanderlog.com/place/details/2530173/그라지아-젤라토--커피",
+"https://www.timeout.com/bangkok/restaurants/grazia-gelato-and-coffee"
+],
+"g": "cafe",
+"id": 507
+},
+{
+"name": "The Glasshouse Cafe",
+"category": "cafe",
+"area": "Nakhon In Rd, Bang Khun Kong, Bang Kruai",
+"lat": 13.82425,
+"lng": 100.44305,
+"coord_confidence": "high",
+"vibe": "Glass-walled garden cafe known for coconut cake and Thai-Western brunch plates",
+"tip": "Closed Tuesdays; near Talad Rama 5, easy hop from Bang Khun Non",
+"price": "฿฿",
+"hours": "Wed-Mon 09:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"garden",
+"brunch",
+"cake",
+"near base"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/453155sx-the-glasshouse-cafe",
+"https://wanderlog.com/list/geoCategory/291346"
+],
+"g": "cafe",
+"id": 508
+},
+{
+"name": "Bake Me Tender (เบคมีเทนเดอร์)",
+"category": "dessert",
+"area": "Nakhon In Rd / Rama 5 roundabout, Bang Kruai",
+"lat": 13.82473,
+"lng": 100.44658,
+"coord_confidence": "high",
+"vibe": "Long-running cake house and fusion bistro, a local favorite for birthday-level desserts",
+"tip": "Closed Mondays; good evening dessert stop since it runs until 21:00",
+"price": "฿฿",
+"hours": "Tue-Sun 10:00-21:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cake",
+"bakery",
+"dessert",
+"near base"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/bakemetender",
+"https://wanderlog.com/list/geoCategory/375862"
+],
+"g": "cafe",
+"id": 509
+},
+{
+"name": "Three Mangoes Riverside (ทรีแมงโก้ ริมน้ำ)",
+"category": "cafe",
+"area": "Nakhon In Rd, Bang Khanun, Bang Kruai",
+"lat": 13.8237,
+"lng": 100.46701,
+"coord_confidence": "medium",
+"vibe": "Rustic Thai wooden house on the water with canal-side seating, open late",
+"tip": "Access is via the Wat Sangthan or Wat Khang Khao lanes; check the map before driving in",
+"price": "฿฿฿",
+"hours": "Daily 10:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"rustic",
+"late night",
+"near base"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/287339IK-three-mangoes-%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%A1-5-%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5"
+],
+"g": "cafe",
+"id": 510
+},
+{
+"name": "Owl Market (ตลาดนกฮูก)",
+"category": "market",
+"area": "Liang Mueang Rd behind Central Rattanathibet, Mueang Nonthaburi",
+"lat": 13.8693,
+"lng": 100.49498,
+"coord_confidence": "medium",
+"vibe": "Huge local evening flea market: street food, food trucks, vintage, collectibles and cheap clothes",
+"tip": "Goes late; come hungry after 18:00. Few vendors speak English, so have cash and a translator app",
+"price": "฿",
+"hours": "Daily approx 16:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"night market",
+"street food",
+"flea market",
+"vintage"
+],
+"sources": [
+"https://www.thailand.go.th/event-detail/must-eat-and-explore-in-nonthaburi",
+"https://wanderlog.com/place/details/2292179/owl-market"
+],
+"g": "market",
+"id": 511
+},
+{
+"name": "Fantasia Lagoon Water Park",
+"category": "activity",
+"area": "The Mall Lifestore Ngamwongwan, Mueang Nonthaburi",
+"lat": 13.85593,
+"lng": 100.54212,
+"coord_confidence": "high",
+"vibe": "Rooftop tropical water park on a mall's 6th floor with slides, splash tower and lazy river",
+"tip": "Call ahead for ticket prices (061-046-2811); weekdays are much quieter",
+"price": "฿฿",
+"hours": "Daily 11:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"water park",
+"rooftop",
+"slides",
+"fun"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/16351-Fantasia-Lagoon-Ngamwongwan.html",
+"https://bangkokpost.com/travel/1436338/fantastic-fun-at-fantasia-lagoon"
+],
+"g": "activity",
+"id": 512
+},
+{
+"name": "Central WestGate",
+"category": "mall",
+"area": "Bang Yai (MRT Talad Bang Yai)",
+"lat": 13.87569,
+"lng": 100.41145,
+"coord_confidence": "high",
+"vibe": "One of Thailand's biggest malls: cinema, indoor amusement zone, huge food court, IKEA next door",
+"tip": "Purple Line MRT Talad Bang Yai drops you at the door; watch for weekend pop-up markets",
+"price": "฿฿",
+"hours": "Daily 10:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"mall",
+"cinema",
+"food court",
+"air con"
+],
+"sources": [
+"https://www.latlong.net/place/centralplaza-westgate-bang-yai-nonthaburi-thailand-31060.html",
+"https://www.grab.com/th/attractions/nonthaburi/"
+],
+"g": "shop",
+"id": 513
+},
+{
+"name": "The Old School Specialty Coffee & Roastery (Bang Yai)",
+"category": "cafe",
+"area": "Kanchanaphisek Rd, Bang Rak Phatthana, Bang Bua Thong",
+"lat": 13.8856,
+"lng": 100.40847,
+"coord_confidence": "high",
+"vibe": "School-themed roastery with an English garden, koi pond and fountains",
+"tip": "Free parking right off Kanchanaphisek; they run coffee classes, ask at the bar",
+"price": "฿฿",
+"hours": "Daily 08:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"specialty coffee",
+"garden",
+"themed",
+"roastery"
+],
+"sources": [
+"https://wanderlog.com/place/details/2965643",
+"https://www.grab.com/th/en/food-blog/คาเฟ่นนทบุรี/"
+],
+"g": "cafe",
+"id": 514
+},
+{
+"name": "Wat Paramaiyikawat Leaning Chedi (Ko Kret)",
+"category": "temple",
+"area": "Ko Kret, Pak Kret",
+"lat": 13.91192,
+"lng": 100.49011,
+"coord_confidence": "high",
+"vibe": "Ko Kret's icon: the white Mon chedi leaning over the river, plus a Mon pottery museum",
+"tip": "3-5 baht ferry from Wat Sanam Nuea pier lands you right here; park at Wat Sanam Nuea",
+"price": "free",
+"hours": "Daily 06:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"Ko Kret",
+"Mon heritage",
+"leaning chedi",
+"riverside"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1823-Wat-Paramaiyikawat-Worawihan.html",
+"https://en.thairath.co.th/lifestyle/travel/2941639"
+],
+"g": "sight",
+"id": 515
+},
+{
+"name": "Wat Bang Chak (วัดบางจาก)",
+"category": "temple",
+"area": "Bang Tanai, Pak Kret (opposite Ko Kret)",
+"lat": 13.9172,
+"lng": 100.4902,
+"coord_confidence": "low",
+"vibe": "Riverside temple with Nonthaburi's biggest Buddha, a crawl-under ubosot ritual and buffalo to feed",
+"tip": "Same soi as River Wine and Chang Wang Imm, so do temple at sunset then dinner",
+"price": "free",
+"hours": "Daily, daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"big Buddha",
+"quirky",
+"riverside",
+"animals"
+],
+"sources": [
+"https://en.thairath.co.th/lifestyle/travel/2941639",
+"https://tripniceday.com/en/place/วัดบางจาก"
+],
+"g": "sight",
+"id": 516
+},
+{
+"name": "Chang Wang Imm (จางวางอิ่ม)",
+"category": "restaurant",
+"area": "Soi Wat Bang Chak, Bang Tanai, Pak Kret",
+"lat": 13.916,
+"lng": 100.49076,
+"coord_confidence": "high",
+"vibe": "Antique-filled old house on the riverbank facing Ko Kret, serving old-school Thai curries",
+"tip": "Try the pork crackling fried rice; book a river-edge table for sunset",
+"price": "฿฿฿",
+"hours": "Daily approx 11:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"antique",
+"Thai food",
+"sunset"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/425752dC-%E0%B8%88%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%B4%E0%B9%88%E0%B8%A1-%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94-pakkret",
+"https://wanderlog.com/list/geoCategory/375862"
+],
+"g": "food",
+"id": 517
+},
+{
+"name": "River Wine Restaurant & Wine Bar",
+"category": "live-music",
+"area": "Soi Wat Bang Chak, under Rama IV Bridge, Pak Kret",
+"lat": 13.91558,
+"lng": 100.48816,
+"coord_confidence": "high",
+"vibe": "Riverside wine bar under the Rama IV Bridge with mellow live music and private karaoke rooms",
+"tip": "Go after dark for the bridge lights; wine by the bottle is the move for groups",
+"price": "฿฿฿",
+"hours": "Daily until 24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"wine bar",
+"live music",
+"karaoke",
+"riverside"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/riverwine",
+"https://wanderlog.com/list/geoCategory/375862"
+],
+"g": "live",
+"id": 518
+},
+{
+"name": "Suan Thip (สวนทิพย์)",
+"category": "restaurant",
+"area": "Soi Wat Ku, Bang Phut, Pak Kret",
+"lat": 13.92706,
+"lng": 100.50222,
+"coord_confidence": "high",
+"vibe": "Michelin Guide-listed royal Thai cooking in shady riverside gardens with ponds and pavilions",
+"tip": "Book ahead on weekends; order the kaeng khi lek curry and crispy sea bass with green mango",
+"price": "฿฿฿",
+"hours": "Daily 11:00-21:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"Michelin",
+"royal Thai",
+"garden",
+"riverside"
+],
+"sources": [
+"https://guide.michelin.com/th/th/nonthaburi-region/nonthaburi/restaurant/suan-thip",
+"https://www.wongnai.com/restaurants/536uN-%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%97%E0%B8%B4%E0%B8%9E%E0%B8%A2%E0%B9%8C"
+],
+"g": "food",
+"id": 519
+},
+{
+"name": "Wat Ku (Queen Sunanda Memorial)",
+"category": "temple",
+"area": "Bang Phut, Pak Kret",
+"lat": 13.93149,
+"lng": 100.50558,
+"coord_confidence": "high",
+"vibe": "Riverside temple marking Queen Sunanda's 1880 royal boat tragedy, with replica royal boats",
+"tip": "Walkable from Suan Thip, so make it a lunch plus temple combo",
+"price": "free",
+"hours": "Daily 07:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"history",
+"royal",
+"riverside",
+"reclining Buddha"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1808-Wat-Ku.html",
+"https://en.thairath.co.th/lifestyle/travel/2941639"
+],
+"g": "sight",
+"id": 520
+},
+{
+"name": "Wat Saeng Siritham Floating Market",
+"category": "market",
+"area": "Tha It, Pak Kret",
+"lat": 13.90245,
+"lng": 100.47212,
+"coord_confidence": "high",
+"vibe": "Raft-style weekend market on the Chao Phraya with snacks, Ko Kret goods and river-view seats",
+"tip": "Weekends only; pair with Ko Kret, which is just upriver",
+"price": "฿",
+"hours": "Sat-Sun 06:00-17:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"floating market",
+"weekend",
+"riverside",
+"local food"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1797-Wat-Saeng-Siritham-Floating-Market.html"
+],
+"g": "market",
+"id": 521
+},
+{
+"name": "Wat Yai Sawang Arom Riverside Market",
+"category": "market",
+"area": "Om Kret, Pak Kret (west bank facing Ko Kret)",
+"lat": 13.91214,
+"lng": 100.46479,
+"coord_confidence": "high",
+"vibe": "Old west-bank temple with a weekend riverside market and views across to Ko Kret",
+"tip": "Saturday and Sunday only; quieter than the Ko Kret walking street",
+"price": "฿",
+"hours": "Sat-Sun, daytime",
+"date_friendly": true,
+"night": false,
+"tags": [
+"weekend market",
+"temple",
+"riverside",
+"Ko Kret view"
+],
+"sources": [
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1852-Wat-Yai-Sawang-Arom.html"
+],
+"g": "market",
+"id": 522
+},
+{
+"name": "Hidden Backyard Cafe & Hangout",
+"category": "bar",
+"area": "Khlong Kluea, Pak Kret (Chaengwattana)",
+"lat": 13.89828,
+"lng": 100.55407,
+"coord_confidence": "high",
+"vibe": "Secret bamboo-jungle garden by a pond: cafe by day, fairy-lit craft beer and cocktail hangout by night",
+"tip": "Evenings are the vibe but it gets busy; parking is limited, so grab a taxi",
+"price": "฿฿",
+"hours": "Daily 11:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"garden bar",
+"craft beer",
+"cocktails",
+"hidden"
+],
+"sources": [
+"https://www.walkwithajay.com/hidden-backyard-cafe-nonthaburi-bangkok/",
+"https://wanderlog.com/place/details/2814633",
+"https://www.grab.com/th/en/food-blog/คาเฟ่นนทบุรี/"
+],
+"g": "bar",
+"id": 523
+},
+{
+"name": "IMPACT Arena Muang Thong Thani",
+"category": "live-music",
+"area": "Muang Thong Thani, Pak Kret",
+"lat": 13.9115,
+"lng": 100.5484,
+"coord_confidence": "high",
+"vibe": "12,000-seat arena where the big K-pop, Thai and international concerts land",
+"tip": "Check the IMPACT event calendar; MRT Pink Line Impact Muang Thong Thani station is right there",
+"price": "฿฿฿",
+"hours": "Event days only",
+"date_friendly": true,
+"night": true,
+"tags": [
+"concerts",
+"arena",
+"events",
+"K-pop"
+],
+"sources": [
+"https://en.wikipedia.org/wiki/Impact_Arena",
+"https://www.lovethailand.org/travel/en/24-Nonthaburi/1874-IMPACT-Arena-Muang-Thong-Thani.html"
+],
+"g": "live",
+"id": 524
 }
 ]
