@@ -13258,5 +13258,2200 @@
 ],
 "g": "live",
 "id": 524
+},
+{
+"name": "The Club Khaosan",
+"category": "club",
+"area": "Khao San Road",
+"lat": 13.75924,
+"lng": 100.49684,
+"coord_confidence": "high",
+"vibe": "The big one: three-level 1,500-cap club with Funktion-One sound, LED wall and tech house till 4am",
+"tip": "Tech house, bass house, EDM. Peaks midnight to 2am Fri-Sat. 20+, bring passport. Cover 0-300 THB some nights",
+"price": "฿฿",
+"hours": "Daily 21:00-04:00 (Fri-Sat from 20:30)",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"tech-house",
+"house",
+"dj",
+"late-night",
+"party",
+"dance"
+],
+"sources": [
+"https://theclubkhaosan.com/about-us/",
+"https://www.technoairlines.com/club/club-khaosan",
+"https://www.visitthailandtoday.com/nightlife/bangkok/the-club-khaosan",
+"https://wanderlog.com/place/details/374618/the-club"
+],
+"g": "club",
+"id": 525
+},
+{
+"name": "Rocco Club Rooftop",
+"category": "rooftop",
+"area": "Khao San Road (Chakrabongse end)",
+"lat": 13.75965,
+"lng": 100.4956,
+"coord_confidence": "medium",
+"vibe": "Corner rooftop above the Khao San chaos that turns into a DJ party later in the night",
+"tip": "Go for sunset drinks, stay past 11pm when the DJ cranks up. Hip-hop nights some Saturdays. Slightly pricier than street bars",
+"price": "฿฿",
+"hours": "Daily 18:00-03:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"dj",
+"party",
+"views",
+"hip-hop",
+"late-night"
+],
+"sources": [
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/",
+"https://www.phuket101.net/rocco-club/",
+"https://www.khaosanroad.com/events/hip-hop-night-at-rocco-club-2026-03-21"
+],
+"g": "rooftop",
+"id": 526
+},
+{
+"name": "The One Khaosan",
+"category": "bar",
+"area": "Khao San Road",
+"lat": 13.75921,
+"lng": 100.4969,
+"coord_confidence": "high",
+"vibe": "Open-air stadium-seating party bar with nightly DJs and the best view of the Khao San crowd",
+"tip": "Perfect pre-club spot next door to The Club. DJs and MC every night, busiest 10pm-1am. Beers 100-150, buckets 250-350 THB",
+"price": "฿฿",
+"hours": "Daily 17:30-03:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"party",
+"dj",
+"street-bar",
+"people-watching",
+"buckets",
+"pre-drinks"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/the-one-khaosan",
+"https://www.phuket101.net/the-one-at-khaosan/"
+],
+"g": "bar",
+"id": 527
+},
+{
+"name": "Brick Bar",
+"category": "live-music",
+"area": "Khao San Road (Buddy Lodge)",
+"lat": 13.75865,
+"lng": 100.49859,
+"coord_confidence": "high",
+"vibe": "Huge brick hall packed with young Thais jumping to live ska, reggae and Thai rock bands",
+"tip": "Bands from about 8:30pm, best 10pm+ Thu-Sat. Arrive by 9:30pm for a table. No real cover, buy a drink. Beers 120-180 THB",
+"price": "฿฿",
+"hours": "Daily 19:00-03:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"live-music",
+"ska",
+"reggae",
+"thai-rock",
+"locals",
+"party"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/brick-bar",
+"https://wanderlog.com/place/details/1252815",
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/"
+],
+"g": "live",
+"id": 528
+},
+{
+"name": "Mulligans Irish Bar Khaosan",
+"category": "bar",
+"area": "Khao San Road (Buddy Lodge)",
+"lat": 13.7586,
+"lng": 100.49851,
+"coord_confidence": "high",
+"vibe": "Air-conned Irish pub with football on screens early and drunken singalongs late",
+"tip": "Good escape from the heat with Kilkenny on tap. Sports early, best after midnight. Pints 180-260 THB",
+"price": "฿฿",
+"hours": "Daily 17:00-02:30",
+"date_friendly": false,
+"night": true,
+"tags": [
+"pub",
+"sports",
+"late-night",
+"beer",
+"live-music"
+],
+"sources": [
+"https://wanderlog.com/place/details/1074841/mulligans-irish-bar--khaosan-road",
+"https://www.khaosanroad.com/articles/best-backpacker-bars-bangkok-khao-san-rambuttri"
+],
+"g": "bar",
+"id": 529
+},
+{
+"name": "The Roof Bar (Centre Point Plaza)",
+"category": "rooftop",
+"area": "Khao San Road",
+"lat": 13.75927,
+"lng": 100.49753,
+"coord_confidence": "high",
+"vibe": "Open-air 3rd-floor terrace over Khao San with three live sets a night",
+"tip": "Acoustic 7:30pm, full band 9:30-11:30pm, another band till late. Grab a rail seat. Check your change",
+"price": "฿฿",
+"hours": "Daily 17:00-00:00 (bands run later)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"live-music",
+"cover-bands",
+"views",
+"terrace"
+],
+"sources": [
+"https://wanderlog.com/place/details/1074458",
+"https://www.tripadvisor.com/Attractions-g293916-Activities-c20-t99-zfn15620360-Bangkok.html"
+],
+"g": "rooftop",
+"id": 530
+},
+{
+"name": "Sanay Rooftop Bar Khaosan",
+"category": "rooftop",
+"area": "Tani Road / Khao San",
+"lat": 13.76066,
+"lng": 100.4978,
+"coord_confidence": "high",
+"vibe": "The prettiest rooftop near Khao San: creative cocktails, sunset over Banglamphu, rated 4.8",
+"tip": "Come for sunset, cocktails 180-320 THB, beers 100-160. Weekend DJ after 10pm plays house-lite and Afrobeats",
+"price": "฿฿",
+"hours": "Daily 15:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"cocktails",
+"sunset",
+"date",
+"views",
+"dj"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/sanay-rooftop-bar-khaosan",
+"https://wanderlog.com/place/details/7389939",
+"https://www.khaosanroad.com/articles/best-rooftop-bars-khaosan-road-sanay-rooftop-bar"
+],
+"g": "rooftop",
+"id": 531
+},
+{
+"name": "Hippie de Bar",
+"category": "bar",
+"area": "Khao San Road",
+"lat": 13.75936,
+"lng": 100.49616,
+"coord_confidence": "high",
+"vibe": "Hidden retro hangout down an alley off Khao San, with vintage junk decor, pool table and indie tunes",
+"tip": "Best early (8-11pm) before the big clubs. Courtyard seating, indie, pop and hip-hop. Beers 100-150 THB",
+"price": "฿",
+"hours": "Daily 16:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden",
+"retro",
+"indie",
+"courtyard",
+"pool-table",
+"chill"
+],
+"sources": [
+"https://wanderlog.com/place/details/1243983/hippie-de-bar",
+"https://www.lonelyplanet.com/thailand/bangkok/banglamphu/nightlife",
+"https://www.bkmagazine.com/nightlife/news/here-are-absolute-best-bars-bangkoks-old-town/"
+],
+"g": "bar",
+"id": 532
+},
+{
+"name": "Rere Khaosan",
+"category": "club",
+"area": "Khao San Road",
+"lat": 13.75825,
+"lng": 100.4981,
+"coord_confidence": "low",
+"vibe": "Restaurant by day that flips into a DJ dance spot after dark and goes till 4am",
+"tip": "DJs from about 10pm with commercial house and pop. Good last stop when the rest close at 2am",
+"price": "฿฿",
+"hours": "Daily 11:00-04:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"dj",
+"house",
+"late-night",
+"party"
+],
+"sources": [
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/",
+"https://www.khaosanroad.com/places/rere-khaosan"
+],
+"g": "club",
+"id": 533
+},
+{
+"name": "Khok Wua Afrobeats",
+"category": "club",
+"area": "Khao San Road",
+"lat": 13.7581,
+"lng": 100.49849,
+"coord_confidence": "medium",
+"vibe": "Sweaty little Afrobeats, dancehall and R&B dance bar for when you want a different groove",
+"tip": "Goes late, roughly 10pm-4am. Gets going after midnight. Live DJs, no dress code",
+"price": "฿",
+"hours": "Daily 22:00-04:00 (listings vary)",
+"date_friendly": false,
+"night": true,
+"tags": [
+"club",
+"afrobeats",
+"dancehall",
+"late-night",
+"dance"
+],
+"sources": [
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/",
+"https://khaosanroad.org/listing/khok-wua-afrobeats"
+],
+"g": "club",
+"id": 534
+},
+{
+"name": "Immortal Bar (Open Air)",
+"category": "live-music",
+"area": "Khao San (Damnoen Klang Nuea alley)",
+"lat": 13.7584,
+"lng": 100.49995,
+"coord_confidence": "low",
+"vibe": "Khao San's rock, punk and metal den, with loud bands and cheap drinks under the open sky",
+"tip": "Don't bother before 10:30pm. Live rock and metal acts some nights. Closed Mondays. No cover",
+"price": "฿",
+"hours": "Tue-Sun 19:00-02:00 (Sat till 01:00), closed Mon",
+"date_friendly": false,
+"night": true,
+"tags": [
+"live-music",
+"rock",
+"metal",
+"punk",
+"open-air",
+"cheap"
+],
+"sources": [
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/",
+"https://bk.asia-city.com/node/104259",
+"https://www.khaosanroad.com/articles/khao-san-road-nightlife-guide"
+],
+"g": "live",
+"id": 535
+},
+{
+"name": "Molly Bar",
+"category": "bar",
+"area": "Soi Rambuttri",
+"lat": 13.75928,
+"lng": 100.49814,
+"coord_confidence": "medium",
+"vibe": "Two-floor Rambuttri favorite: live cover band downstairs, DJ party upstairs",
+"tip": "Start with the band, finish upstairs with the DJ. Cocktails around 230 THB. Busy every night",
+"price": "฿฿",
+"hours": "Daily 12:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"live-music",
+"dj",
+"rambuttri",
+"party",
+"cover-bands"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/molly-bar",
+"https://khaosanroad.org/khao-san-road/best-clubs-on-khao-san-road/"
+],
+"g": "bar",
+"id": 536
+},
+{
+"name": "Buttri",
+"category": "bar",
+"area": "Soi Rambuttri",
+"lat": 13.75962,
+"lng": 100.49857,
+"coord_confidence": "high",
+"vibe": "Highly rated Rambuttri lane bar (4.9 from 800+ reviews) with live performances and a friendly crowd",
+"tip": "Calmer than Khao San but still lively. Live acts in the evening. Good spot to start or wind down",
+"price": "฿",
+"hours": "Daily 10:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rambuttri",
+"live-music",
+"chill",
+"street-bar"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/buttri",
+"https://www.khaosanroad.com/articles/best-bars-khao-san-road"
+],
+"g": "bar",
+"id": 537
+},
+{
+"name": "Reggae Bar Bangkok",
+"category": "live-music",
+"area": "Soi Rambuttri",
+"lat": 13.75946,
+"lng": 100.49709,
+"coord_confidence": "high",
+"vibe": "Tiny reggae shack with acoustic and full live bands, rated 4.7 and properly laid-back",
+"tip": "Live bands Thu-Sat after 9:30pm. Cheap beers, pay as you order. Closes at midnight",
+"price": "฿",
+"hours": "Mon-Sat 17:00-00:00, Sun 15:30-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"reggae",
+"live-music",
+"chill",
+"cheap",
+"rambuttri"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/reggae-bar-bangkok",
+"https://www.khaosanroad.com/articles/best-reggae-bars-in-bangkok"
+],
+"g": "live",
+"id": 538
+},
+{
+"name": "Kalanbatu Reggae Bar",
+"category": "live-music",
+"area": "Soi Rambuttri",
+"lat": 13.76027,
+"lng": 100.49709,
+"coord_confidence": "high",
+"vibe": "Rasta-style lane bar with a live band from 9pm and some of the cheapest booze around",
+"tip": "Band starts around 9pm. Reggae core, mixed covers. Open till 2am most nights",
+"price": "฿",
+"hours": "Daily 18:00-02:00 (Thu till midnight)",
+"date_friendly": false,
+"night": true,
+"tags": [
+"reggae",
+"live-music",
+"cheap",
+"late-night",
+"rambuttri"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/kalanbatu-reggae-bar"
+],
+"g": "live",
+"id": 539
+},
+{
+"name": "Happy Bar",
+"category": "live-music",
+"area": "Soi Rambuttri",
+"lat": 13.75942,
+"lng": 100.49708,
+"coord_confidence": "high",
+"vibe": "Decades-old no-pressure live music bar, a little local institution on the lane",
+"tip": "Low-key live sets every night. Check the bill, some reviews mention price slips",
+"price": "฿",
+"hours": "Daily 16:00-02:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"live-music",
+"old-school",
+"chill",
+"rambuttri"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/happy-bar",
+"https://www.tripadvisor.com/Attractions-g293916-Activities-c20-t99-zfn15620360-Bangkok.html"
+],
+"g": "live",
+"id": 540
+},
+{
+"name": "Hide Cafe Bar (Tani Road)",
+"category": "bar",
+"area": "Tani Road",
+"lat": 13.76019,
+"lng": 100.4985,
+"coord_confidence": "high",
+"vibe": "Cozy 24-hour hideout with pool table, board games and a cannabis-friendly smoking area",
+"tip": "Your 4am option when everything shuts. Thai-style beer on ice, fair prices. 5.0 from 300+ reviews",
+"price": "฿",
+"hours": "Open 24 hours",
+"date_friendly": false,
+"night": true,
+"tags": [
+"24h",
+"late-night",
+"pool-table",
+"cannabis-friendly",
+"chill",
+"hidden"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/hide-cafe-bar-tani-road"
+],
+"g": "bar",
+"id": 541
+},
+{
+"name": "Madame Musur",
+"category": "bar",
+"area": "Soi Rambuttri (Chana Songkhram)",
+"lat": 13.76214,
+"lng": 100.49498,
+"coord_confidence": "high",
+"vibe": "Northern Thai lounge-bar under the trees with herbal cocktails and a beachy Khao San feel",
+"tip": "Best 7-9pm for dinner plus drinks before heading out. Herbal cocktails 220-300 THB",
+"price": "฿฿",
+"hours": "Daily 08:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"thai-herbal",
+"date",
+"chill",
+"rambuttri"
+],
+"sources": [
+"https://spinach.guide/venues/madame-musur-1883/",
+"https://www.lonelyplanet.com/thailand/bangkok/banglamphu/nightlife",
+"https://www.khaosanroad.com/articles/best-backpacker-bars-bangkok-khao-san-rambuttri"
+],
+"g": "bar",
+"id": 542
+},
+{
+"name": "Mad Monkey Bangkok",
+"category": "bar",
+"area": "Phra Sumen Road",
+"lat": 13.7632,
+"lng": 100.49697,
+"coord_confidence": "high",
+"vibe": "Khao San's go-to party hostel bar with a pool, beer pong and nightly pub crawls",
+"tip": "Non-guests can usually drink at the bar. Join the pub crawl to meet people fast. Sat pool BBQ",
+"price": "฿",
+"hours": "Bar open late daily",
+"date_friendly": false,
+"night": true,
+"tags": [
+"party-hostel",
+"pub-crawl",
+"pool",
+"beer-pong",
+"social",
+"backpackers"
+],
+"sources": [
+"https://www.khaosanroad.com/places/mad-monkey-bangkok",
+"https://wanderlog.com/place/details/78897",
+"https://www.khaosanroad.com/articles/best-bangkok-party-hostels-2026"
+],
+"g": "bar",
+"id": 543
+},
+{
+"name": "Sheepshank Public House",
+"category": "bar",
+"area": "Phra Arthit Road (riverside)",
+"lat": 13.76358,
+"lng": 100.49429,
+"coord_confidence": "high",
+"vibe": "Former boathouse turned industrial gastropub with a river deck made for sunset pints",
+"tip": "Arrive at golden hour for the deck, stay for craft beer and burgers. Calm, couple-friendly",
+"price": "฿฿฿",
+"hours": "Mon 17:00-00:00, Tue-Sun 11:00-00:00 (Fri-Sat till 01:00)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"craft-beer",
+"sunset",
+"date",
+"gastropub"
+],
+"sources": [
+"https://wanderlog.com/place/details/1074346",
+"https://www.khaosanroad.com/places/sheepshank-public-house",
+"https://www.bkmagazine.com/nightlife/news/here-are-absolute-best-bars-bangkoks-old-town/"
+],
+"g": "bar",
+"id": 544
+},
+{
+"name": "The Roof at The StandardX Phra Arthit",
+"category": "rooftop",
+"area": "Phra Arthit Road",
+"lat": 13.7615,
+"lng": 100.494,
+"coord_confidence": "low",
+"vibe": "Design-hotel rooftop pool bar with river views and Mexican bites, the stylish new kid on Phra Arthit",
+"tip": "Sunset is the move. Cocktails and tacos by the pool, more polished crowd than Khao San. Opened late 2024",
+"price": "฿฿฿",
+"hours": "Evenings daily (check hotel)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"pool",
+"river-view",
+"cocktails",
+"date",
+"design-hotel"
+],
+"sources": [
+"https://prnewswire.co.uk/news-releases/the-standardx-bangkok-phra-arthit-debuts-in-asia-302331062.html",
+"https://www.businesstraveller.com/business-travel/the-standardx-debuts-in-bangkok/"
+],
+"g": "rooftop",
+"id": 545
+},
+{
+"name": "Apron Bar",
+"category": "bar",
+"area": "Samsen Soi 4",
+"lat": 13.76374,
+"lng": 100.49971,
+"coord_confidence": "medium",
+"vibe": "Pour-your-own craft beer bar with 18 taps inside an analogue film photo lab",
+"tip": "Tap card system, drafts 145-218 THB, so watch your pours. Mostly Underdog brews. Closed Mondays",
+"price": "฿฿",
+"hours": "Tue-Sun 11:00-23:30, closed Mon",
+"date_friendly": true,
+"night": true,
+"tags": [
+"craft-beer",
+"self-pour",
+"hidden",
+"samsen",
+"film-lab",
+"quirky"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/apron-bar",
+"https://menufans.com/en-US/place/apron-bar-bangkok-craft-beer-on-samsen-4-a-porn-bar-craft-beer-18-tap-got-beer-019b68761cf67769b27f01702dd388d5"
+],
+"g": "bar",
+"id": 546
+},
+{
+"name": "Phranakorn Bar & Gallery",
+"category": "rooftop",
+"area": "Soi Damnoen Klang Tai (Tanao)",
+"lat": 13.75674,
+"lng": 100.498,
+"coord_confidence": "medium",
+"vibe": "Arty multi-floor bar with a gallery inside and a rooftop looking over Golden Mount and old Bangkok",
+"tip": "Head straight up to the roof deck. Thai student and arts crowd, live bands. Cocktails 200-250, drafts 190-230",
+"price": "฿฿",
+"hours": "Daily 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"art",
+"gallery",
+"live-music",
+"locals",
+"views"
+],
+"sources": [
+"https://www.siam2nite.com/en/locations/bars/phranakorn-bar-and-gallery",
+"https://menufans.com/place/phra-nakhon-bar-and-gallery-019b66a212977753b10269f53bc4152d",
+"https://madmonkeyhostels.com/post/10-best-backpacker-bars-bangkok"
+],
+"g": "rooftop",
+"id": 547
+},
+{
+"name": "Din Restaurant & Jazz Bar",
+"category": "live-music",
+"area": "Dinso Road (Baan Tuk Din)",
+"lat": 13.7553,
+"lng": 100.5012,
+"coord_confidence": "low",
+"vibe": "Elegant shophouse jazz bar inside a boutique hotel, live jazz quartets and signature cocktails",
+"tip": "Live jazz Thu-Sat and Sun evenings. Arrive for the second set. Closed Mondays",
+"price": "฿฿฿",
+"hours": "Tue-Sun 18:00-00:00 (lunch 10:00-15:00), closed Mon",
+"date_friendly": true,
+"night": true,
+"tags": [
+"jazz",
+"live-music",
+"cocktails",
+"date",
+"classy"
+],
+"sources": [
+"https://koktailmagazine.com/?p=13627",
+"https://www.lemon8-app.com/experience/din-restaurant-and-jazz-bar-bangkok?region=th",
+"https://www.khaosanroad.com/articles/banglamphu-live-music-bars"
+],
+"g": "live",
+"id": 548
+},
+{
+"name": "The Press Sky Bar (Printing House Poshtel)",
+"category": "rooftop",
+"area": "Dinso Road",
+"lat": 13.75487,
+"lng": 100.50124,
+"coord_confidence": "high",
+"vibe": "9th-floor hostel rooftop with skyline views and a mellower, grown-up social crowd",
+"tip": "Early-evening sundowner spot near Democracy Monument. Sharing packs from about 1,550 THB for two",
+"price": "฿฿",
+"hours": "Evenings from 18:00 (check, may close early)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"views",
+"sunset",
+"hostel",
+"date"
+],
+"sources": [
+"https://web.hungryhub.com/restaurants/the-press-sky-bar-rooftop-at-the-printing-house-poshtel-bangkok?locale=en",
+"https://wanderlog.com/place/details/843337",
+"https://www.khaosanroad.com/articles/best-bangkok-party-hostels-2026"
+],
+"g": "rooftop",
+"id": 549
+},
+{
+"name": "Tai Soon Bar",
+"category": "bar",
+"area": "Maha Chai Road (Pratu Phi)",
+"lat": 13.75252,
+"lng": 100.50453,
+"coord_confidence": "high",
+"vibe": "Dim Chinese-shophouse craft beer bar with 13 taps, across from Jay Fai and Pad Thai Thip Samai",
+"tip": "Combine with a Pratu Phi street-food night. Ask for tasters. Fills up after 8pm",
+"price": "฿฿",
+"hours": "Daily 13:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"craft-beer",
+"shophouse",
+"hidden",
+"date",
+"street-food"
+],
+"sources": [
+"https://www.visitthailandtoday.com/nightlife/bangkok/tai-soon-bar",
+"https://wanderlog.com/place/details/1074372",
+"https://www.timeout.com/bangkok/bars/tai-soon-bar"
+],
+"g": "bar",
+"id": 550
+},
+{
+"name": "Samranrat Bar",
+"category": "bar",
+"area": "Pratu Phi",
+"lat": 13.75328,
+"lng": 100.50496,
+"coord_confidence": "medium",
+"vibe": "Small neighborhood bar near Pratu Phi rated 4.9, with cocktails, burgers and Thai drinking food",
+"tip": "Easy pre or post spot for a Tai Soon and Pratu Phi food crawl. Mojitos and margaritas, cheap eats",
+"price": "฿",
+"hours": "Evenings (check before going)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"local",
+"hidden",
+"neighborhood",
+"cheap"
+],
+"sources": [
+"https://menufans.com/place/samranrat-bar-samranrat-bar-pratu-phi-019b6880a893752c82f8994d2c15631a"
+],
+"g": "bar",
+"id": 551
+},
+{
+"name": "342bar (Baan Wanglang Riverside rooftop)",
+"category": "rooftop",
+"area": "Wang Lang / Arun Amarin",
+"lat": 13.75469,
+"lng": 100.48658,
+"coord_confidence": "high",
+"vibe": "Open-air hotel rooftop right on the river, Rama VIII Bridge and Grand Palace side lights across the water.",
+"tip": "Go for sunset, 16:00-23:00 daily. Cocktails around 220-380 THB, beer 130-200. Card minimum 500 THB.",
+"price": "฿฿",
+"hours": "Daily 16:00-23:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"river view",
+"sunset",
+"cocktails",
+"walkable from Bangkok Noi"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/124785ji-342bar",
+"https://www.siam2nite.com/en/locations/bangkok-noi",
+"https://www.khaosanroad.com/articles/bangkok-rooftop-bars-by-boat"
+],
+"g": "rooftop",
+"id": 552
+},
+{
+"name": "Ta-ling Bar (ตลิ่งบาร์)",
+"category": "live-music",
+"area": "Wang Lang / Siriraj pier",
+"lat": 13.75441,
+"lng": 100.48666,
+"coord_confidence": "high",
+"vibe": "Riverside semi-pub in the alley by Siriraj pier, cold beer on the bank with a live band.",
+"tip": "Open 10:00-23:00. Best after 19:00 when the band starts. Around 250-500 THB per head with food.",
+"price": "฿฿",
+"hours": "Daily 10:00-23:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"riverside",
+"live band",
+"Thai pub",
+"cheap beer",
+"local"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/123735rw-ta-ling-bar"
+],
+"g": "live",
+"id": 553
+},
+{
+"name": "Tanee Beer Tap (ตานี เบียร์แท็ป)",
+"category": "bar",
+"area": "Wang Lang / Arun Amarin 18",
+"lat": 13.75481,
+"lng": 100.48647,
+"coord_confidence": "high",
+"vibe": "Small Thai craft beer tap bar in Wang Lang, rotating IPAs and Thai bar food. Your closest craft beer spot.",
+"tip": "Open 16:00-24:00 daily. Pair with 342bar next door: tap beer first, rooftop after. Craft pints around 200-300 THB.",
+"price": "฿฿",
+"hours": "Daily 16:00-00:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"craft beer",
+"Thai craft",
+"taproom",
+"walkable from Bangkok Noi"
+],
+"sources": [
+"https://spinach.guide/venues/tanee-beer-tap-1727/",
+"https://www.wongnai.com/restaurants?regions=101&categories=15&page.number=1&page.size=10&rerank=false&domain=1"
+],
+"g": "bar",
+"id": 554
+},
+{
+"name": "Beeru Bar & Bistro",
+"category": "bar",
+"area": "Bang Yi Khan / Arun Amarin 53",
+"lat": 13.77316,
+"lng": 100.49219,
+"coord_confidence": "high",
+"vibe": "Hidden izakaya-style bar near Rama VIII Bridge, Japanese bites and a big drinks list.",
+"tip": "Tue-Sun 17:00-23:00, 100 m into Soi Arun Amarin 53. Try the chashu and cheese gyoza. 250-500 THB per head.",
+"price": "฿฿",
+"hours": "Tue-Sun 17:00-23:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden",
+"izakaya",
+"Japanese",
+"small bar"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/196918Si-beeru-bar-bistro",
+"https://www.wongnai.com/listings/chill-hang-out-restaurants-pinklao-by-orain-tnn"
+],
+"g": "bar",
+"id": 555
+},
+{
+"name": "Eagle Nest Bar (Sala Arun)",
+"category": "rooftop",
+"area": "Tha Tien",
+"lat": 13.746,
+"lng": 100.491,
+"coord_confidence": "medium",
+"vibe": "Tiny 5th floor riverside perch staring straight at Wat Arun lit up at night. Quiet, no loud music.",
+"tip": "Weekdays 17:00-24:00, weekends 16:30-01:00. Sunset seats go first. Cocktails about 280-420 THB, beer 150-200.",
+"price": "฿฿฿",
+"hours": "Mon-Fri 17:00-00:00, Sat-Sun 16:30-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"Wat Arun view",
+"sunset",
+"river view",
+"intimate"
+],
+"sources": [
+"https://www.khaosodenglish.com/featured/2020/02/12/at-riverside-bar-an-eagles-eye-view-of-bangkoks-2-iconic-temples/",
+"https://www.phuket101.net/bangkok/eagle-nest-rooftop-bar/",
+"https://www.khaosanroad.com/articles/bangkok-rooftop-bars-best-wat-arun-views-night"
+],
+"g": "rooftop",
+"id": 556
+},
+{
+"name": "View ARUN (Arun Riverside)",
+"category": "rooftop",
+"area": "Tha Tien / Maharat Rd",
+"lat": 13.74495,
+"lng": 100.49122,
+"coord_confidence": "high",
+"vibe": "Multi-level riverside rooftop terraces facing Wat Arun, house-syrup cocktails and regional Thai food.",
+"tip": "Book a front terrace table for sunset. Cocktails about 280-480 THB, beer 120-190. Call 02-221-5651 to reserve.",
+"price": "฿฿฿",
+"hours": "Evenings, confirm by phone",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"Wat Arun view",
+"river view",
+"cocktails",
+"dinner"
+],
+"sources": [
+"https://www.arunriverside.com/view-arun.html",
+"https://www.wongnai.com/listings/40-restaurants-and-bars-in-bangkok-old-town+",
+"https://www.khaosanroad.com/articles/bangkok-river-rooftop-bars-worth-the-taxi-from-khao-san"
+],
+"g": "rooftop",
+"id": 557
+},
+{
+"name": "Eat Sight Story Deck",
+"category": "bar",
+"area": "Tha Tien",
+"lat": 13.7461,
+"lng": 100.49075,
+"coord_confidence": "medium",
+"vibe": "Riverside deck restaurant-bar at the end of Soi Tha Tien, Wat Arun right across the water.",
+"tip": "Come before sunset for a river-edge table, have drinks while Wat Arun lights up. Book on 083-988-8735.",
+"price": "฿฿฿",
+"hours": "Lunch to late evening, confirm by phone",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"Wat Arun view",
+"sunset",
+"dinner and drinks"
+],
+"sources": [
+"https://www.eatsightstorydeck.com/en/"
+],
+"g": "bar",
+"id": 558
+},
+{
+"name": "Nuss Bar (Nusara)",
+"category": "bar",
+"area": "Tha Tien / Maharat Rd",
+"lat": 13.7464,
+"lng": 100.4917,
+"coord_confidence": "medium",
+"vibe": "Red velvet cocktail lounge beside 50 Best restaurant Nusara, with a full-width window onto Wat Pho.",
+"tip": "Wed-Mon 17:00-24:00, closed Tue. Only around 30 seats, book. Try the Three Friends Negroni. Cocktails 400+ THB.",
+"price": "฿฿฿฿",
+"hours": "Wed-Mon 17:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"hidden",
+"Wat Pho view",
+"upscale",
+"date spot"
+],
+"sources": [
+"https://www.asia-bars.com/2023/11/nuss-bar-cocktail-bar-bangkoks-old-town/",
+"https://www.timeout.com/bangkok/bars/nuss",
+"https://www.tatlerasia.com/dining/nuss-bar"
+],
+"g": "bar",
+"id": 559
+},
+{
+"name": "Mayrai Wine Bar (Tha Tien)",
+"category": "bar",
+"area": "Tha Tien / Maharat Rd",
+"lat": 13.74562,
+"lng": 100.49107,
+"coord_confidence": "high",
+"vibe": "Le Du team's natural wine bar in an old shophouse opposite Sala Rattanakosin, with pad thai to match.",
+"tip": "Closed Tue. Glasses from about 200 THB. Good warm-up before the Tha Tien rooftops. Hours have shortened, check first.",
+"price": "฿฿",
+"hours": "Wed-Mon 12:00-21:00 (recent listing)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"wine bar",
+"natural wine",
+"pad thai",
+"old shophouse"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/may-rai",
+"https://wanderlog.com/place/details/1074490",
+"https://www.wongnai.com/listings/40-restaurants-and-bars-in-bangkok-old-town+"
+],
+"g": "bar",
+"id": 560
+},
+{
+"name": "Uncle Tim (Tim Mansion)",
+"category": "bar",
+"area": "Pratu Phi / Maha Chai Rd",
+"lat": 13.7528,
+"lng": 100.5047,
+"coord_confidence": "medium",
+"vibe": "Red-neon Chinese herb cocktail bar in an old pharmacy next to Jay Fai. Late Saturdays get techno-house DJs.",
+"tip": "Wed-Sun 19:00-01:00. Saturday late night is the DJ / tech house slot, jazz Wed, Fri and Sun. Herbal cocktails.",
+"price": "฿฿฿",
+"hours": "Wed-Sun 19:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"DJ",
+"tech house",
+"Chinese herbs",
+"hidden"
+],
+"sources": [
+"https://www.siam2nite.com/en/locations/bars/uncle-tim",
+"https://coconuts.co/bangkok/food-drink/uncle-tim-the-cocktail-bar-inside-a-drugstore-turned-hotel-serving-hip-chinese-herb-infused-cocktails",
+"https://www.wongnai.com/listings/40-restaurants-and-bars-in-bangkok-old-town+"
+],
+"g": "bar",
+"id": 561
+},
+{
+"name": "QasBar",
+"category": "bar",
+"area": "Bamrung Mueang Rd / Giant Swing",
+"lat": 13.7518,
+"lng": 100.5043,
+"coord_confidence": "low",
+"vibe": "Speakeasy in an 80-year-old three-floor house near the Giant Swing, board games and glass painting.",
+"tip": "18:00-01:30, closed Mon. 2-hour cocktail buffet 999 THB, beer buffet promos around 559 THB. Live music some Saturdays.",
+"price": "฿฿",
+"hours": "Tue-Sun 18:00-01:30",
+"date_friendly": true,
+"night": true,
+"tags": [
+"speakeasy",
+"hidden",
+"cocktail buffet",
+"old house",
+"group fun"
+],
+"sources": [
+"https://www.lemon8-app.com/@iam.mai.siriboonp/7487939687446823432?region=th"
+],
+"g": "bar",
+"id": 562
+},
+{
+"name": "COLLECTED",
+"category": "bar",
+"area": "Bamrung Mueang Rd / Phraeng Phuthon",
+"lat": 13.7527,
+"lng": 100.497,
+"coord_confidence": "medium",
+"vibe": "Small neighbourhood natural wine bar in the old town, orange wine, Thai craft beer and easy chat.",
+"tip": "Wed-Sun 17:00-24:00. Staff happily guide newbies. Great quiet first-date spot before rooftop drinks.",
+"price": "฿฿",
+"hours": "Wed-Sun 17:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"wine bar",
+"natural wine",
+"craft beer",
+"date spot"
+],
+"sources": [
+"https://www.timeout.com/bangkok/th/bars/collected",
+"https://www.raisin.digital/en/explore/thailand/bangkok/venues/collected-29554/"
+],
+"g": "bar",
+"id": 563
+},
+{
+"name": "Seven Spoons",
+"category": "bar",
+"area": "Chakkraphatdi Phong Rd / Lan Luang",
+"lat": 13.75915,
+"lng": 100.50901,
+"coord_confidence": "high",
+"vibe": "Long-running candlelit bar-restaurant with an open bar up front, Mediterranean plates and solid cocktails.",
+"tip": "Dinner 18:00-01:00, closed Mon. Cocktails from around 250 THB. Good dinner-then-drinks date in the old town.",
+"price": "฿฿",
+"hours": "Tue-Sun 18:00-01:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"cocktails",
+"bar-restaurant",
+"date spot",
+"old town"
+],
+"sources": [
+"https://gourmetbangkok.com/taste/seven-spoons-old-bangkok/",
+"https://www.wongnai.com/listings/40-restaurants-and-bars-in-bangkok-old-town+",
+"https://www.eatingthaifood.com/revisiting-bangkoks-tripadvisor-champ-seven-spoons/"
+],
+"g": "bar",
+"id": 564
+},
+{
+"name": "Haze Bar",
+"category": "bar",
+"area": "Luang Rd / Wat Thep Sirin",
+"lat": 13.7483,
+"lng": 100.5098,
+"coord_confidence": "medium",
+"vibe": "Genuine neighbourhood craft beer local: 12 mostly Thai taps, live music and sports on screen.",
+"tip": "18:00-24:00, Wed-Mon per Time Out. Thai craft pints around 200-280 THB. Easy walk from Saphan Phut side.",
+"price": "฿฿",
+"hours": "Wed-Mon 18:00-00:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"craft beer",
+"live music",
+"sports",
+"local"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/haze-bar",
+"https://www.bkmagazine.com/nightlife/bangkoks-15-best-beer-bars-to-check-out-2025/"
+],
+"g": "bar",
+"id": 565
+},
+{
+"name": "Taophiphon Bar Project",
+"category": "bar",
+"area": "Khlong San / Charoen Rat Rd",
+"lat": 13.727,
+"lng": 100.498,
+"coord_confidence": "low",
+"vibe": "Craft beer activist MP's bar: 200+ beers, Thai community spirits and sato, board games and live music.",
+"tip": "Wed-Mon 17:00-24:00. Chill live music Fri and Sat. Ask for local Thai spirits flights. South of the main area, near Wongwian Yai.",
+"price": "฿฿",
+"hours": "Wed-Mon 17:00-00:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"craft beer",
+"Thai spirits",
+"live music",
+"Thonburi"
+],
+"sources": [
+"https://www.timeout.com/bangkok/bars/taophiphon-bar-project",
+"https://www.bkmagazine.com/nightlife/bangkoks-15-best-beer-bars-to-check-out-2025/",
+"https://www.lemon8-app.com/experience/%E0%B8%9C%E0%B8%B1%E0%B8%9A%E0%B8%9D%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%98%E0%B8%99?region=th"
+],
+"g": "bar",
+"id": 566
+},
+{
+"name": "109MHz BKK Pinklao",
+"category": "live-music",
+"area": "Pinklao / The Sense Pinklao",
+"lat": 13.77973,
+"lng": 100.4748,
+"coord_confidence": "high",
+"vibe": "Newer live music semi-pub in The Sense Pinklao, cold drinks, mala and fried shrimp heads.",
+"tip": "Evenings, band from around 20:00. Easy parking. Cheap mixers and beer towers, around 150-300 THB per head.",
+"price": "฿฿",
+"hours": "Evenings, check page",
+"date_friendly": false,
+"night": true,
+"tags": [
+"live band",
+"Thai pub",
+"Pinklao",
+"groups"
+],
+"sources": [
+"https://www.wongnai.com/listings/chill-hang-out-restaurants-pinklao-by-orain-tnn",
+"https://www.wongnai.com/restaurants?regions=101&categories=15&page.number=1&page.size=10&rerank=false&domain=1"
+],
+"g": "live",
+"id": 567
+},
+{
+"name": "Faah BKK",
+"category": "live-music",
+"area": "Pinklao / The Sense Pinklao",
+"lat": 13.7796,
+"lng": 100.475,
+"coord_confidence": "medium",
+"vibe": "Pricier live music bar in The Sense Pinklao complex, the dressier Pinklao night out.",
+"tip": "Weekend nights are busiest. Bottle-focused, budget 500+ THB per head. Hop to 109MHz in the same complex.",
+"price": "฿฿฿",
+"hours": "Evenings to late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"live music",
+"Pinklao",
+"bottle service"
+],
+"sources": [
+"https://www.siam2nite.com/en/locations/bangkok-noi",
+"https://www.wongnai.com/restaurants?regions=101&categories=15&page.number=1&page.size=10&rerank=false&domain=1"
+],
+"g": "live",
+"id": 568
+},
+{
+"name": "Rusty.bkk",
+"category": "bar",
+"area": "Pinklao",
+"lat": 13.7805,
+"lng": 100.4765,
+"coord_confidence": "low",
+"vibe": "Hidden red-lit Pinklao bar with a spiral staircase, signature cocktails, band and DJ every night.",
+"tip": "Live music plus DJ nightly. Try the Love Potion No.9. Beside Pata Pinklao, easy parking, reasonable prices.",
+"price": "฿฿",
+"hours": "Nightly, evening to late",
+"date_friendly": true,
+"night": true,
+"tags": [
+"hidden bar",
+"DJ",
+"live music",
+"cocktails",
+"Pinklao"
+],
+"sources": [
+"https://www.lemon8-app.com/@saramaidee/7524701043402260993?region=us",
+"https://www.lemon8-app.com/experience/%E0%B8%9C%E0%B8%B1%E0%B8%9A%E0%B8%9D%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%98%E0%B8%99?region=th"
+],
+"g": "bar",
+"id": 569
+},
+{
+"name": "Tidtrain Rooftop Bar (ติดเทรน)",
+"category": "rooftop",
+"area": "Charan Sanitwong 65 / Bang Phlat",
+"lat": 13.78,
+"lng": 100.4875,
+"coord_confidence": "low",
+"vibe": "Budget rooftop beside the MRT line with Rama VIII Bridge views. Trains roll past your table.",
+"tip": "Daily 17:00-24:00, near MRT Sirindhorn. Menu from 89 THB. Cheap sunset beers, easy taxi home to Bangkok Noi.",
+"price": "฿",
+"hours": "Daily 17:00-23:30/00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"cheap",
+"Rama VIII view",
+"near MRT"
+],
+"sources": [
+"https://www.lemon8-app.com/@tidtrain_rooftop.bar/7467128989611115026?region=th",
+"https://www.lemon8-app.com/@tidtrain_rooftop.bar/7402865077851947537?region=th"
+],
+"g": "rooftop",
+"id": 570
+},
+{
+"name": "River Bar (Club Retro)",
+"category": "live-music",
+"area": "Charan Sanitwong 66/1 / Bang Phlat",
+"lat": 13.78241,
+"lng": 100.50123,
+"coord_confidence": "high",
+"vibe": "Old-school riverside bar-restaurant facing Rama VIII and Krung Thon bridges, with a live band.",
+"tip": "Daily 17:00-24:00. Grab a river table for bridge lights. Thai drinking food, beer towers, live music nightly.",
+"price": "฿฿",
+"hours": "Daily 17:00-00:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"live band",
+"bridge view",
+"Thai pub"
+],
+"sources": [
+"https://food.trueid.net/detail/96GnpJ0rLvgY",
+"https://www.wongnai.com/listings/chill-hang-out-restaurants-pinklao-by-orain-tnn"
+],
+"g": "live",
+"id": 571
+},
+{
+"name": "Groove Evening",
+"category": "live-music",
+"area": "Pinklao / Borommaratchachonnani Rd",
+"lat": 13.78396,
+"lng": 100.47135,
+"coord_confidence": "medium",
+"vibe": "Roadside Pinklao bar-bistro with a fountain courtyard, nightly bands and a monthly pool tournament.",
+"tip": "Daily 17:30-01:00. Draft and black beer at moderate prices, spicy yum snacks. Older listing, check it is still running.",
+"price": "฿",
+"hours": "Daily 17:30-01:00",
+"date_friendly": false,
+"night": true,
+"tags": [
+"live band",
+"pool",
+"Thai pub",
+"Pinklao",
+"cheap"
+],
+"sources": [
+"https://siam2nite.com/en/locations/bars/groove-evening",
+"https://www.wongnai.com/listings/chill-hang-out-restaurants-pinklao-by-orain-tnn"
+],
+"g": "live",
+"id": 572
+},
+{
+"name": "Kiew Nong Bua Wang Lang (เกี๊ยวหนองบัว วังหลัง)",
+"category": "restaurant",
+"area": "Wang Lang / Trok Wat Rakhang",
+"lat": 13.7538,
+"lng": 100.4876,
+"coord_confidence": "low",
+"vibe": "50-year-old Trat-style wonton noodle house with a river-view cafe upstairs",
+"tip": "Get wonton egg noodles and pork dumplings in clear broth, then dessert on the 2nd floor. 9am-9pm. Parking in Wat Rakhang.",
+"price": "฿฿",
+"hours": "Daily 09:00-21:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"noodles",
+"wonton",
+"river-view",
+"old-school",
+"wang-lang"
+],
+"sources": [
+"https://www.tourismthailand.org/Articles/wang-lang",
+"https://grantourismotravels.com/wang-lang-market-bangkok-where-to-eat-and-drink/"
+],
+"g": "food",
+"id": 573
+},
+{
+"name": "Theatre Cafe at Theatre Residence (เธียเตอร์ เรสซิเดนซ์)",
+"category": "restaurant",
+"area": "Wang Lang / Wat Rakhang riverside",
+"lat": 13.7537,
+"lng": 100.4887,
+"coord_confidence": "medium",
+"vibe": "Former Patravadi open-air theatre turned leafy riverside restaurant with a waterfall and Grand Palace views",
+"tip": "Clam croquettes, corn ribs with somtum shrimp dip, catfish fried rice. Book a river table for sunset dinner.",
+"price": "฿฿฿",
+"hours": "Daily 11:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"sunset",
+"date-night",
+"thai",
+"heritage"
+],
+"sources": [
+"https://www.tourismthailand.org/Articles/wang-lang",
+"https://grantourismotravels.com/wang-lang-market-bangkok-where-to-eat-and-drink/",
+"https://www.timeout.com/bangkok/hotels/patravadi-theatre-is-reborn-as-theatre-residence-boutique-hotel"
+],
+"g": "food",
+"id": 574
+},
+{
+"name": "Supatra River House (สุภัทรา ริเวอร์ เฮาส์)",
+"category": "restaurant",
+"area": "Wang Lang / Soi Wat Rakhang",
+"lat": 13.7545,
+"lng": 100.4886,
+"coord_confidence": "medium",
+"vibe": "Restored teak house of the woman who founded Bangkok's river ferries, reopened in 2024 after five years",
+"tip": "Duck confit larb and nam prik long ruea with fluffy catfish. Ask for the small building for best river view. Book ahead.",
+"price": "฿฿฿",
+"hours": "Lunch and dinner; book ahead (older listing: 11:00-14:00, 17:30-23:00)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"riverside",
+"heritage",
+"date-night",
+"thai",
+"views"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/supatra-river-house",
+"https://www.asiantrails.travel/?p=1036596",
+"https://grantourismotravels.com/wang-lang-market-bangkok-where-to-eat-and-drink/"
+],
+"g": "food",
+"id": 575
+},
+{
+"name": "Jum Saep Aum Lam Phen Wa (จุ่มแซ่บ อุ๋มหล่ำ เพ็นวา)",
+"category": "restaurant",
+"area": "Wang Lang Road, near Wang Lang Pier",
+"lat": 13.7558,
+"lng": 100.487,
+"coord_confidence": "low",
+"vibe": "Spicy Isan hot pots and grills on a breezy balcony over the Chao Phraya",
+"tip": "Jim jum hot pot, larb and grilled pork with cold beer at dusk. Good for groups. 11am-10pm.",
+"price": "฿฿",
+"hours": "Daily 11:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"isan",
+"riverside",
+"spicy",
+"group",
+"beer"
+],
+"sources": [
+"https://www.tourismthailand.org/Articles/wang-lang"
+],
+"g": "food",
+"id": 576
+},
+{
+"name": "Kaenkrung (แก่นกรุง)",
+"category": "restaurant",
+"area": "Arun Amarin Road, Siriraj",
+"lat": 13.759,
+"lng": 100.482,
+"coord_confidence": "low",
+"vibe": "Michelin-listed modern Isan from Khon Kaen, bold, smoky and properly spicy",
+"tip": "Order the signature Hao Dong herb-grilled pork neck plus a som tam. Closed Tue-Wed. Mid-range, good dinner spot.",
+"price": "฿฿",
+"hours": "Mon, Thu-Sun 12:00-22:00 (closed Tue-Wed)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"michelin",
+"isan",
+"modern-thai",
+"spicy"
+],
+"sources": [
+"https://guide.michelin.com/th/th/bangkok-region/bangkok/restaurant/kaenkrung",
+"https://foodle.pro/restaurants/bangkok/kaenkrung"
+],
+"g": "food",
+"id": 577
+},
+{
+"name": "Jae Uan Hoy Yai Kratha Ron (เจ๊อ้วนหอยใหญ่ กระทะร้อน)",
+"category": "street-food",
+"area": "Wang Lang / Soi Wat Rakhang",
+"lat": 13.7547,
+"lng": 100.4868,
+"coord_confidence": "low",
+"vibe": "Sizzling hot-pan fried oysters with fat, juicy shellfish in a crispy egg batter",
+"tip": "Get hoy tod on the hot plate with extra sriracha. Go before 7pm. Budget ฿100-150.",
+"price": "฿",
+"hours": "Daily 09:00-19:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"oyster-omelette",
+"wang-lang",
+"street-food",
+"seafood"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/"
+],
+"g": "food",
+"id": 578
+},
+{
+"name": "Sushi Wang Lang by Orathai (ซูชิวังหลัง บาย อรทัย)",
+"category": "street-food",
+"area": "Arun Amarin Road, Wang Lang market",
+"lat": 13.756,
+"lng": 100.4847,
+"coord_confidence": "low",
+"vibe": "Viral 6-baht-a-piece sushi counter that students and TikTokers swarm",
+"tip": "Pick your own pieces at 6 baht each, ramen and rice bowls too. Go mid-afternoon to dodge the student rush.",
+"price": "฿",
+"hours": "Daily 09:30-18:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"viral",
+"cheap-eats",
+"sushi",
+"wang-lang",
+"tiktok"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/",
+"https://menufans.com/place/sushi-wang-lang-by-orathai-019b65a79ffa74af9480d46b0f8b60a5"
+],
+"g": "food",
+"id": 579
+},
+{
+"name": "Jok Hia Kriang (โจ๊กเฮียเกรียง)",
+"category": "street-food",
+"area": "Wang Lang, near Siriraj pier",
+"lat": 13.7565,
+"lng": 100.4855,
+"coord_confidence": "low",
+"vibe": "Old-school Wang Lang congee stall loaded with pork, liver, offal and century egg",
+"tip": "Jok with everything plus a raw egg. Opens 6am for breakfast and runs to 9:30pm. Tue only from 4pm.",
+"price": "฿",
+"hours": "Mon, Wed-Sun 06:00-21:30; Tue 16:00-21:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"congee",
+"breakfast",
+"old-school",
+"wang-lang"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/",
+"https://www.wongnai.com/r/10736XM"
+],
+"g": "food",
+"id": 580
+},
+{
+"name": "Tee Yen Ta Fo Rot Ded (ตี๋เย็นตาโฟรสเด็ด)",
+"category": "street-food",
+"area": "Siriraj Hospital intersection, Wang Lang Road",
+"lat": 13.7575,
+"lng": 100.4848,
+"coord_confidence": "low",
+"vibe": "Bright pink yen ta fo noodles with fish balls and tofu, a Siriraj staple",
+"tip": "Yen ta fo sen yai with fried wonton crisps. Cheap, fast lunch. Open 9am-9pm.",
+"price": "฿",
+"hours": "Daily 09:00-21:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"noodles",
+"yen-ta-fo",
+"cheap-eats",
+"siriraj"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/"
+],
+"g": "food",
+"id": 581
+},
+{
+"name": "Tub Tim Krob Wang Lang (ทับทิมกรอบวังหลัง)",
+"category": "dessert",
+"area": "Arun Amarin Road, Wang Lang",
+"lat": 13.7555,
+"lng": 100.4849,
+"coord_confidence": "low",
+"vibe": "Crunchy ruby water chestnuts in coconut milk over shaved ice, the perfect heat cure",
+"tip": "Get the classic tub tim krob with extra jackfruit. Around ฿40-60. Best in the hot afternoon.",
+"price": "฿",
+"hours": "Daily 08:00-19:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"thai-dessert",
+"shaved-ice",
+"wang-lang",
+"sweet"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/"
+],
+"g": "cafe",
+"id": 582
+},
+{
+"name": "Yui Khao Chae Wang Lang (ยุ้ยข้าวแช่ วังหลัง)",
+"category": "street-food",
+"area": "Wang Lang Soi 318",
+"lat": 13.7562,
+"lng": 100.4862,
+"coord_confidence": "low",
+"vibe": "Royal-style khao chae: rice in jasmine-scented ice water with fussy little side dishes",
+"tip": "Try it on a hot day, mostly in the dry season (Mar-May). Eat the sides first, then sip the rice. Daytime only.",
+"price": "฿฿",
+"hours": "Daytime, varies (around 09:00-17:00); seasonal",
+"date_friendly": true,
+"night": false,
+"tags": [
+"unusual",
+"royal-thai",
+"seasonal",
+"wang-lang"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/"
+],
+"g": "food",
+"id": 583
+},
+{
+"name": "Khanom Krok Singapore OK (ขนมครกสิงคโปร์ OK)",
+"category": "dessert",
+"area": "Wang Lang Road",
+"lat": 13.7568,
+"lng": 100.4858,
+"coord_confidence": "low",
+"vibe": "Singapore-style coconut pancakes with fun toppings from pandan to durian to pork floss",
+"tip": "Mix a box of pandan, durian and shrimp. Morning stall, 7:30am-3pm, so come early.",
+"price": "฿",
+"hours": "Daily 07:30-15:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"snack",
+"coconut",
+"breakfast",
+"wang-lang"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารวังหลัง/"
+],
+"g": "cafe",
+"id": 584
+},
+{
+"name": "Kuay Teow Tamlueng Nai Uan (ก๋วยเตี๋ยวตำลึงนายอ้วน บางขุนนนท์)",
+"category": "street-food",
+"area": "Bang Khun Non Road",
+"lat": 13.768,
+"lng": 100.474,
+"coord_confidence": "low",
+"vibe": "Bang Khun Non noodle-street classic famous for tom yum noodles loaded with ivy gourd greens",
+"tip": "Tom yum noodles or tom yum yen ta fo, plus a braised egg. Under ฿100. Morning to 4pm.",
+"price": "฿",
+"hours": "Daily 07:00-16:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"noodles",
+"tom-yum",
+"bang-khun-non",
+"local"
+],
+"sources": [
+"https://www.wongnai.com/reviews/b818ecf911164b409a6223e3f48928ac",
+"https://tasteofthailand.org/neighborhood-chronicles-bangkunnon-road/"
+],
+"g": "food",
+"id": 585
+},
+{
+"name": "Ham Hu Tom Yum Soy Milk Noodles (ร้านหำหู้ ก๋วยเตี๋ยวต้มยำน้ำเต้าหู้)",
+"category": "street-food",
+"area": "Bang Khun Non",
+"lat": 13.7675,
+"lng": 100.4755,
+"coord_confidence": "low",
+"vibe": "Bills itself as the only shop in Thailand doing tom yum noodles in soy milk broth. Weird and wonderful",
+"tip": "Order the signature tom yum nam tao hu noodles, spicy level medium. Cheap. Go lunchtime.",
+"price": "฿",
+"hours": "Daytime; check Wongnai",
+"date_friendly": false,
+"night": false,
+"tags": [
+"unusual",
+"noodles",
+"tom-yum",
+"bang-khun-non",
+"only-here"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/356463gJ-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%B3%E0%B8%AB%E0%B8%B9%E0%B9%89-%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C1/reviews"
+],
+"g": "food",
+"id": 586
+},
+{
+"name": "Bami Jab Kang Yai Pi (บะหมี่จับกังยายปิ๊ ปากซอยจรัญฯ46)",
+"category": "street-food",
+"area": "Charan Sanitwong Soi 46, Bang Yi Khan",
+"lat": 13.77921,
+"lng": 100.487,
+"coord_confidence": "high",
+"vibe": "Grandma Pi's 'labourer' egg noodles: tiny bowls, tiny prices, huge local cult",
+"tip": "Dry bami with wonton and red pork at ฿30, order two bowls. Opens 6am, cash only, sells out.",
+"price": "฿",
+"hours": "From 06:00 until sold out",
+"date_friendly": false,
+"night": false,
+"tags": [
+"noodles",
+"breakfast",
+"cheap-eats",
+"legendary",
+"bang-phlat"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/385447LO"
+],
+"g": "food",
+"id": 587
+},
+{
+"name": "Iaw Thai Suki Boran (เอี่ยวไถ่สุกี้โบราณ)",
+"category": "restaurant",
+"area": "Somdet Phra Pinklao Road",
+"lat": 13.777,
+"lng": 100.488,
+"coord_confidence": "low",
+"vibe": "30-plus-year-old Pinklao suki shop famous for thick-broth beef suki",
+"tip": "Order suki nuea nam khon (thick beef suki), wet or dry. Open late-ish to 10:30pm.",
+"price": "฿฿",
+"hours": "Daily 10:30-22:30",
+"date_friendly": false,
+"night": true,
+"tags": [
+"suki",
+"beef",
+"old-school",
+"pinklao"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารปิ่นเกล้า/"
+],
+"g": "food",
+"id": 588
+},
+{
+"name": "Sky High Tom Yum Chicken Feet (สกายไฮ)",
+"category": "restaurant",
+"area": "The Sense Pinklao",
+"lat": 13.7745,
+"lng": 100.4785,
+"coord_confidence": "low",
+"vibe": "Legendary Ratchadamnoen khao tom shop, now at Pinklao, known for fiery 'super' chicken feet tom yum",
+"tip": "Tom yum kha gai super plus yum hoy kraeng cockle salad with plain rice porridge. 8:30am-9:30pm.",
+"price": "฿฿",
+"hours": "Daily 08:30-21:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"unusual",
+"spicy",
+"khao-tom",
+"pinklao",
+"legendary"
+],
+"sources": [
+"https://www.dailynews.co.th/articles/3688670/"
+],
+"g": "food",
+"id": 589
+},
+{
+"name": "Meng Phochana Pinklao (เม้งโภชนาปิ่นเกล้า)",
+"category": "street-food",
+"area": "Bang Bamru, Pinklao",
+"lat": 13.784,
+"lng": 100.476,
+"coord_confidence": "low",
+"vibe": "Local favourite for stewed beef noodles and plump shrimp dumplings",
+"tip": "Stewed beef noodles plus a plate of boiled pork and shrimp dumplings. Cheap. 9am-5pm.",
+"price": "฿",
+"hours": "Daily 09:00-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"beef-noodles",
+"local",
+"pinklao",
+"cheap-eats"
+],
+"sources": [
+"https://www.grab.com/th/food-blog/ร้านอาหารปิ่นเกล้า/"
+],
+"g": "food",
+"id": 590
+},
+{
+"name": "Krua Apsorn Samsen (ครัวอัปษร สามเสน)",
+"category": "restaurant",
+"area": "Samsen Road, Dusit",
+"lat": 13.777,
+"lng": 100.506,
+"coord_confidence": "low",
+"vibe": "Michelin Bib Gourmand 2026: royal-kitchen-trained cooking at casual prices",
+"tip": "Crab omelette, yellow curry with big prawns and crispy lotus root. Cash only. Lunch queues, 10am-8pm.",
+"price": "฿฿",
+"hours": "Daily 10:00-20:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"michelin",
+"bib-gourmand",
+"thai",
+"crab",
+"samsen"
+],
+"sources": [
+"https://guide.michelin.com/ie/en/bangkok-region/bangkok/restaurant/krua-apsorn-sam-sen"
+],
+"g": "food",
+"id": 591
+},
+{
+"name": "Pad Thai Fai Ta Lu (ผัดไทยไฟทะลุ)",
+"category": "street-food",
+"area": "Dinso Road, Banglamphu",
+"lat": 13.757891,
+"lng": 100.502212,
+"coord_confidence": "high",
+"vibe": "Bib Gourmand wok-fire pad thai with flames shooting through the roof, open till midnight",
+"tip": "Pad thai with charcoal-grilled pork loin or big prawns. Around ฿100-250. Great late dinner after Khao San.",
+"price": "฿",
+"hours": "Daily 10:00-24:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"michelin",
+"bib-gourmand",
+"pad-thai",
+"late-night",
+"dinso"
+],
+"sources": [
+"https://joinpearl.co/restaurants/bangkok/pad-thai-fai-ta-lu-phra-nakhon",
+"https://www.pptvhd36.com/travel/food/261911"
+],
+"g": "food",
+"id": 592
+},
+{
+"name": "K. Panich Sticky Rice (ข้าวเหนียวมูน ก.พานิช)",
+"category": "dessert",
+"area": "Tanao Road, near Sao Ching Cha",
+"lat": 13.752096,
+"lng": 100.498361,
+"coord_confidence": "high",
+"vibe": "Bib Gourmand sticky rice shop since 1932, the benchmark for mango sticky rice",
+"tip": "Mango sticky rice, or try the Thai custard and durian versions. Takeaway, closed Sundays.",
+"price": "฿",
+"hours": "Mon-Sat 07:00-17:00 (closed Sun)",
+"date_friendly": true,
+"night": false,
+"tags": [
+"michelin",
+"bib-gourmand",
+"mango-sticky-rice",
+"dessert",
+"legendary"
+],
+"sources": [
+"https://joinpearl.co/restaurants/k-panich-bangkok-restaurant",
+"https://www.timeout.com/bangkok/restaurants/k-panich"
+],
+"g": "cafe",
+"id": 593
+},
+{
+"name": "Sae Phun Chicken Stew (แซ่พุ้น)",
+"category": "street-food",
+"area": "Mahannop Road, Sao Ching Cha",
+"lat": 13.7526,
+"lng": 100.4996,
+"coord_confidence": "medium",
+"vibe": "Bib Gourmand morning shop for rich, saucy Chinese-style chicken stew",
+"tip": "Chicken stew over rice or crispy egg noodles. Closes 2pm and Wednesdays, so go for breakfast or early lunch.",
+"price": "฿",
+"hours": "Mon 09:00-14:00; Tue, Thu-Sun 08:00-14:00 (closed Wed)",
+"date_friendly": false,
+"night": false,
+"tags": [
+"michelin",
+"bib-gourmand",
+"chicken",
+"breakfast",
+"old-town"
+],
+"sources": [
+"https://guide.michelin.com/th/en/bangkok/sae-phun/restaurant"
+],
+"g": "food",
+"id": 594
+},
+{
+"name": "Por Pochaya (ป.โภชยา)",
+"category": "restaurant",
+"area": "Wisut Kasat Road, Ban Phan Thom",
+"lat": 13.7615,
+"lng": 100.503,
+"coord_confidence": "low",
+"vibe": "Bib Gourmand Thai-Chinese shophouse, crowded, cash only, weekdays only",
+"tip": "Crab omelette and stir-fried beef with cumin leaves. Closed weekends and holidays. Arrive early for a table.",
+"price": "฿",
+"hours": "Weekdays only (closed weekends and holidays)",
+"date_friendly": false,
+"night": false,
+"tags": [
+"michelin",
+"bib-gourmand",
+"thai-chinese",
+"shophouse"
+],
+"sources": [
+"https://guide.michelin.com/th/en/bangkok/por-pochaya/restaurant"
+],
+"g": "food",
+"id": 595
+},
+{
+"name": "Aheesah Roddee (อาอีซะห์ รสดี)",
+"category": "restaurant",
+"area": "Tani Road, Banglamphu",
+"lat": 13.7604,
+"lng": 100.4968,
+"coord_confidence": "medium",
+"vibe": "Michelin-listed Thai-Muslim kitchen since 1975, steps from Khao San",
+"tip": "Chicken biryani with hot and sour beef soup, plus satay. Cash only. Closed Mondays.",
+"price": "฿",
+"hours": "Tue-Sun 08:30-20:30 (closed Mon)",
+"date_friendly": false,
+"night": false,
+"tags": [
+"michelin",
+"halal",
+"biryani",
+"thai-muslim",
+"khao-san"
+],
+"sources": [
+"https://guide.michelin.com/ie/en/bangkok-region/bangkok/restaurant/aheesah-roddee",
+"https://www.timeout.com/bangkok/restaurants/aheesah-roddee"
+],
+"g": "food",
+"id": 596
+},
+{
+"name": "Rongros (โรงรส)",
+"category": "restaurant",
+"area": "Maharat Road, Tha Tien",
+"lat": 13.7462,
+"lng": 100.4905,
+"coord_confidence": "medium",
+"vibe": "Michelin-listed riverside Thai with a front-row view of Wat Arun lighting up",
+"tip": "Green curry with rib eye and roti, glass noodle salad. Book a window table for sunset. Last session 5-10pm.",
+"price": "฿฿",
+"hours": "Daily 11:00-15:00, 17:00-22:00",
+"date_friendly": true,
+"night": true,
+"tags": [
+"michelin",
+"riverside",
+"wat-arun-view",
+"sunset",
+"date-night"
+],
+"sources": [
+"https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/rongros"
+],
+"g": "food",
+"id": 597
+},
+{
+"name": "Mae Prapha Crispy Pancake (ขนมเบื้องแม่ประภา)",
+"category": "dessert",
+"area": "Phra Sumen Road, Chana Songkhram",
+"lat": 13.7624586,
+"lng": 100.4976169,
+"coord_confidence": "high",
+"vibe": "Michelin-listed khanom bueang: paper-thin crispy Thai crepes, sweet or savory",
+"tip": "Mix a box of sweet (meringue and golden threads) and savory (shrimp). About ฿100. 9am-6pm.",
+"price": "฿",
+"hours": "Daily 09:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"michelin",
+"thai-dessert",
+"snack",
+"banglamphu"
+],
+"sources": [
+"https://joinpearl.co/restaurants/bangkok/mae-prapha-crispy-pancake-phra-nakhon",
+"https://guide.michelin.com/ph/en/bangkok-region/bangkok/restaurants/street-food"
+],
+"g": "cafe",
+"id": 598
+},
+{
+"name": "Khun Daeng Kuay Jab Yuan (คุณแดง ก๋วยจั๊บญวน)",
+"category": "street-food",
+"area": "Phra Arthit Road",
+"lat": 13.762076,
+"lng": 100.493755,
+"coord_confidence": "high",
+"vibe": "Cult Vietnamese-style chewy rice noodle soup with peppery pork sausage, a Phra Arthit legend",
+"tip": "Kuay jab yuan with a cracked egg (฿70) plus yum moo yor salad. Lunch queues. 9:30am-8:30pm.",
+"price": "฿",
+"hours": "Daily 09:30-20:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"noodles",
+"legendary",
+"phra-arthit",
+"queue"
+],
+"sources": [
+"https://www.wongnai.com/restaurants/khundang",
+"https://www.thaipost.net/main/detail/2532"
+],
+"g": "food",
+"id": 599
+},
+{
+"name": "Nai Soie Beef Noodles (ก๋วยเตี๋ยวเนื้อนายโส่ย)",
+"category": "street-food",
+"area": "Phra Arthit Road",
+"lat": 13.7618,
+"lng": 100.4946,
+"coord_confidence": "medium",
+"vibe": "Rich, tender braised beef noodles that Mark Wiens rates near Khao San",
+"tip": "Special beef noodles (around ฿80-100), or gao lao without noodles. 8am-6pm.",
+"price": "฿",
+"hours": "Daily 08:00-18:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"beef-noodles",
+"mark-wiens",
+"phra-arthit",
+"legendary"
+],
+"sources": [
+"https://www.eatingthaifood.com/restaurants/thai-beef-noodles-near-khao-san-road/",
+"https://www.khaosanroad.com/places/nai-soie-beef-noodle"
+],
+"g": "food",
+"id": 600
+},
+{
+"name": "Karim Roti Mataba (การิม โรตี-มะตะบะ)",
+"category": "restaurant",
+"area": "Phra Arthit Road, by Phra Sumen Fort",
+"lat": 13.7636,
+"lng": 100.4952,
+"coord_confidence": "medium",
+"vibe": "Decades-old Thai-Muslim roti joint facing Santichaiprakarn Park",
+"tip": "Murtabak with massaman curry, beef tongue biryani, then sweet roti with condensed milk. Closed Mon. Till 10:30pm.",
+"price": "฿",
+"hours": "Tue-Sun 09:00-22:30 (closed Mon)",
+"date_friendly": true,
+"night": true,
+"tags": [
+"roti",
+"halal",
+"thai-muslim",
+"phra-arthit"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/karim-roti-mataba",
+"https://www.austinbushphotography.com/blog/blog/roti-mataba.html"
+],
+"g": "food",
+"id": 601
+},
+{
+"name": "Somsong Pochana (สมทรงโภชนา)",
+"category": "street-food",
+"area": "Samsen Road, between Soi 3 and 5",
+"lat": 13.7662,
+"lng": 100.4992,
+"coord_confidence": "medium",
+"vibe": "Rare Sukhothai-style noodles and hard-to-find old Thai dishes in a no-frills shophouse",
+"tip": "Sukhothai noodles, then khanom jeen sao nam with pineapple and coconut milk. Cheap. Closes 5pm.",
+"price": "฿",
+"hours": "Daily 09:30-17:00",
+"date_friendly": false,
+"night": false,
+"tags": [
+"noodles",
+"unusual",
+"mark-wiens",
+"samsen",
+"old-school"
+],
+"sources": [
+"https://www.timeout.com/bangkok/restaurants/somsong-pochana",
+"https://www.eatingthaifood.com/somsong-pochana"
+],
+"g": "food",
+"id": 602
+},
+{
+"name": "Tom Yum Kung Banglamphu (ต้มยำกุ้งบางลำพู)",
+"category": "street-food",
+"area": "Soi Kraisi, by the Banglamphu car park",
+"lat": 13.7606,
+"lng": 100.4961,
+"coord_confidence": "medium",
+"vibe": "Sidewalk shop for creamy, punchy tom yum goong that Mark Wiens calls the ultimate",
+"tip": "Tom yum goong (around ฿150), yum hoy kraeng cockle salad and squid with chili jam. Daytime to about 6:30pm.",
+"price": "฿฿",
+"hours": "Daily approx 09:00-18:30",
+"date_friendly": false,
+"night": false,
+"tags": [
+"tom-yum",
+"mark-wiens",
+"khao-san",
+"street-food"
+],
+"sources": [
+"https://www.eatingthaifood.com/tom-yum-goong-banglamphu/",
+"https://www.timeout.com/bangkok/restaurants/tom-yum-kung-banglamphu-original"
+],
+"g": "food",
+"id": 603
+},
+{
+"name": "Khao Tom Bowon (ข้าวต้มบวร)",
+"category": "restaurant",
+"area": "Opposite Wat Bowonniwet, near Khao San",
+"lat": 13.7604,
+"lng": 100.5014,
+"coord_confidence": "low",
+"vibe": "70-plus-year-old rice-porridge shop famous for braised five-spice duck",
+"tip": "Ped palo (braised duck) with plain khao tom and a couple of side dishes. Call 02 629 1739 to check hours.",
+"price": "฿฿",
+"hours": "Daily; hours vary, call ahead",
+"date_friendly": false,
+"night": false,
+"tags": [
+"khao-tom",
+"duck",
+"legendary",
+"old-school",
+"banglamphu"
+],
+"sources": [
+"https://www.dailynews.co.th/articles/3688670/"
+],
+"g": "food",
+"id": 604
+},
+{
+"name": "Moo Pla Ra Ratchadamnoen (หมูปลาร้า ราชดำเนิน)",
+"category": "street-food",
+"area": "Soi off Ratchadamnoen, near Khok Wua intersection",
+"lat": 13.7578,
+"lng": 100.4995,
+"coord_confidence": "low",
+"vibe": "Late-night grilled pork skewers eaten on floor mats with a free pla ra chili dip",
+"tip": "Moo ping ฿15 a stick, sticky rice ฿5, dunk in the free nam prik pla ra. Opens 8pm, come early, runs to 3am.",
+"price": "฿",
+"hours": "Nightly 20:00-03:00 (check before going)",
+"date_friendly": false,
+"night": true,
+"tags": [
+"late-night",
+"grilled-pork",
+"cheap-eats",
+"khao-san",
+"after-party"
+],
+"sources": [
+"https://www.timeout.com/bangkok/th/restaurants/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%89%E0%B8%B2-%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%94%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99",
+"https://thestandard.co/lifestyle-restaurant-and-bar-street-bite-plara-pork/"
+],
+"g": "food",
+"id": 605
+},
+{
+"name": "Wang Lang Bakery (วังหลังเบเกอรี่)",
+"category": "dessert",
+"area": "Wang Lang market",
+"lat": 13.7561,
+"lng": 100.4858,
+"coord_confidence": "low",
+"vibe": "Market bakery known for soft stuffed buns in over two dozen fillings",
+"tip": "Grab a few stuffed buns (around ฿45-55) to eat by the river at Prannok. Daytime.",
+"price": "฿",
+"hours": "Daily approx 08:00-18:00",
+"date_friendly": true,
+"night": false,
+"tags": [
+"bakery",
+"snack",
+"wang-lang"
+],
+"sources": [
+"https://www.bkmagazine.com/food/street-food/restaurants-article-wang-lang-eats/"
+],
+"g": "cafe",
+"id": 606
 }
 ]
