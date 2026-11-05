@@ -246,7 +246,7 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
 <div class="toast" id="toast"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="data.js"></script>
+<script>document.write('<script src="data.js?t='+Date.now()+'"><\/script>')</script>
 <script>
 const GROUPS = {
   cafe:{label:'Cafés & desserts',emoji:'☕',color:'#c2763d'},
@@ -606,7 +606,7 @@ let tt;function toast(m){const t=document.getElementById('toast');t.textContent=
 
 function renderAll(){renderChips();renderPins();renderList()}
 renderAll();setSheet('peek');startGeo();
-if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{});
 </script>
 </body>
 </html>
