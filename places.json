@@ -15453,5 +15453,118 @@
 ],
 "g": "cafe",
 "id": 606
+},
+{
+"id": 607,
+"name": "METRO Secret Homebar",
+"g": "bar",
+"category": "bar",
+"area": "Banglamphu / Khao San (Soi Kraisi, Tani Rd)",
+"lat": 13.76215,
+"lng": 100.49909,
+"coord_confidence": "medium",
+"vibe": "Tiny 'secret' home-style bar by the Banglamphu canal, a quiet escape from Khao San noise",
+"tip": "Small and easy to miss, so look for it on the canal side. Check Google reviews for current hours",
+"price": "฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"secret",
+"hidden",
+"canal"
+],
+"sources": []
+},
+{
+"id": 608,
+"name": "Chill-D Rooftop Sunset Bar",
+"g": "rooftop",
+"category": "rooftop",
+"area": "Banglamphu / Khao San (Soi Kraisi, Tani Rd)",
+"lat": 13.76179,
+"lng": 100.49807,
+"coord_confidence": "medium",
+"vibe": "Laid-back backpacker rooftop for cheap sunset drinks above the Rambuttri rooftops",
+"tip": "Go around 17:30 for sunset. Cheap beers and buckets, casual dress",
+"price": "฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"sunset",
+"cheap"
+],
+"sources": []
+},
+{
+"id": 609,
+"name": "Sunset Rooftop Bar (Chakrabongse)",
+"g": "rooftop",
+"category": "rooftop",
+"area": "Banglamphu / Khao San (Soi Kraisi, Tani Rd)",
+"lat": 13.76174,
+"lng": 100.49753,
+"coord_confidence": "medium",
+"vibe": "Low-key rooftop near Chakrabongse Mosque with sunset views over the old town",
+"tip": "Best at golden hour. Budget prices, easy to combine with a Rambuttri crawl",
+"price": "฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"sunset",
+"cheap"
+],
+"sources": []
+},
+{
+"id": 610,
+"name": "HAVEN Rooftop Karaoke Bar",
+"g": "rooftop",
+"category": "rooftop",
+"area": "Banglamphu / Khao San (Soi Kraisi, Tani Rd)",
+"lat": 13.76097,
+"lng": 100.49789,
+"coord_confidence": "medium",
+"vibe": "Rooftop bar with karaoke on Soi Kraisi, where you sing over the Khao San skyline",
+"tip": "Go with a group after 21:00. Ask about private karaoke rooms and drink deals",
+"price": "฿",
+"hours": "",
+"date_friendly": true,
+"night": true,
+"tags": [
+"rooftop",
+"karaoke",
+"party"
+],
+"sources": []
+},
+{
+"id": 611,
+"name": "Fu Bar Khaosan",
+"g": "club",
+"category": "club",
+"area": "Banglamphu / Khao San (Soi Kraisi, Tani Rd)",
+"lat": 13.76046,
+"lng": 100.49665,
+"coord_confidence": "medium",
+"vibe": "Small, loud late-night dance bar near Khao San that fills up after midnight",
+"tip": "Gets going after 23:00 and runs late. Cheap drinks; check recent reviews for the music style that night",
+"price": "฿",
+"hours": "",
+"date_friendly": false,
+"night": true,
+"tags": [
+"late-night",
+"dancing",
+"party"
+],
+"sources": [
+"https://www.khaosanroad.com/places/fu-bar",
+"https://siam2nite.com/en/locations/bars/fu-bar-khaosan"
+]
 }
 ]
