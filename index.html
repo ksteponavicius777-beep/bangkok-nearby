@@ -12,6 +12,7 @@
 <link rel="apple-touch-icon" href="icon.svg">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap">
 <style>
 /* Layout: full-bleed map, top filter rail, draggable bottom sheet listing what's nearest */
@@ -109,6 +110,18 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 .stat{font:600 12px var(--body);color:var(--muted);background:var(--panel);box-shadow:var(--shadow);padding:0 10px;height:38px;border-radius:12px;display:flex;align-items:center;gap:4px}
 .stat b{color:var(--fg)}
 .filt{color:var(--fg)}
+#searchBtn{font-size:17px}
+.searchwrap{position:fixed;inset:0;z-index:850;background:var(--bg);display:flex;flex-direction:column;
+  padding:calc(env(safe-area-inset-top,0px) + 10px) max(14px,env(safe-area-inset-right,0px)) 0 max(14px,env(safe-area-inset-left,0px))}
+.sbar{display:flex;gap:8px;align-items:center}
+.sbar input{flex:1;min-width:0;font:inherit;font-size:16px;color:var(--fg);background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px}
+.sbar input:focus{outline:none;border-color:var(--accent)}
+.sres{overflow-y:auto;flex:1;margin-top:8px;padding-bottom:calc(env(safe-area-inset-bottom,0px) + 16px)}
+.sres .item{background:none}
+.shead{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:14px 6px 2px}
+.gpin{width:22px;height:22px;border-radius:50%;background:#e2471f;border:3px solid #fff;box-shadow:0 0 0 6px rgba(226,71,31,.25),0 2px 6px rgba(0,0,0,.4)}
+.sres mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit;border-radius:3px}
+@media (max-width:420px){.flab{display:none}}
 .filt span{background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:1px 7px;font-size:11px}
 .filt span:empty{display:none}
 .fhead{display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -175,7 +188,8 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
 <div class="top">
   <div class="brand">
     <h1>Bangkok <span>Nearby</span></h1>
-    <button class="stat filt" id="filterBtn" title="Filters">⚙︎ <b>Filters</b> <span id="filterCount"></span></button>
+    <button class="iconbtn" id="searchBtn" title="Search places" aria-label="Search places">🔍</button>
+    <button class="stat filt" id="filterBtn" title="Filters">⚙︎ <b class="flab">Filters</b> <span id="filterCount"></span></button>
     <button class="stat" id="statBtn" title="Places you've been"><b id="statN">0</b> been</button>
     <button class="iconbtn" id="menuBtn" title="Menu">☰</button>
   </div>
@@ -186,6 +200,11 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
   <button class="iconbtn surprise" id="surprise" title="Surprise me">🎲</button>
   <button class="iconbtn add" id="addBtn" title="Add a place">+</button>
   <button class="iconbtn" id="locate" title="Go to my location">◎</button>
+</div>
+
+<div class="searchwrap" id="search" hidden>
+  <div class="sbar"><input id="sInput" type="search" placeholder="Search places, areas, vibes…" autocomplete="off" enterkeyhint="search"><button class="btn" id="sClose" style="width:auto;padding:10px 14px">Cancel</button></div>
+  <div class="sres" id="sRes"></div>
 </div>
 
 <div class="overlay" id="filters" hidden><div class="panel">
@@ -246,6 +265,8 @@ body.picking .sheet,body.picking .fab,body.picking .card{display:none}
 <div class="toast" id="toast"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>document.write('<script src="data.js?t='+Date.now()+'"><\/script>')</script>
 <script>
 const GROUPS = {
@@ -291,8 +312,18 @@ function ALL(){return PLACES.concat(custom)}
 // Map
 const dark = matchMedia('(prefers-color-scheme: dark)').matches;
 const map = L.map('map',{zoomControl:false,attributionControl:true}).setView([CENTER.lat,CENTER.lng],13);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
-  maxZoom:19,className:'tiles',attribution:'© OpenStreetMap contributors'}).addTo(map);
+// English-labelled vector map (OpenFreeMap). Falls back to OSM raster if WebGL or the style fails.
+function osmFallback(){L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'tiles',attribution:'© OpenStreetMap contributors'}).addTo(map)}
+(async()=>{
+  try{
+    if(!window.maplibregl||!L.maplibreGL)throw 0;
+    const tc=document.createElement('canvas');if(!(tc.getContext('webgl2')||tc.getContext('webgl')))throw 0;
+    const style=await fetch('https://tiles.openfreemap.org/styles/'+(dark?'dark':'liberty')).then(r=>{if(!r.ok)throw 0;return r.json()});
+    const en=['coalesce',['get','name:en'],['get','name_en'],['get','name:latin'],['get','name']];
+    style.layers.forEach(l=>{if(l.layout&&l.layout['text-field'])l.layout['text-field']=en});
+    L.maplibreGL({style,attribution:'© OpenFreeMap © OpenStreetMap contributors'}).addTo(map);
+  }catch(e){osmFallback()}
+})();
 const layer = L.layerGroup().addTo(map);
 let youMarker=null, youCircle=null;
 
@@ -307,7 +338,9 @@ function fmtDist(km){return km<1?Math.round(km*1000/10)*10+' m':km.toFixed(1)+' 
 function travel(km){const road=km*1.3;if(road<1.8)return Math.max(1,Math.round(road/4.8*60))+' min walk';return Math.round(road/18*60+5)+' min ride'}
 function fmtDate(s){try{return new Date(s+'T12:00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'})}catch(e){return s}}
 
+let forceShow=null;
 function visible(p){
+  if(forceShow===p.id)return true;
   if(off.has(p.g))return false;
   if(flags.date&&!p.date_friendly)return false;
   if(flags.night&&!p.night)return false;
@@ -317,7 +350,7 @@ function visible(p){
   if(flags.mineOnly&&!p.mine)return false;
   return true;
 }
-function origin(){return me||(()=>{const c=map.getCenter();return {lat:c.lat,lng:c.lng}})()}
+function origin(){if(window.geoMarker){const l=geoMarker.getLatLng();return {lat:l.lat,lng:l.lng}}return me||(()=>{const c=map.getCenter();return {lat:c.lat,lng:c.lng}})()}
 
 function renderChips(){
   const el=document.getElementById('chips');el.innerHTML='';
@@ -352,7 +385,7 @@ function renderList(){
   const items=ALL().filter(visible).map(p=>({p,d:distKm(o,p)})).sort((a,b)=>a.d-b.d);
   const within=items.filter(x=>x.d<=radius);
   const shown=(within.length?within:items.slice(0,8));
-  document.getElementById('sheetTitle').firstChild.nodeValue=flags.beenOnly?'Places you\'ve been':flags.mineOnly?'Places you added':(me?'Near you':'Near map center');
+  document.getElementById('sheetTitle').firstChild.nodeValue=window.geoMarker?('Near '+geoName):flags.beenOnly?'Places you\'ve been':flags.mineOnly?'Places you added':(me?'Near you':'Near map center');
   document.getElementById('sheetSub').textContent= within.length
     ? `${within.length} spot${within.length>1?'s':''} within ${radius>50?'the city':radius+' km'}`
     : (items.length?`Nothing within ${radius} km. Closest ${shown.length} instead:`:'No spots match your filters');
@@ -405,7 +438,7 @@ function openCard(p){
   if(nt)nt.oninput=()=>{been[p.id].note=nt.value;saveBeen()};
   const ed=document.getElementById('cedit');if(ed)ed.onclick=()=>openForm(p);
 }
-function closeCard(){document.getElementById('card').classList.remove('show')}
+function closeCard(){document.getElementById('card').classList.remove('show');if(forceShow!==null){forceShow=null;renderAll()}}
 map.on('click',closeCard);
 
 // Sheet states
@@ -428,6 +461,81 @@ sheet.addEventListener('transitionend',placeFab);addEventListener('resize',place
 document.querySelectorAll('#radius button').forEach(b=>{
   if(+b.dataset.r===radius)b.classList.add('on');
   b.onclick=()=>{radius=+b.dataset.r;store.set('radius',radius);document.querySelectorAll('#radius button').forEach(x=>x.classList.toggle('on',x===b));renderList()}});
+
+// Search
+const searchEl=document.getElementById('search'),sInput=document.getElementById('sInput'),sRes=document.getElementById('sRes');
+function norm(t){return String(t||'').toLowerCase().replace(/æ/g,'ae').replace(/œ/g,'oe').replace(/ß/g,'ss').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\u0e00-\u0e7f]+/g,' ').trim()}
+function openSearch(){searchEl.hidden=false;sInput.value='';renderSearch();setTimeout(()=>sInput.focus(),50)}
+function closeSearch(){searchEl.hidden=true;sInput.blur()}
+function renderSearch(){
+  const raw=sInput.value.trim();const q=norm(raw);const o=origin();sRes.innerHTML='';
+  if(!q){sRes.innerHTML='<div class="empty">Type a name like "aether", an area like "Thonglor", a vibe like "speakeasy", or any street or address.</div>';return}
+  const words=q.split(' ');
+  const scored=ALL().map(p=>{const n=norm(p.name),a=norm(p.area),rest=norm([p.vibe,p.tip,(p.tags||[]).join(' '),(GROUPS[p.g]||{}).label].join(' '));
+    let sc=0;for(const w of words){if(n.startsWith(w)||n.includes(' '+w))sc+=10;else if(n.includes(w))sc+=6;else if(a.includes(w))sc+=4;else if(rest.includes(w))sc+=2;else return null}
+    return {p,sc,d:distKm(o,p)}}).filter(Boolean).sort((x,y)=>y.sc-x.sc||x.d-y.d).slice(0,30);
+  if(scored.length){const h=document.createElement('div');h.className='shead';h.textContent='Your places';sRes.appendChild(h)}
+  scored.forEach(({p,d})=>{const g=GROUPS[p.g]||GROUPS.experience;const b=document.createElement('button');b.className='item';
+    b.innerHTML=`<span class="badge" style="background:${g.color}22">${p.mine?'📌':g.emoji}</span><span class="t"><b>${esc(p.name)}</b><p>${esc(g.label)}${p.area?' · '+esc(p.area):''}</p></span><span class="d"><strong>${fmtDist(d)}</strong>${travel(d)}</span>`;
+    b.onclick=()=>{closeSearch();forceShow=visible(p)?null:p.id;renderAll();map.setView([p.lat,p.lng],17);openCard(p);setSheet('peek')};
+    sRes.appendChild(b)});
+  const gh=document.createElement('div');gh.className='shead';gh.textContent='Streets & addresses';sRes.appendChild(gh);
+  const gl=document.createElement('div');gl.id='geoList';sRes.appendChild(gl);
+  if(raw.length<3){gl.innerHTML='<div class="empty" style="padding:10px 6px">Type at least 3 letters to search streets.</div>';return}
+  gl.innerHTML='<div class="empty" style="padding:10px 6px">Searching streets…</div>';
+  clearTimeout(geoTimer);geoTimer=setTimeout(()=>geocode(raw),450);
+}
+// Street & address lookup: Photon (OpenStreetMap), with Nominatim as backup. Limited to greater Bangkok.
+let geoTimer=null,geoCtl=null;window.geoMarker=null;let geoName='';const geoCache={};
+async function geocode(raw){
+  const gl=document.getElementById('geoList');if(!gl)return;
+  if(geoCtl)geoCtl.abort();geoCtl=new AbortController();const sig=geoCtl.signal;const o=origin();
+  let res=geoCache[raw];
+  try{
+    if(!res){
+      try{const j=await fetch(`https://photon.komoot.io/api/?q=${encodeURIComponent(raw)}&lat=${o.lat}&lon=${o.lng}&lang=en&limit=8&bbox=100.2,13.4,101.0,14.2`,{signal:sig}).then(r=>{if(!r.ok)throw 0;return r.json()});
+        res=j.features.map(f=>{const p=f.properties;const name=p.name||[p.housenumber,p.street].filter(Boolean).join(' ')||p.street||'Unnamed place';
+          const sub=[p.name&&p.street&&p.street!==p.name?(p.housenumber?p.housenumber+' ':'')+p.street:'',p.district||p.locality,p.city&&p.city!==p.district?p.city:''].filter(Boolean).join(', ');
+          return {name,sub,lat:f.geometry.coordinates[1],lng:f.geometry.coordinates[0]}})}
+      catch(e){if(sig.aborted)return;res=[]}
+      if(!res.length&&!sig.aborted){
+        const j=await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&q=${encodeURIComponent(raw)}&viewbox=100.2,14.2,101.0,13.4&bounded=1&accept-language=en&limit=8`,{signal:sig}).then(r=>r.json());
+        res=j.map(x=>{const parts=x.display_name.split(', ');return {name:x.name||parts[0],sub:parts.slice(1,4).join(', '),lat:+x.lat,lng:+x.lon}})}
+      geoCache[raw]=res;
+    }
+  }catch(e){if(sig.aborted)return;gl.innerHTML='<div class="empty" style="padding:10px 6px">Street search needs internet. Try again in a moment.</div>';return}
+  if(sInput.value.trim()!==raw)return;
+  if(!res.length){gl.innerHTML='<div class="empty" style="padding:10px 6px">No streets or addresses found.</div>';return}
+  gl.innerHTML='';
+  res.forEach(r=>{const d=distKm(o,r);const b=document.createElement('button');b.className='item';
+    b.innerHTML=`<span class="badge" style="background:var(--chip)">📍</span><span class="t"><b>${esc(r.name)}</b><p>${esc(r.sub)}</p></span><span class="d"><strong>${fmtDist(d)}</strong>${travel(d)}</span>`;
+    b.onclick=()=>{closeSearch();showGeo(r)};gl.appendChild(b)});
+}
+function clearGeo(){if(geoMarker){map.removeLayer(geoMarker);geoMarker=null;renderList()}}
+function showGeo(r){
+  clearGeo();closeCard();
+  geoName=r.name;geoMarker=L.marker([r.lat,r.lng],{icon:L.divIcon({className:'',html:'<div class="gpin"></div>',iconSize:[22,22],iconAnchor:[11,11]}),zIndexOffset:900}).on('click',()=>showGeo(r)).addTo(map);
+  map.setView([r.lat,r.lng],17);renderList();
+  const o=me||{lat:r.lat,lng:r.lng};const d=distKm(o,r);const card=document.getElementById('card');
+  card.innerHTML=`<button class="close" id="cclose" aria-label="Close">✕</button>
+    <div class="cat" style="color:var(--accent)">📍 Street or address</div><h3>${esc(r.name)}</h3>
+    <div class="vibe">${esc(r.sub)}</div>
+    <div class="meta"><span>${fmtDist(d)} · ${travel(d)}</span></div>
+    <div class="actions">
+      <a class="primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lng}&travelmode=${d<1.5?'walking':'driving'}">Directions</a>
+      <button id="gnear">What's near here</button>
+      <button id="gadd">📌 Save as my place</button>
+    </div>`;
+  card.classList.add('show');
+  document.getElementById('cclose').onclick=()=>{closeCard();clearGeo()};
+  document.getElementById('gnear').onclick=()=>{closeCard();setSheet('mid');renderList()};
+  document.getElementById('gadd').onclick=()=>{const keep={...r};openForm(null);draft.lat=keep.lat;draft.lng=keep.lng;
+    document.getElementById('fName').value=keep.name;setLocNote(`Using ${keep.name} (${keep.lat.toFixed(5)}, ${keep.lng.toFixed(5)}) ✓`,true)};
+}
+sInput.oninput=renderSearch;
+sInput.onkeydown=e=>{if(e.key==='Enter'){const f=sRes.querySelector('.item');if(f)f.click()}if(e.key==='Escape')closeSearch()};
+document.getElementById('searchBtn').onclick=openSearch;
+document.getElementById('sClose').onclick=closeSearch;
 
 // Filter panel
 const filters=document.getElementById('filters');
@@ -599,7 +707,7 @@ function onPos(pos){
 function onErr(){if(!me){document.getElementById('sheetSub').textContent='Location is off, so distances are from the map center';renderList()}}
 function startGeo(){if(!navigator.geolocation){onErr();return}
   navigator.geolocation.watchPosition(onPos,onErr,{enableHighAccuracy:true,maximumAge:15000,timeout:20000})}
-document.getElementById('locate').onclick=()=>{if(me)map.flyTo([me.lat,me.lng],16,{duration:.6});else{toast('Asking for your location…');startGeo()}};
+document.getElementById('locate').onclick=()=>{clearGeo();if(me)map.flyTo([me.lat,me.lng],16,{duration:.6});else{toast('Asking for your location…');startGeo()}};
 map.on('moveend',()=>{if(!me)renderList()});
 
 let tt;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2600)}
